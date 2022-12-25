@@ -1,0 +1,75 @@
+/*       KEY POSITIONS for Zaphod
+╭────────────────────╮ ╭────────────────────╮
+│  1   2   3   4  5  │ │  6   7   8   9  10 │
+│ 11  12  13  14  15 | | 16  17  18  19  20 |
+| 21  22  23  24  25 | | 26  27  28  29  30 |
+╰───────────╮ 31  32 | | 33 34 ╭────────────╯
+            ╰────────╯ ╰───────╯   */
+
+behaviors {
+        hm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "homerow_mods";
+            #binding-cells = <2>;
+            tapping-term-ms = <160>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+        CmmaSemi: CmmaSemi {
+            compatible = "zmk,behavior-mod-morph";
+            label = "comma_semi";
+            #binding-cells = <0>;
+            bindings = <&kp CMMA>, <&kp SEMI>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        DotColn: DotColn {
+            compatible = "zmk,behavior-mod-morph";
+            label = "DotColn";
+            #binding-cells = <0>;
+            bindings = <&kp DOT>, <&kp COLON>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        SlshStar: SlshStar {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SlshStar";
+            #binding-cells = <0>;
+            bindings = <&kp FSLH>, <&kp STAR>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        HashDllr: HashDllr {
+            compatible = "zmk,behavior-mod-morph";
+            label = "HashDllr";
+            #binding-cells = <0>;
+            bindings = <&kp HASH>, <&kp DLLR>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        MinusPlus: MinusPlus {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MinusPlus";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS>, <&kp PLUS>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        DqtLbkt: DqtLbkt {
+            compatible = "zmk,behavior-mod-morph";
+            label = "DqtLbkt";
+            #binding-cells = <0>;
+            bindings = <&kp DQT>, <&kp LBKT>;
+            mods = <(MOD_LALT|MOD_RALT)>;
+        };
+        SqtRbkt: SqtRbkt {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SqtRbkt";
+            #binding-cells = <0>;
+            bindings = <&kp SQT>, <&kp RBKT>;
+            mods = <(MOD_LALT|MOD_RALT)>;
+        };
+        BspcDel: Bspc_Del {
+            compatible = "zmk,behavior-mod-morph";
+            label = "Bspc_Del";
+            #binding-cells = <0>;
+            bindings = <&kp BSPC>, <&kp DEL>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+};
