@@ -18,99 +18,99 @@ combos {
 
 /*       KEY POSITIONS for Zaphod
 ╭────────────────────╮ ╭────────────────────╮
-│  1   2   3   4  5  │ │  6   7   8   9  10 │
-│ 11  12  13  14  15 | | 16  17  18  19  20 |
-| 21  22  23  24  25 | | 26  27  28  29  30 |
-╰───────────╮ 31  32 | | 33 34 ╭────────────╯
+│  0   1   2   3   4 │ │  5   6   7   8   9 │
+│ 10  11  12  13  14 │ │ 15  16  17  18  19 |
+| 20  21  22  23  24 │ │ 25  26  27  28  29 |
+╰───────────╮ 30  31 | | 32 33 ╭────────────╯
             ╰────────╯ ╰───────╯   */
 //
 // control/modes
 //
-COMBO(bootloaderL, &bootloader, 2 3 4 5, l_alpha) // enter bootloader Left
-COMBO(bootloaderR, &bootloader, 6 7 8 9, l_alpha) // enter bootloader Right
-COMBO(resetL, &reset, 1 2 3 4, l_alpha) // reset Left
-COMBO(resetR, &reset, 7 8 9 10, l_alpha) // reset Right
-COMBO(enmode, &kp INT_RO, 12 12 14, l_alpha)
-COMBO(jpmode, &kp INT_KANA, 17 18 19, l_alpha)
+COMBO(bootloaderL, &bootloader, 0 1 2 3, l_alpha) // enter bootloader Left
+//COMBO(bootloaderR, &bootloader, 6 7 8 9, l_alpha) // enter bootloader Right
+//COMBO(resetL, &reset, 1 2 3 4, l_alpha) // reset Left
+//COMBO(resetR, &reset, 7 8 9 10, l_alpha) // reset Right
+COMBO(enmode, &kp INT_RO, 11 12 13, l_alpha)
+COMBO(jpmode, &kp INT_KANA, 16 17 18, l_alpha)
 //COMBO(settings, &mo l_setup, 36 37, l_alpha) // get the settings/media layer from anywhere
 //COMBO(settings2, &mo l_setup, 40 41, l_any) // get the settings/media layer from anywhere
 
 /* type a glyph */
-COMBO(typeQ, &typeQu, 27 29, l_alpha)
-COMBO(typeZ, &kp Z, 1 2, l_alpha)
-COMBO(coln, &kp COLON, 7 9, l_alpha)
-COMBO(semi, &kp SEMI, 7 10, l_alpha)
-COMBO(excl, &kp EXCL, 7 8, l_alpha)
-COMBO(ques, &kp QMARK, 8 9, l_alpha)
-COMBO(atMk, &kp AT_SIGN, 6 7, l_alpha)
-COMBO(atUnder, &kp UNDER, 27 30, l_alpha)
+COMBO(typeQ, &typeQu, 26 27, l_alpha)
+COMBO(typeZ, &kp Z, 0 1, l_alpha)
+COMBO(coln, &kp COLON, 6 8, l_alpha)
+COMBO(semi, &kp SEMI, 6 9, l_alpha)
+COMBO(excl, &kp EXCL, 6 7, l_alpha)
+COMBO(ques, &kp QMARK, 7 8, l_alpha)
+COMBO(atMk, &kp AT_SIGN, 5 6, l_alpha)
+COMBO(atUnder, &kp UNDER, 26 29, l_alpha)
 
 /* numpad symbol combos */
-COMBO(numLPRN, &kp LPAR, 17 18, l_num)
-COMBO(numRPRN, &kp RPAR, 18 19, l_num)
-COMBO(numEQUAL, &kp EQUAL, 17 20, l_num)
-COMBO(numCOLN, &kp COLON, 17 19, l_num)
-COMBO(numPRCNT, &kp PRCNT, 29 30, l_num)
-COMBO(numLT, &kp LT, 16 17, l_num)
-COMBO(numGT, &kp GT, 26 27, l_num)
-COMBO(numDASH, &kp LA(MINUS), 26 27, l_num)
-COMBO(numTILD, &kp TILDE, 26 30, l_num)
-COMBO(numELIP, &kp LA(SEMI), 27 29, l_num)
+COMBO(numLPRN, &kp LPAR, 16 17, l_num)
+COMBO(numRPRN, &kp RPAR, 17 18, l_num)
+COMBO(numEQUAL, &kp EQUAL, 18 19, l_num)
+COMBO(numCOLN, &kp COLON, 16 18, l_num)
+COMBO(numPRCNT, &kp PRCNT, 28 29, l_num)
+COMBO(numLT, &kp LT, 15 16, l_num)
+COMBO(numGT, &kp GT, 15 19, l_num)
+COMBO(numDASH, &kp LA(MINUS), 25 26, l_num)
+COMBO(numTILD, &kp TILDE, 25 29, l_num)
+COMBO(numELIP, &kp LA(SEMI), 26 29, l_num)
 
-COMBO(numDLLR, &kp DLLR, 7 8, l_num) //
-COMBO(numCENT, &kp LA(N4), 7 9, l_num)
-COMBO(numEURO, &kp LS(LA(N2)), 8 9, l_num)
-COMBO(numYEN, &kp LA(Y), 9 10, l_num)
-COMBO(numBPND, &kp LA(N3), 8 10, l_num)
+COMBO(numDLLR, &kp DLLR, 6 7, l_num) //
+COMBO(numCENT, &kp LA(N4), 6 8, l_num)
+COMBO(numEURO, &kp LS(LA(N2)), 7 8, l_num)
+COMBO(numYEN, &kp LA(Y), 8 9, l_num)
+COMBO(numBPND, &kp LA(N3), 5 6, l_num)
 
 //
 // H Digraphs REQUIRE macros (defined earlier)to process
 //
-COMBO(sch, &trigraphSch, 11 12 13, l_alpha) // Sch
-COMBO(tch, &trigraphTch, 11 12 14, l_alpha) // Tch
-COMBO(th, &digraphTh, 13 14, l_alpha) // Th
-COMBO(sh, &digraphSh, 12 12, l_alpha) // Sh
-COMBO(ch, &digraphCh, 12 14, l_alpha) // Ch
-COMBO(wh, &digraphWh,  2  4, l_alpha) // Wh
-COMBO(ph, &digraphPh,  3  4, l_alpha) // Ph
-COMBO(gh, &digraphGh,  2  3, l_alpha) // Gh
+COMBO(sch, &trigraphSch, 10 11 12, l_alpha) // Sch
+COMBO(tch, &trigraphTch, 10 11 13, l_alpha) // Tch
+COMBO(th, &digraphTh, 12 13, l_alpha) // Th
+COMBO(sh, &digraphSh, 11 12, l_alpha) // Sh
+COMBO(ch, &digraphCh, 11 13, l_alpha) // Ch
+COMBO(wh, &digraphWh,  1  3, l_alpha) // Wh
+COMBO(ph, &digraphPh,  2  3, l_alpha) // Ph
+COMBO(gh, &digraphGh,  1  2, l_alpha) // Gh
 
 #ifdef EN_PRONOUN_COMBOS
 //
 // Pronoun combos REQUIRE macros to process
 //
 
-COMBO(pnI, &typePnI, 19 20, l_alpha) // "I "
+COMBO(pnI, &typePnI, 18 19, l_alpha) // "I "
 
-COMBO(pnIm, &typePnIm, 3 20, l_alpha) // "I'm "
-COMBO(pnIll, &typePnIll, 19 23, l_alpha) // "I'll "
-COMBO(pnIve, &typePnIve, 19 25, l_alpha) // "I've "
-COMBO(pnId, &typePnId, 19 24, l_alpha) // "I'd "
+COMBO(pnIm, &typePnIm, 2 19, l_alpha) // "I'm "
+COMBO(pnIll, &typePnIll, 18 22, l_alpha) // "I'll "
+COMBO(pnIve, &typePnIve, 18 24, l_alpha) // "I've "
+COMBO(pnId, &typePnId, 18 23, l_alpha) // "I'd "
 
-COMBO(pnYoure, &typePnYoure, 29 32, l_alpha) // "You're "
-COMBO(pnYoud, &typePnYoud, 29 24, l_alpha) // "You'd "
-COMBO(pnYoull, &typePnYoull, 29 23, l_alpha) // "You'll "
-COMBO(pnYouve, &typePnYouve, 29 25, l_alpha) // "You've "
+COMBO(pnYoure, &typePnYoure, 28 31, l_alpha) // "You're "
+COMBO(pnYoud, &typePnYoud, 28 23, l_alpha) // "You'd "
+COMBO(pnYoull, &typePnYoull, 28 22, l_alpha) // "You'll "
+COMBO(pnYouve, &typePnYouve, 28 24, l_alpha) // "You've "
 
-COMBO(pnWere, &typePnWere, 1 32, l_alpha) // "We're "
-COMBO(pnWed, &typePnWed, 1 4, l_alpha) // "We'd "
-COMBO(pnWell, &typePnWell, 1 3, l_alpha) // "We'll "
-COMBO(pnWeve, &typePnWeve, 1 5, l_alpha) // "We've "
+COMBO(pnWere, &typePnWere, 0 31, l_alpha) // "We're "
+COMBO(pnWed, &typePnWed, 0 3, l_alpha) // "We'd "
+COMBO(pnWell, &typePnWell, 0 2, l_alpha) // "We'll "
+COMBO(pnWeve, &typePnWeve, 0 4, l_alpha) // "We've "
 
 #endif // EN_PRONOUN_COMBOS
 
 //
 // Editing actions (&whitespace)
 //
-COMBO(esc, &kp ESC, 11 14, l_alpha)
-COMBO(sall, &kp LG(A), 21 24, l_alpha)
-COMBO(undo, &kp LG(Z), 21 22, l_alpha)
-COMBO(cut, &kp LG(X), 21 23, l_alpha)
-COMBO(copy, &kp LG(C), 22 23, l_alpha)
-COMBO(pste, &kp LG(V), 23 24, l_alpha)
-COMBO(tab, &kp TAB, 11 12, l_alpha)
-COMBO(spce, &kp SPACE, 14 15, l_alpha)
-COMBO(Gent, &kp G(RETURN), 23 24 25, l_alpha)
-COMBO(entr, &kp RETURN, 24 25, l_alpha)
+COMBO(esc, &kp ESC, 10 13, l_alpha)
+COMBO(sall, &kp LG(A), 20 23, l_alpha)
+COMBO(undo, &kp LG(Z), 20 21, l_alpha)
+COMBO(cut, &kp LG(X), 20 22, l_alpha)
+COMBO(copy, &kp LG(C), 21 22, l_alpha)
+COMBO(pste, &kp LG(V), 22 23, l_alpha)
+COMBO(tab, &kp TAB, 10 11, l_alpha)
+COMBO(spce, &kp SPACE, 13 14, l_alpha)
+COMBO(Gent, &kp G(RETURN), 22 23 24, l_alpha)
+COMBO(entr, &kp RETURN, 23 24, l_alpha)
 
 };

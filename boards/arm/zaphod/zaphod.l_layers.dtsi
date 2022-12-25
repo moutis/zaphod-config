@@ -51,7 +51,7 @@
 &kp F9       &kp F10     &kp F11      &kp F12      &kp F13 &kp GRAVE &kp N6       &kp N7      &kp N8      &kp BSLH
 &mt LCTRL F5 &mt LALT F6 &mt LGUI F7  &mt LSHFT F8 &kp F14 &kp CMMA  &mt RSHFT N1 &mt RGUI N5 &mt RALT N9 &mt LCTRL FSLH
 &kp F1       &kp F2      &kp F3       &kp F4       &kp F15 &kp MINUS &kp N2       &kp N3      &kp N4      &kp EQUAL
-                    &kp BSPC     &kp DEL          &kp N0    &kp DOT
+                    &kp BSPC     &kp DEL          &kp KP_N0    &kp DOT
                         >;
                 };
 
