@@ -32,8 +32,7 @@ COMBO(bootloaderL, &bootloader, 0 1 2 3, l_alpha) // enter bootloader Left
 //COMBO(resetR, &reset, 7 8 9 10, l_alpha) // reset Right
 COMBO(enmode, &kp INT_RO, 11 12 13, l_alpha)
 COMBO(jpmode, &kp INT_KANA, 16 17 18, l_alpha)
-//COMBO(settings, &mo l_setup, 36 37, l_alpha) // get the settings/media layer from anywhere
-COMBO(settings2, &mo l_cfg, 32 33, l_any) // get the settings/media layer from anywhere
+COMBO(settings, &mo l_cfg, 32 33, l_alpha) // get the settings/media layer from anywhere
 
 /* type a glyph */
 COMBO(typeQ, &typeQu, 26 27, l_alpha)
