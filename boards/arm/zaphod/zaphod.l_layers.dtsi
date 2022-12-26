@@ -15,7 +15,7 @@
 &kp RG(W) &kp RG(Q) &kp LG(LS(N4)) &kp LG(LS(LC(N4))) &kp ESC  &none        &kp HOME &kp UP    &kp PG_UP &none
 &kp LCTRL  &kp LALT &kp LGUI &kp LSHFT &kp RG(F)               &kp LA(LEFT) &kp LEFT &kp DOWN  &kp RIGHT &kp LA(RIGHT)
 &kp RG(Z)  &kp RG(X) &kp RG(C) &kp (V) &kp RG(G)               &none        &kp END  &kp DOWN  &kp PG_DN &none
-                 &lt l_num LA(BSPC)     &kp LA(DEL)        &kp LG(LBKT) &kp LG(RBKT)
+                 &lt l_num C_MUTE     &kp K_APP        &kp LG(LBKT) &kp LG(RBKT)
                     >;
                 };
 
