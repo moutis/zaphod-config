@@ -81,10 +81,10 @@ COMBO(gh, &digraphGh,  1  2, l_alpha) // Gh
 
 COMBO(pnI, &typePnI, 18 19, l_alpha) // "I "
 
-COMBO(pnIm, &typePnIm, 2 19, l_alpha) // "I'm "
-COMBO(pnIll, &typePnIll, 19 22, l_alpha) // "I'll "
-COMBO(pnId, &typePnId, 19 23, l_alpha) // "I'd "
-COMBO(pnIve, &typePnIve, 19 24, l_alpha) // "I've "
+COMBO(pnIm, &typePnIm, 2 18, l_alpha) // "I'm "
+COMBO(pnIll, &typePnIll, 18 22, l_alpha) // "I'll "
+COMBO(pnId, &typePnId, 18 23, l_alpha) // "I'd "
+COMBO(pnIve, &typePnIve, 18 24, l_alpha) // "I've "
 
 COMBO(pnYoure, &typePnYoure, 28 31, l_alpha) // "You're "
 COMBO(pnYoull, &typePnYoull, 28 22, l_alpha) // "You'll "
