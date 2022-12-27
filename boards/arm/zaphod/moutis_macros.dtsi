@@ -125,7 +125,7 @@
                     , <&macro_tap &kp SPACE>
                 ;
         };
-        typePnIm: pnIM {
+        typePnIm: pnIm {
             label = "pnIM";
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
@@ -137,7 +137,7 @@
                     , <&macro_tap &kp APOS &kp M &kp SPACE>
                 ;
         };
-        typePnId: pnID {
+        typePnId: pnId {
             label = "pnID";
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
@@ -149,7 +149,7 @@
                     , <&macro_tap &kp APOS &kp D &kp SPACE>
                 ;
         };
-        typePnIll: pnILL {
+        typePnIll: pnIll {
             label = "pnIL";
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
@@ -161,7 +161,7 @@
                     , <&macro_tap &kp APOS &kp L &kp L &kp SPACE>
                 ;
         };
-        typePnIve: pnIVE {
+        typePnIve: pnIve {
             label = "pnIVE";
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
@@ -186,7 +186,7 @@
                     , <&macro_tap &kp O &kp U &kp APOS &kp R &kp E &kp SPACE>
                 ;
         };
-        typePnYoud: pnYouD {
+        typePnYoud: pnYoud {
             label = "pnYou'd";
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
@@ -198,7 +198,7 @@
                     , <&macro_tap &kp O &kp U &kp APOS &kp D &kp SPACE>
                 ;
         };
-        typePnYoull: pnYouLL {
+        typePnYoull: pnYoull {
             label = "pnYou'll";
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
@@ -210,7 +210,7 @@
                     , <&macro_tap &kp O &kp U &kp APOS &kp L &kp L &kp SPACE>
                 ;
         };
-        typePnYouve: pnYouVE {
+        typePnYouve: pnYouve {
             label = "pnYou've";
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
@@ -235,7 +235,7 @@
                     , <&macro_tap &kp E &kp APOS &kp R &kp E &kp SPACE>
                 ;
         };
-        typePnWed: pnWeD {
+        typePnWed: pnWed {
             label = "pnWe'd";
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
@@ -247,7 +247,7 @@
                     , <&macro_tap &kp E &kp APOS &kp D &kp SPACE>
                 ;
         };
-        typePnWell: pnWeLL {
+        typePnWell: pnWell {
             label = "pnWe'll";
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
@@ -259,7 +259,7 @@
                     , <&macro_tap &kp E &kp APOS &kp L &kp L &kp SPACE>
                 ;
         };
-        typePnWeve: pnWeVE {
+        typePnWeve: pnWeve {
             label = "pnWe've";
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
