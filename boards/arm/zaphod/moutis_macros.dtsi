@@ -156,7 +156,7 @@
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
             wait-ms = <10>;
-            #binding-cells = <0>;'
+            #binding-cells = <0>;
             bindings = <&macro_tap &kp LS(I)>
                     , <&macro_release &kp LSHFT>
                     , <&macro_release &kp RSHFT>
