@@ -25,7 +25,7 @@ Building for a 36 key board
 //                     &none &none &none   &none &none &none
 
 &kp W       &kp G &kp M     &kp P       &kp J                   &HashDllr  &DotColn    &SlshStar   &DqtLbkt    &SqtRbkt
-&hml LCTRL C &hml LALT S  &hm LGUI N  &hml LSHFT T &lt l_num K &CmmaSemi  &hmr RSHFT A &hm RGUI E  &hmr RALT I  &hmr RCTRL H
+&hm LCTRL C &hm LALT S  &hm LGUI N  &hm LSHFT T &lt l_num K &CmmaSemi  &hm RSHFT A &hm RGUI E  &hm RALT I  &hm RCTRL H
 &kp X       &kp F &kp L     &kp D       &kp V                   &MinusPlus  &kp U      &kp O       &kp Y       &kp B
 
 
