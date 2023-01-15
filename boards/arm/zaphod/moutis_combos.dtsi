@@ -16,23 +16,23 @@
 combos {
     compatible = "zmk,combos";
 
-/*       KEY POSITIONS for Zaphod
-╭────────────────────╮ ╭────────────────────╮
-│  0   1   2   3   4 │ │  5   6   7   8   9 │
-│ 10  11  12  13  14 │ │ 15  16  17  18  19 |
-| 20  21  22  23  24 │ │ 25  26  27  28  29 |
-╰───────────╮ 30  31 | | 32 33 ╭────────────╯
-            ╰────────╯ ╰───────╯   */
+/*    KEY POSITIONS for Zaphod
+╭────────────────╮ ╭────────────────╮
+│  0  1  2  3  4 │ │  5  6  7  8  9 │
+│ 10 11 12 13 14 │ │ 15 16 17 18 19 |
+| 20 21 22 23 24 │ │ 25 26 27 28 29 |
+╰────────╮ 30 31 | | 32 33 ╭────────╯
+         ╰───────╯ ╰───────╯   */
 //
 // control/modes
 //
-COMBO(bootloader, &bootloader, 0 1 2 3, l_alpha) // enter bootloader Left
-//COMBO(bootloaderR, &bootloader, 6 7 8 9, l_alpha) // enter bootloader Right
-//COMBO(resetL, &reset, 1 2 3 4, l_alpha) // reset Left
-//COMBO(resetR, &reset, 7 8 9 10, l_alpha) // reset Right
+COMBO(bootloader, &bootloader, 0 1 2 3, l_alpha) // enter bootloader
+//COMBO(reset, &reset, 1 2 3 4, l_alpha) // reset Left
 COMBO(enmode, &kp INT_RO, 11 12 13, l_alpha)
 COMBO(jpmode, &kp INT_KANA, 16 17 18, l_alpha)
 COMBO(settings, &mo l_cfg, 32 33, l_alpha) // get the settings/media layer from anywhere
+
+COMBO(Gent, &kp LG(RETURN), 22 23 24, l_alpha)
 
 /* type a glyph */
 COMBO(typeQ, &typeQu, 26 28, l_alpha)
@@ -43,8 +43,7 @@ COMBO(typeExcl, &kp EXCL, 6 7, l_alpha)
 COMBO(typeQues, &kp QMARK, 7 8, l_alpha)
 COMBO(typeatMk, &kp AT_SIGN, 5 6, l_alpha)
 COMBO(typeUnder, &kp UNDER, 26 29, l_alpha)
-COMBO(typeEqual, &kp EQUAL, 28 29, l_alpha) 
-
+COMBO(typeEqual, &kp EQUAL, 28 29, l_alpha)
 
 //
 // H Digraphs REQUIRE macros (defined earlier)to process
@@ -94,7 +93,6 @@ COMBO(copy, &kp LG(C), 21 22, l_alpha)
 COMBO(pste, &kp LG(V), 22 23, l_alpha)
 COMBO(tab, &kp TAB, 10 11, l_alpha)
 COMBO(spce, &kp SPACE, 13 14, l_alpha)
-COMBO(Gent, &kp LG(RETURN), 22 23 24, l_alpha)
 COMBO(entr, &kp RETURN, 23 24, l_alpha)
 
 /*
