@@ -82,9 +82,9 @@ COMBO(gh, &digraphGh,  1  2, l_alpha) // Gh
 COMBO(pnI, &typePnI, 18 19, l_alpha) // "I "
 
 COMBO(pnIm, &typePnIm, 2 18, l_alpha) // "I'm "
-COMBO(pnIll, &typePnIll, 22 18, l_alpha) // "I'll "
-COMBO(pnId, &typePnId, 23 18, l_alpha) // "I'd "
-COMBO(pnIve, &typePnIve, 24 18, l_alpha) // "I've "
+COMBO(pnIll, &typePnIll, 18 22, l_alpha) // "I'll "
+COMBO(pnId, &typePnId, 18 23, l_alpha) // "I'd "
+COMBO(pnIve, &typePnIve, 18 24, l_alpha) // "I've "
 
 #ifdef EN_PRONOUN_COMBOS
 
@@ -119,7 +119,7 @@ COMBO(entr, &kp RETURN, 23 24, l_alpha)
 */
 
 COMBO(d_acute, &kp LA(E), 16 17, l_alpha)
-COMBO(d_grave, &kp LA(GRAVE), 17 18, l_alpha)
+COMBO(d_grave, &kp LA(TILDE), 17 18, l_alpha)
 COMBO(d_circum, &kp LA(6), 16 18, l_alpha)
 COMBO(d_macron, &kp LA(A), 17 19, l_alpha)
 COMBO(d_umlaut, &kp LA(U), 26 27, l_alpha)
