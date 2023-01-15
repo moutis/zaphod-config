@@ -43,25 +43,8 @@ COMBO(typeExcl, &kp EXCL, 6 7, l_alpha)
 COMBO(typeQues, &kp QMARK, 7 8, l_alpha)
 COMBO(typeatMk, &kp AT_SIGN, 5 6, l_alpha)
 COMBO(typeUnder, &kp UNDER, 26 29, l_alpha)
-COMBO(typeEqual, &kp EQUAL, 28 29, l_alpha)
+COMBO(typeEqual, &kp EQUAL, 28 29, l_alpha) 
 
-/* numpad symbol combos */
-COMBO(numLPRN, &kp LPAR, 16 17, l_num)
-COMBO(numRPRN, &kp RPAR, 17 18, l_num)
-COMBO(numEQUAL, &kp EQUAL, 18 19, l_num)
-COMBO(numCOLN, &kp COLON, 16 18, l_num)
-COMBO(numPRCNT, &kp PRCNT, 28 29, l_num)
-COMBO(numLT, &kp LT, 15 16, l_num)
-COMBO(numGT, &kp GT, 15 19, l_num)
-COMBO(numDASH, &kp LA(MINUS), 25 26, l_num)
-COMBO(numTILD, &kp TILDE, 25 29, l_num)
-COMBO(numELIP, &kp LA(SEMI), 26 29, l_num)
-
-COMBO(numDLLR, &kp DLLR, 6 7, l_num) //
-COMBO(numCENT, &kp LA(N4), 6 8, l_num)
-COMBO(numEURO, &kp LS(LA(N2)), 7 8, l_num)
-COMBO(numYEN, &kp LA(Y), 8 9, l_num)
-COMBO(numBPND, &kp LA(N3), 5 6, l_num)
 
 //
 // H Digraphs REQUIRE macros (defined earlier)to process
@@ -86,7 +69,7 @@ COMBO(pnIll, &typePnIll, 18 22, l_alpha) // "I'll "
 COMBO(pnId, &typePnId, 18 23, l_alpha) // "I'd "
 COMBO(pnIve, &typePnIve, 18 24, l_alpha) // "I've "
 
-#ifdef EN_PRONOUN_COMBOS
+//#ifdef EN_PRONOUN_COMBOS
 
 COMBO(pnYoure, &typePnYoure, 28 31, l_alpha) // "You're "
 COMBO(pnYoull, &typePnYoull, 28 22, l_alpha) // "You'll "
@@ -98,7 +81,7 @@ COMBO(pnWell, &typePnWell, 0 2, l_alpha) // "We'll "
 COMBO(pnWed, &typePnWed, 0 3, l_alpha) // "We'd "
 COMBO(pnWeve, &typePnWeve, 0 4, l_alpha) // "We've "
 
-#endif // EN_PRONOUN_COMBOS
+//#endif // EN_PRONOUN_COMBOS
 
 //
 // Editing actions (&whitespace)
@@ -111,7 +94,7 @@ COMBO(copy, &kp LG(C), 21 22, l_alpha)
 COMBO(pste, &kp LG(V), 22 23, l_alpha)
 COMBO(tab, &kp TAB, 10 11, l_alpha)
 COMBO(spce, &kp SPACE, 13 14, l_alpha)
-COMBO(Gent, &kp G(RETURN), 22 23 24, l_alpha)
+COMBO(Gent, &kp LG(RETURN), 22 23 24, l_alpha)
 COMBO(entr, &kp RETURN, 23 24, l_alpha)
 
 /*
@@ -124,5 +107,25 @@ COMBO(d_circum, &kp LA(6), 16 18, l_alpha)
 COMBO(d_macron, &kp LA(A), 17 19, l_alpha)
 COMBO(d_umlaut, &kp LA(U), 26 27, l_alpha)
 
+/*
+* numpad symbol combos
+*/
+
+COMBO(numLPRN, &kp LPAR, 16 17, l_num)
+COMBO(numRPRN, &kp RPAR, 17 18, l_num)
+COMBO(numEQUAL, &kp EQUAL, 18 19, l_num)
+COMBO(numCOLN, &kp COLON, 16 18, l_num)
+COMBO(numPRCNT, &kp PRCNT, 28 29, l_num)
+COMBO(numLT, &kp LT, 15 16, l_num)
+COMBO(numGT, &kp GT, 15 19, l_num)
+COMBO(numDASH, &kp LA(MINUS), 25 26, l_num)
+COMBO(numTILD, &kp TILDE, 25 29, l_num)
+COMBO(numELIP, &kp LA(SEMI), 26 29, l_num)
+
+COMBO(numDLLR, &kp DLLR, 6 7, l_num) //
+COMBO(numCENT, &kp LA(N4), 6 8, l_num)
+COMBO(numEURO, &kp LS(LA(N2)), 7 8, l_num)
+COMBO(numYEN, &kp LA(Y), 8 9, l_num)
+COMBO(numBPND, &kp LA(N3), 5 6, l_num)
 
 };
