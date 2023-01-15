@@ -66,6 +66,7 @@ COMBO(d_grave, &kp LA(TILDE), 17 18, l_alpha)
 COMBO(d_circum, &kp LA(6), 16 18, l_alpha)
 COMBO(d_macron, &kp LA(A), 17 19, l_alpha)
 COMBO(d_umlaut, &kp LA(U), 26 27, l_alpha)
+COMBO(d_cedila, &kp LA(C), 10 12, l_alpha)
 
 //
 // Pronoun combos REQUIRE macros to process
