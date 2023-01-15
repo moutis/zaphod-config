@@ -17,7 +17,7 @@ behaviors {
             bindings = <&kp>, <&kp>;
         };
 /*
-        hrmL: homerow_modsLeft {
+        hml: homerow_modsLeft {
             compatible = "zmk,behavior-hold-tap";
             label = "homerow_mods";
             #binding-cells = <2>;
@@ -27,7 +27,7 @@ behaviors {
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 32 33>; // <---[[right-hand keys]]
         };
-        hrmR: homerow_modsRigt {
+        hmr: homerow_modsRigt {
             compatible = "zmk,behavior-hold-tap";
             label = "homerow_mods";
             #binding-cells = <2>;
