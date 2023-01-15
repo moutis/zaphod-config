@@ -17,7 +17,7 @@
 //                     &none &none &none   &none &none &none
 
 &kp W       &kp G &kp M     &kp P       &kp J                   &HashDllr  &DotColn    &SlshStar   &DqtLbkt    &SqtRbkt
-&hm LCTRL C &hm LALT S      &hm LGUI N  &hm LSHFT T &lt l_num K &CmmaSemi  &hm RSHFT A &hm RGUI E  &hm RALT I  &hm RCTRL H
+&hrmL LCTRL C &hrmL LALT S  &hrmL LGUI N  &hrmL LSHFT T &lt l_num K &CmmaSemi  &hrmR RSHFT A &hrmR RGUI E  &hrmR RALT I  &hrmR RCTRL H
 &kp X       &kp F &kp L     &kp D       &kp V                   &MinusPlus  &kp U      &kp O       &kp Y       &kp B
 
 
