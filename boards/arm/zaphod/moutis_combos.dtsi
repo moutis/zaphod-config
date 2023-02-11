@@ -26,11 +26,11 @@ combos {
 //
 // control/modes
 //
-COMBO(bootloader, &bootloader, 0 1 2 3, l_alpha) // enter bootloader Left
+//COMBO(bootloader, &bootloader, 0 1 2 3, l_alpha) // enter bootloader Left
 COMBO(appswitch, &kp RG(TAB), 30 31, l_alpha) // App switch
 COMBO(enmode, &kp INT_RO, 11 12 13, l_alpha)
 COMBO(jpmode, &kp INT_KANA, 16 17 18, l_alpha)
-COMBO(settings, &mo l_cfg, 32 33, l_alpha) // get the settings/media layer from anywhere
+//COMBO(settings, &mo l_cfg, 32 33, l_alpha) // get the settings/media layer from anywhere
 
 /* type a glyph */
 COMBO(typeQ, &typeQu, 1 3, l_alpha)
@@ -85,12 +85,12 @@ COMBO(pnIm, &typePnIm, 2 18, l_alpha) // "I'm "
 COMBO(pnIll, &typePnIll, 22 18, l_alpha) // "I'll "
 COMBO(pnId, &typePnId, 23 18, l_alpha) // "I'd "
 COMBO(pnIve, &typePnIve, 24 18, l_alpha) // "I've "
-
+/*
 COMBO(pnYoure, &typePnYoure, 28 31, l_alpha) // "You're "
 COMBO(pnYoull, &typePnYoull, 28 22, l_alpha) // "You'll "
 COMBO(pnYoud, &typePnYoud, 28 23, l_alpha) // "You'd "
 COMBO(pnYouve, &typePnYouve, 28 24, l_alpha) // "You've "
-/*
+
 COMBO(pnWere, &typePnWere, 0 31, l_alpha) // "We're "
 COMBO(pnWell, &typePnWell, 0 2, l_alpha) // "We'll "
 COMBO(pnWed, &typePnWed, 0 3, l_alpha) // "We'd "
