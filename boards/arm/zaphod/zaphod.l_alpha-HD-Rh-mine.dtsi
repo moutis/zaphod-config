@@ -1,11 +1,11 @@
             /*           Base (alpha) Layer  (Hands Down Rh)
             Building for a 36 key on a 42 key board (outside column is unused)
-                   ╭────────────────────╮ ╭────────────────────╮
-                   │  W   G   M   P  J  │ │ #$  .:  /*  "[  '] │
-                   │  C   S   N   T  K  | | ,;   A   E   I   H │
-                   │  X   F   L   D  V  │ │ -+   U   O   Y   B │
-                   ╰───────╮ SPC BSP R  │ │ SPC RET ENT ╭──────╯
-                           ╰────────────╯ ╰─────────────╯   */
+                   ╭─────────────────╮ ╭─────────────────╮
+                   │  W  G  M  P  J  │ │ #$  .: /* "[ '] │
+                   │  C  S  N  T  K  | | ,;   A  E  I  H │
+                   │  X  F  L  D  V  │ │ -+   U  O  Y  B │
+                   ╰───────╮  BSP R  │ │ SPC RET  ╭──────╯
+                           ╰─────────╯ ╰──────────╯   */
 
                 default_layer {
                         label = "HD-rh";

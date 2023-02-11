@@ -27,7 +27,7 @@ combos {
 // control/modes
 //
 COMBO(bootloader, &bootloader, 0 1 2 3, l_alpha) // enter bootloader Left
-//COMBO(reset, &reset, 1 2 3 4, l_alpha) // reset Left
+COMBO(appswitch, &kp RG(TAB), 30 31, l_alpha) // App switch
 COMBO(enmode, &kp INT_RO, 11 12 13, l_alpha)
 COMBO(jpmode, &kp INT_KANA, 16 17 18, l_alpha)
 COMBO(settings, &mo l_cfg, 32 33, l_alpha) // get the settings/media layer from anywhere
