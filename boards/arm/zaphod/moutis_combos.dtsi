@@ -26,16 +26,14 @@ combos {
 //
 // control/modes
 //
-COMBO(bootloader, &bootloader, 0 1 2 3, l_alpha) // enter bootloader
+COMBO(bootloader, &bootloader, 0 1 2 3, l_alpha) // enter bootloader Left
 //COMBO(reset, &reset, 1 2 3 4, l_alpha) // reset Left
 COMBO(enmode, &kp INT_RO, 11 12 13, l_alpha)
 COMBO(jpmode, &kp INT_KANA, 16 17 18, l_alpha)
 COMBO(settings, &mo l_cfg, 32 33, l_alpha) // get the settings/media layer from anywhere
 
-COMBO(Gent, &kp LG(RETURN), 22 23 24, l_alpha)
-
 /* type a glyph */
-COMBO(typeQ, &typeQu, 26 28, l_alpha)
+COMBO(typeQ, &typeQu, 1 3, l_alpha)
 COMBO(typeZ, &kp Z, 0 1, l_alpha)
 COMBO(typeColn, &kp COLON, 6 8, l_alpha)
 COMBO(typeSemi, &kp SEMI, 6 9, l_alpha)
@@ -45,71 +43,7 @@ COMBO(typeatMk, &kp AT_SIGN, 5 6, l_alpha)
 COMBO(typeUnder, &kp UNDER, 26 29, l_alpha)
 COMBO(typeEqual, &kp EQUAL, 28 29, l_alpha)
 
-//
-// H Digraphs REQUIRE macros (defined earlier)to process
-//
-COMBO(sch, &trigraphSch, 10 11 12, l_alpha) // Sch
-COMBO(tch, &trigraphTch, 10 11 13, l_alpha) // Tch
-COMBO(th, &digraphTh, 12 13, l_alpha) // Th
-COMBO(sh, &digraphSh, 11 12, l_alpha) // Sh
-COMBO(ch, &digraphCh, 11 13, l_alpha) // Ch
-COMBO(wh, &digraphWh,  1  3, l_alpha) // Wh
-COMBO(ph, &digraphPh,  2  3, l_alpha) // Ph
-COMBO(gh, &digraphGh,  1  2, l_alpha) // Gh
-
-/*
-* Diacritics
-*/
-
-COMBO(d_acute, &kp LA(E), 16 17, l_alpha)
-COMBO(d_grave, &kp LA(TILDE), 17 18, l_alpha)
-COMBO(d_circum, &kp LA(6), 16 18, l_alpha)
-COMBO(d_macron, &kp LA(A), 17 19, l_alpha)
-COMBO(d_umlaut, &kp LA(U), 26 27, l_alpha)
-
-//
-// Pronoun combos REQUIRE macros to process
-//
-
-COMBO(pnI, &typePnI, 18 19, l_alpha) // "I "
-
-COMBO(pnIm, &typePnIm, 2 18, l_alpha) // "I'm "
-COMBO(pnIll, &typePnIll, 18 22, l_alpha) // "I'll "
-COMBO(pnId, &typePnId, 18 23, l_alpha) // "I'd "
-COMBO(pnIve, &typePnIve, 18 24, l_alpha) // "I've "
-
-//#ifdef EN_PRONOUN_COMBOS
-
-COMBO(pnYoure, &typePnYoure, 28 31, l_alpha) // "You're "
-COMBO(pnYoull, &typePnYoull, 28 22, l_alpha) // "You'll "
-COMBO(pnYoud, &typePnYoud, 28 23, l_alpha) // "You'd "
-COMBO(pnYouve, &typePnYouve, 28 24, l_alpha) // "You've "
-
-COMBO(pnWere, &typePnWere, 0 31, l_alpha) // "We're "
-COMBO(pnWell, &typePnWell, 0 2, l_alpha) // "We'll "
-COMBO(pnWed, &typePnWed, 0 3, l_alpha) // "We'd "
-COMBO(pnWeve, &typePnWeve, 0 4, l_alpha) // "We've "
-
-//#endif // EN_PRONOUN_COMBOS
-
-//
-// Editing actions (&whitespace)
-//
-COMBO(esc, &kp ESC, 10 13, l_alpha)
-COMBO(sall, &kp LG(A), 20 23, l_alpha)
-COMBO(undo, &kp LG(Z), 20 21, l_alpha)
-COMBO(cut, &kp LG(X), 20 22, l_alpha)
-COMBO(copy, &kp LG(C), 21 22, l_alpha)
-COMBO(pste, &kp LG(V), 22 23, l_alpha)
-COMBO(tab, &kp TAB, 10 11, l_alpha)
-COMBO(spce, &kp SPACE, 13 14, l_alpha)
-COMBO(entr, &kp RETURN, 23 24, l_alpha)
-
-
-/*
-* numpad symbol combos
-*/
-
+/* numpad symbol combos */
 COMBO(numLPRN, &kp LPAR, 16 17, l_num)
 COMBO(numRPRN, &kp RPAR, 17 18, l_num)
 COMBO(numEQUAL, &kp EQUAL, 18 19, l_num)
@@ -126,5 +60,55 @@ COMBO(numCENT, &kp LA(N4), 6 8, l_num)
 COMBO(numEURO, &kp LS(LA(N2)), 7 8, l_num)
 COMBO(numYEN, &kp LA(Y), 8 9, l_num)
 COMBO(numBPND, &kp LA(N3), 5 6, l_num)
+
+//
+// H Digraphs REQUIRE macros (defined earlier)to process
+//
+COMBO(sch, &trigraphSch, 10 11 12, l_alpha) // Sch
+COMBO(tch, &trigraphTch, 10 11 13, l_alpha) // Tch
+COMBO(th, &digraphTh, 12 13, l_alpha) // Th
+COMBO(sh, &digraphSh, 11 12, l_alpha) // Sh
+COMBO(ch, &digraphCh, 11 13, l_alpha) // Ch
+COMBO(wh, &digraphWh,  1  3, l_alpha) // Wh
+COMBO(ph, &digraphPh,  2  3, l_alpha) // Ph
+COMBO(gh, &digraphGh,  1  2, l_alpha) // Gh
+
+#ifdef EN_PRONOUN_COMBOS
+//
+// Pronoun combos REQUIRE macros to process
+//
+
+COMBO(pnI, &typePnI, 18 19, l_alpha) // "I "
+
+COMBO(pnIm, &typePnIm, 2 18, l_alpha) // "I'm "
+COMBO(pnIll, &typePnIll, 22 18, l_alpha) // "I'll "
+COMBO(pnId, &typePnId, 23 18, l_alpha) // "I'd "
+COMBO(pnIve, &typePnIve, 24 18, l_alpha) // "I've "
+
+COMBO(pnYoure, &typePnYoure, 28 31, l_alpha) // "You're "
+COMBO(pnYoull, &typePnYoull, 28 22, l_alpha) // "You'll "
+COMBO(pnYoud, &typePnYoud, 28 23, l_alpha) // "You'd "
+COMBO(pnYouve, &typePnYouve, 28 24, l_alpha) // "You've "
+
+COMBO(pnWere, &typePnWere, 0 31, l_alpha) // "We're "
+COMBO(pnWell, &typePnWell, 0 2, l_alpha) // "We'll "
+COMBO(pnWed, &typePnWed, 0 3, l_alpha) // "We'd "
+COMBO(pnWeve, &typePnWeve, 0 4, l_alpha) // "We've "
+
+#endif // EN_PRONOUN_COMBOS
+
+//
+// Editing actions (&whitespace)
+//
+COMBO(esc, &kp ESC, 10 13, l_alpha)
+COMBO(sall, &kp LG(A), 20 23, l_alpha)
+COMBO(undo, &kp LG(Z), 20 21, l_alpha)
+COMBO(cut, &kp LG(X), 20 22, l_alpha)
+COMBO(copy, &kp LG(C), 21 22, l_alpha)
+COMBO(pste, &kp LG(V), 22 23, l_alpha)
+COMBO(tab, &kp TAB, 10 11, l_alpha)
+COMBO(spce, &kp SPACE, 13 14, l_alpha)
+COMBO(Gent, &kp G(RETURN), 22 23 24, l_alpha)
+COMBO(entr, &kp RETURN, 23 24, l_alpha)
 
 };

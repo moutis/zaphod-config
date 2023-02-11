@@ -85,14 +85,3 @@
                                         &tog l_num   &none        &tog l_num   &none
                         >;
                 };
-
-//                                     Adaptive Layer 1
-                adapt_layer {
-                        label = "AL1";
-                        bindings = <
-&trans &trans &kp L  &trans &trans   &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans
-                     &trans &trans   &trans &trans
-                        >;
-                };

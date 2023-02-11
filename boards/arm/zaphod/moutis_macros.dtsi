@@ -134,7 +134,7 @@
             bindings = <&macro_tap &kp LS(I)>
                     , <&macro_release &kp LSHFT>
                     , <&macro_release &kp RSHFT>
-                    , <&kp APOS &kp M &kp SPACE>
+                    , <&macro_tap &kp APOS &kp M &kp SPACE>
                 ;
         };
         typePnId: pnId {
@@ -146,9 +146,7 @@
             bindings = <&macro_tap &kp LS(I)>
                     , <&macro_release &kp LSHFT>
                     , <&macro_release &kp RSHFT>
-                    , <&macro_tap &kp APOS>
-                    , <&macro_tap &kp D>
-                    , <&macro_tap &kp SPACE>
+                    , <&macro_tap &kp APOS &kp D &kp SPACE>
                 ;
         };
         typePnIll: pnIll {
@@ -160,10 +158,7 @@
             bindings = <&macro_tap &kp LS(I)>
                     , <&macro_release &kp LSHFT>
                     , <&macro_release &kp RSHFT>
-                    , <&macro_tap &kp APOS>
-                    , <&macro_tap &kp L>
-                    , <&macro_tap &kp L>
-                    , <&macro_tap &kp SPACE>
+                    , <&macro_tap &kp APOS &kp L &kp L &kp SPACE>
                 ;
         };
         typePnIve: pnIve {
@@ -175,10 +170,7 @@
             bindings = <&macro_tap &kp LS(I)>
                     , <&macro_release &kp LSHFT>
                     , <&macro_release &kp RSHFT>
-                    , <&macro_tap &kp APOS>
-                    , <&macro_tap &kp V>
-                    , <&macro_tap &kp E>
-                    , <&macro_tap &kp SPACE>
+                    , <&macro_tap &kp APOS &kp V &kp E &kp SPACE>
                 ;
         };
 // YOU
@@ -191,12 +183,7 @@
             bindings = <&macro_tap &kp Y>
                     , <&macro_release &kp LSHFT>
                     , <&macro_release &kp RSHFT>
-                    , <&macro_tap &kp O>
-                    , <&macro_tap &kp U>
-                    , <&macro_tap &kp APOS>
-                    , <&macro_tap &kp R>
-                    , <&macro_tap &kp E>
-                    , <&macro_tap &kp SPACE>
+                    , <&macro_tap &kp O &kp U &kp APOS &kp R &kp E &kp SPACE>
                 ;
         };
         typePnYoud: pnYoud {
@@ -208,11 +195,7 @@
             bindings = <&macro_tap &kp Y>
                     , <&macro_release &kp LSHFT>
                     , <&macro_release &kp RSHFT>
-                    , <&macro_tap &kp O>
-                    , <&macro_tap &kp U>
-                    , <&macro_tap &kp APOS>
-                    , <&macro_tap &kp D>
-                    , <&macro_tap &kp SPACE>
+                    , <&macro_tap &kp O &kp U &kp APOS &kp D &kp SPACE>
                 ;
         };
         typePnYoull: pnYoull {
@@ -224,12 +207,7 @@
             bindings = <&macro_tap &kp Y>
                     , <&macro_release &kp LSHFT>
                     , <&macro_release &kp RSHFT>
-                    , <&macro_tap &kp O>
-                    , <&macro_tap &kp U>
-                    , <&macro_tap &kp APOS>
-                    , <&macro_tap &kp L>
-                    , <&macro_tap &kp L>
-                    , <&macro_tap &kp SPACE>
+                    , <&macro_tap &kp O &kp U &kp APOS &kp L &kp L &kp SPACE>
                 ;
         };
         typePnYouve: pnYouve {
@@ -241,12 +219,7 @@
             bindings = <&macro_tap &kp Y>
                     , <&macro_release &kp LSHFT>
                     , <&macro_release &kp RSHFT>
-                    , <&macro_tap &kp O>
-                    , <&macro_tap &kp U>
-                    , <&macro_tap &kp APOS>
-                    , <&macro_tap &kp V>
-                    , <&macro_tap &kp E>
-                    , <&macro_tap &kp SPACE>
+                    , <&macro_tap &kp O &kp U &kp APOS &kp V &kp E &kp SPACE>
                 ;
         };
 // WE
@@ -259,12 +232,7 @@
             bindings = <&macro_tap &kp W>
                     , <&macro_release &kp LSHFT>
                     , <&macro_release &kp RSHFT>
-                    , <&macro_tap &kp O>
-                    , <&macro_tap &kp U>
-                    , <&macro_tap &kp APOS>
-                    , <&macro_tap &kp R>
-                    , <&macro_tap &kp E>
-                    , <&macro_tap &kp SPACE>
+                    , <&macro_tap &kp E &kp APOS &kp R &kp E &kp SPACE>
                 ;
         };
         typePnWed: pnWed {
@@ -276,10 +244,7 @@
             bindings = <&macro_tap &kp W>
                     , <&macro_release &kp LSHFT>
                     , <&macro_release &kp RSHFT>
-                    , <&macro_tap &kp E>
-                    , <&macro_tap &kp APOS>
-                    , <&macro_tap &kp D>
-                    , <&macro_tap &kp SPACE>
+                    , <&macro_tap &kp E &kp APOS &kp D &kp SPACE>
                 ;
         };
         typePnWell: pnWell {
@@ -291,11 +256,7 @@
             bindings = <&macro_tap &kp W>
                     , <&macro_release &kp LSHFT>
                     , <&macro_release &kp RSHFT>
-                    , <&macro_tap &kp E>
-                    , <&macro_tap &kp APOS>
-                    , <&macro_tap &kp L>
-                    , <&macro_tap &kp L>
-                    , <&macro_tap &kp SPACE>
+                    , <&macro_tap &kp E &kp APOS &kp L &kp L &kp SPACE>
                 ;
         };
         typePnWeve: pnWeve {
@@ -307,13 +268,10 @@
             bindings = <&macro_tap &kp W>
                     , <&macro_release &kp LSHFT>
                     , <&macro_release &kp RSHFT>
-                    , <&macro_tap &kp E>
-                    , <&macro_tap &kp APOS>
-                    , <&macro_tap &kp V>
-                    , <&macro_tap &kp E>
-                    , <&macro_tap &kp SPACE>
+                    , <&macro_tap &kp E &kp APOS &kp V &kp E &kp SPACE>
                 ;
         };
+
 #endif // EN_PRONOUN_COMBOS
 
     };

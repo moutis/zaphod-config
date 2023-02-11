@@ -15,11 +15,7 @@
 #define l_fn     3
 #define l_num    4
 #define l_cfg    5
-#define a_l      6 // adaptive layer for M->L
 
-&ak { // Adaptive key uses another layer
-    release-after-ms = <170>;
-};
 
 &mt {
     tapping-term-ms = <170>;

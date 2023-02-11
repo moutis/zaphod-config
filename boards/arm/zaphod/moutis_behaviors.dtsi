@@ -16,28 +16,6 @@ behaviors {
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
-
-        hml: homerow_modsLeft {
-            compatible = "zmk,behavior-hold-tap";
-            label = "homerow_mods";
-            #binding-cells = <2>;
-            tapping-term-ms = <500>;
-            quick-tap-ms = <0>;
-            flavor = "tap-unless-interrupted";
-            bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 32 33>; // <---[[right-hand keys]]
-        };
-        hmr: homerow_modsRigt {
-            compatible = "zmk,behavior-hold-tap";
-            label = "homerow_mods";
-            #binding-cells = <2>;
-            tapping-term-ms = <500>;
-            quick-tap-ms = <0>;
-            flavor = "tap-unless-interrupted";
-            bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31>; // <---[[left-hand keys]]
-        };
-
         CmmaSemi: CmmaSemi {
             compatible = "zmk,behavior-mod-morph";
             label = "comma_semi";
@@ -94,6 +72,4 @@ behaviors {
             bindings = <&kp BSPC>, <&kp DEL>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-
-
 };
