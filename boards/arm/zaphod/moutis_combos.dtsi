@@ -44,6 +44,7 @@ COMBO(typeUnder, &kp UNDER, 26 29, l_alpha)
 COMBO(typeEqual, &kp EQUAL, 28 29, l_alpha)
 
 /* numpad symbol combos */
+/*
 COMBO(numLPRN, &kp LPAR, 16 17, l_num)
 COMBO(numRPRN, &kp RPAR, 17 18, l_num)
 COMBO(numEQUAL, &kp EQUAL, 18 19, l_num)
@@ -60,7 +61,7 @@ COMBO(numCENT, &kp LA(N4), 6 8, l_num)
 COMBO(numEURO, &kp LS(LA(N2)), 7 8, l_num)
 COMBO(numYEN, &kp LA(Y), 8 9, l_num)
 COMBO(numBPND, &kp LA(N3), 5 6, l_num)
-
+*/
 //
 // H Digraphs REQUIRE macros (defined earlier)to process
 //
@@ -94,7 +95,7 @@ COMBO(pnWere, &typePnWere, 0 31, l_alpha) // "We're "
 COMBO(pnWell, &typePnWell, 0 2, l_alpha) // "We'll "
 COMBO(pnWed, &typePnWed, 0 3, l_alpha) // "We'd "
 COMBO(pnWeve, &typePnWeve, 0 4, l_alpha) // "We've "
-
+*/
 #endif // EN_PRONOUN_COMBOS
 
 //
