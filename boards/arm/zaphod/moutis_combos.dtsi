@@ -101,6 +101,8 @@ COMBO(pnWeve, &typePnWeve, 0 4, l_alpha) // "We've "
 //
 // Editing actions (&whitespace)
 //
+COMBO(Gent, &kp G(RETURN), 22 23 24, l_alpha)
+COMBO(entr, &kp RETURN, 23 24, l_alpha)
 COMBO(esc, &kp ESC, 10 13, l_alpha)
 COMBO(sall, &kp LG(A), 20 23, l_alpha)
 COMBO(undo, &kp LG(Z), 20 21, l_alpha)
@@ -109,7 +111,5 @@ COMBO(copy, &kp LG(C), 21 22, l_alpha)
 COMBO(pste, &kp LG(V), 22 23, l_alpha)
 COMBO(tab, &kp TAB, 0 1, l_alpha)
 COMBO(spce, &kp SPACE, 13 14, l_alpha)
-COMBO(Gent, &kp G(RETURN), 22 23 24, l_alpha)
-COMBO(entr, &kp RETURN, 23 24, l_alpha)
 
 };
