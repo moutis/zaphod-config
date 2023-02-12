@@ -55,10 +55,6 @@ COMBO(typeatMk, &kp AT_SIGN, 5 6, l_alpha)
 COMBO(typeUnder, &kp UNDER, 26 29, l_alpha)
 COMBO(typeEqual, &kp EQUAL, 28 29, l_alpha)
 
-COMBO(typeNdash, &kp LA(MINUS), 25 26, l_alpha) // N-dash (minus)
-COMBO(typeMdash, &kp LAS(MINUS), 25 27, l_alpha) // M-dash (minus)
-
-
 /* numpad symbol combos */
 /*
 COMBO(numLPRN, &kp LPAR, 16 17, l_num)
@@ -90,12 +86,12 @@ COMBO(pnIm, &typePnIm, 2 18, l_alpha) // "I'm "
 COMBO(pnIll, &typePnIll, 22 18, l_alpha) // "I'll "
 COMBO(pnId, &typePnId, 23 18, l_alpha) // "I'd "
 COMBO(pnIve, &typePnIve, 24 18, l_alpha) // "I've "
-
+/*
 COMBO(pnYoure, &typePnYoure, 28 31, l_alpha) // "You're "
 COMBO(pnYoull, &typePnYoull, 28 22, l_alpha) // "You'll "
 COMBO(pnYoud, &typePnYoud, 28 23, l_alpha) // "You'd "
 COMBO(pnYouve, &typePnYouve, 28 24, l_alpha) // "You've "
-/*
+
 COMBO(pnWere, &typePnWere, 0 31, l_alpha) // "We're "
 COMBO(pnWell, &typePnWell, 0 2, l_alpha) // "We'll "
 COMBO(pnWed, &typePnWed, 0 3, l_alpha) // "We'd "
