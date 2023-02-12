@@ -56,7 +56,7 @@ COMBO(typeUnder, &kp UNDER, 26 29, l_alpha)
 COMBO(typeEqual, &kp EQUAL, 28 29, l_alpha)
 
 COMBO(typeNdash, &kp LA(MINUS), 25 26, l_alpha) // N-dash (minus)
-COMBO(typeMdash, &kp LAS(MINUS), 25 26, l_alpha) // M-dash (minus)
+COMBO(typeMdash, &kp LAS(MINUS), 25 27, l_alpha) // M-dash (minus)
 
 
 /* numpad symbol combos */
