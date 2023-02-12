@@ -32,7 +32,7 @@ COMBO(jpmode, &kp LANG1, 16 17 18, l_alpha)
 COMBO(settings, &mo l_cfg, 32 33, l_alpha) // get the settings/media layer from anywhere
 COMBO(appswitch, &kp RG(TAB), 30 31, l_alpha) // App switch
 //
-// H Digraphs REQUIRE macros (defined earlier)to process
+// H Digraphs REQUIRE macros (defined earlier) to process
 //
 COMBO(sch, &trigraphSch, 10 11 12, l_alpha) // Sch
 COMBO(tch, &trigraphTch, 10 11 13, l_alpha) // Tch
@@ -60,10 +60,10 @@ COMBO(typeMdash, &kp LA(LS(MINUS)), 25 27, l_alpha) // M-dash (minus)
 
 COMBO(diacAccent, &kp LA(E), 16 17, l_alpha) // ´
 COMBO(diacGrave, &kp LA(GRAVE), 17 18, l_alpha) // `
-COMBO(diacAcute, &kp LA(6), 16 18, l_alpha) // ˆ
+COMBO(diacAcute, &kp LA(N6), 16 18, l_alpha) // ˆ
 COMBO(diacMacron, &kp LA(A), 17 19, l_alpha) // ¯
 COMBO(diacCirc, &kp LA(K), 16 19, l_alpha) // ˚
-COMBO(diacUmlaut, &kp LA(U), 26 27, l_alpha) //r ¨
+COMBO(diacUmlaut, &kp LA(U), 26 27, l_alpha) // ¨¸
 
 
 
