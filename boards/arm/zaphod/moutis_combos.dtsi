@@ -110,6 +110,6 @@ COMBO(cut, &kp LG(X), 20 22, l_alpha)
 COMBO(copy, &kp LG(C), 21 22, l_alpha)
 COMBO(pste, &kp LG(V), 22 23, l_alpha)
 COMBO(tab, &kp TAB, 10 11, l_alpha)
-//COMBO(spce, &kp SPACE, 13 14, l_alpha)
+COMBO(spce, &kp SPACE, 13 14, l_alpha)
 
 };
