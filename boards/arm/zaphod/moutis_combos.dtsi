@@ -30,7 +30,7 @@ combos {
 COMBO(appswitch, &kp RG(TAB), 30 31, l_alpha) // App switch
 COMBO(enmode, &kp LANG5, 11 12 13, l_alpha)
 COMBO(jpmode, &kp LANG4, 16 17 18, l_alpha)
-//COMBO(settings, &mo l_cfg, 32 33, l_alpha) // get the settings/media layer from anywhere
+COMBO(settings, &mo l_cfg, 32 33, l_alpha) // get the settings/media layer from anywhere
 //
 // H Digraphs REQUIRE macros (defined earlier)to process
 //
