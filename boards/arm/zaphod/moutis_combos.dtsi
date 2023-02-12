@@ -54,6 +54,18 @@ COMBO(typeQues, &kp QMARK, 7 8, l_alpha)
 COMBO(typeatMk, &kp AT_SIGN, 5 6, l_alpha)
 COMBO(typeUnder, &kp UNDER, 26 29, l_alpha)
 COMBO(typeEqual, &kp EQUAL, 28 29, l_alpha)
+COMBO(typeNdash, &kp LA(MINUS), 25 26, l_alpha) // N-dash (minus)
+COMBO(typeMdash, &kp LA(LS(MINUS)), 25 27, l_alpha) // M-dash (minus)
+
+
+COMBO(diacAccent, &kp LA(E), 16 17, l_alpha) // ´
+COMBO(diacGrave, &kp LA(GRAVE), 17 18, l_alpha) // `
+COMBO(diacAcute, &kp LA(6), 16 18, l_alpha) // ˆ
+COMBO(diacMacron, &kp LA(A), 17 19, l_alpha) // ¯
+COMBO(diacCirc, &kp LA(K), 16 19, l_alpha) // ˚
+COMBO(diacUmlaut, &kp LA(U), 26 27, l_alpha) //r ¨
+
+
 
 /* numpad symbol combos */
 /*
