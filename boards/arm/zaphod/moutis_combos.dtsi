@@ -60,7 +60,7 @@ COMBO(cloz, &kp LG(W), 14 12, l_alpha)
 COMBO(new, &kp LG(N), 10 14, l_alpha)
 COMBO(open, &kp LG(O), 0 4, l_alpha)
 COMBO(quit, &kp LG(Q), 14 11, l_alpha)
-//COMBO(fsel, &mfsel, 10 24, l_alpha) // find next selection
+COMBO(fsel, &mfsel, 10 24, l_alpha) // find next selection
          
 /* type a glyph */
 COMBO(typeQ, &typeQu, 1 3, l_alpha)

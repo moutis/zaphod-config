@@ -1,19 +1,21 @@
  
 
     macros {
-/*
+
         mfsel: mfsel {
-            label = "mfsel;
+            label = "Find Selection;
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
             wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp LG(C)>
                     , <&macro_tap &kp LG(F)>
+                    , <&macro_tap &kp LG(V)>
                     , <&macro_tap &kp ENTER>
                     , <&macro_tap &kp LG(G)>
                 ;
         };
+/*
         mswrd: mswrd {
             label = "mswrd";
             compatible = "zmk,behavior-macro";
