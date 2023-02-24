@@ -2,17 +2,17 @@
 
     macros {
 
-        mfsel: mfsel {
+        m_findsel: m_findsel {
             label = "Find Selection;
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
             wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp LG(C)>
-                    , <&macro_tap &kp LG(F)>
-                    , <&macro_tap &kp LG(V)>
-                    , <&macro_tap &kp ENTER>
-                    , <&macro_tap &kp LG(G)>
+//                    , <&macro_tap &kp LG(F)>
+//                    , <&macro_tap &kp LG(V)>
+//                    , <&macro_tap &kp RETURN>
+//                    , <&macro_tap &kp LG(G)>
                 ;
         };
 /*
