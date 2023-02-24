@@ -1,7 +1,7 @@
  
 
     macros {
-
+/*
         m_findsel: m_findsel {
             label = "Find Selection;
             compatible = "zmk,behavior-macro";
@@ -15,9 +15,9 @@
 //                    , <&macro_tap &kp LG(G)>
                 ;
         };
-/*
-        mswrd: mswrd {
-            label = "mswrd";
+*/
+        m_selword: m_selword {
+            label = "m_select word";
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
             wait-ms = <10>;
@@ -26,7 +26,7 @@
                     , <&macro_tap &kp LS(LA(RIGHT))>
                 ;
         };
-*/
+
         typeQu: typeQu {
             label = "typeQu";
             compatible = "zmk,behavior-macro";
