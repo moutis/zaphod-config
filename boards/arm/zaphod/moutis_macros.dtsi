@@ -1,7 +1,7 @@
  
 
     macros {
-
+/*
         mfsel: mfsel {
             label = "mfsel;
             compatible = "zmk,behavior-macro";
@@ -24,6 +24,7 @@
                     , <&macro_tap &kp LS(LA(RIGHT))>
                 ;
         };
+*/
         typeQu: typeQu {
             label = "typeQu";
             compatible = "zmk,behavior-macro";

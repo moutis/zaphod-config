@@ -51,7 +51,7 @@ COMBO(tab, &kp TAB, 10 11, l_alpha)
 COMBO(spce, &kp SPACE, 13 14, l_alpha)
 COMBO(esc, &kp ESC, 10 13, l_alpha)
 COMBO(sall, &kp LG(A), 20 24, l_alpha)
-COMBO(swrd, &mswrd, 20 23, BASE)
+//COMBO(swrd, &mswrd, 20 23, BASE)
 COMBO(undo, &kp LG(Z), 20 21, l_alpha)
 COMBO(cut, &kp LG(X), 20 22, l_alpha)
 COMBO(copy, &kp LG(C), 21 22, l_alpha)
@@ -60,7 +60,7 @@ COMBO(cloz, &kp LG(W), 14 12, l_alpha)
 COMBO(new, &kp LG(N), 10 14, l_alpha)
 COMBO(open, &kp LG(O), 0 4, l_alpha)
 COMBO(quit, &kp LG(Q), 14 11, l_alpha)
-COMBO(fsel, &mfsel, 10 24, l_alpha) // find next selection
+//COMBO(fsel, &mfsel, 10 24, l_alpha) // find next selection
          
 /* type a glyph */
 COMBO(typeQ, &typeQu, 1 3, l_alpha)
