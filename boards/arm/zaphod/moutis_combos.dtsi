@@ -50,8 +50,8 @@ COMBO(entr, &kp RETURN, 23 24, l_alpha)
 COMBO(tab, &kp TAB, 10 11, l_alpha)
 COMBO(spce, &kp SPACE, 13 14, l_alpha)
 COMBO(esc, &kp ESC, 10 13, l_alpha)
-COMBO(sall, &kp LG(A), 20 24, l_alpha)
-COMBO(selword, &m_selword, 20 23, l_alpha)
+COMBO(sall, &kp LG(A), 20 23, l_alpha)
+COMBO(selword, &m_selword, 20 24, l_alpha)
 COMBO(undo, &kp LG(Z), 20 21, l_alpha)
 COMBO(cut, &kp LG(X), 20 22, l_alpha)
 COMBO(copy, &kp LG(C), 21 22, l_alpha)
@@ -77,7 +77,7 @@ COMBO(typeMdash, &kp LA(LS(MINUS)), 25 27, l_alpha) // M-dash (minus)
 COMBO(typeTilde, &kp TILDE, 25 29, l_alpha) // tilde (not dead key)
 
 COMBO(ligAE, &kp LA(APOS), 16 26, l_alpha) // ligature æ
-COMBO(ligOE, &kp LA(Q), 17 27, l_alpha) // ligature œ_yu
+COMBO(ligOE, &kp LA(Q), 17 27, l_alpha) // ligature œ
 
 COMBO(diacAccent, &kp LA(E), 16 17, l_alpha) // ´
 COMBO(diacGrave, &kp LA(GRAVE), 17 18, l_alpha) // `
