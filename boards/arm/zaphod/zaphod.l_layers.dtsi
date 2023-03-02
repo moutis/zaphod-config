@@ -58,9 +58,9 @@
 
 //                                          Nav & NumPad (standard)
 //╭────────────────────────────────────────────╮ ╭────────────────────────────────────────╮
-//|   TAB  |  HOME  |   UP   |  PG_UP |  ESC   | |    /   |   7   |   8   |   9   |   -   |
+//|   HOME |  PG_UP |   UP   |  RET   |  TAB   | |    /   |   7   |   8   |   9   |   -   |
 //|  Lword |  LEFT  |  DOWN  |   RGT  | Rword  | |    *   |   4   |   5   |   6   |   +   |
-//|   SPC  |   END  |  DOWN  |  PG_DN |  RET   | |    ,   |   1   |   2   |   3   |   =   |
+//|   END  |  PG_DN |  COPY  |  PASTE | FAGAIN | |    ,   |   1   |   2   |   3   |   =   |
 //╰─────────────────╮        |  dwlft | dwdrt  | |    0   |   .   |       ╭───────────────╯
 //                  ╰──────────────────────────╯ ╰────────────────────────╯
                 numpad_layer {
@@ -69,8 +69,8 @@
 
 &kp HOME     &kp PG_UP &kp UP    &kp RETURN &kp TAB       &kp KP_SLASH    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS
 &kp LA(LEFT) &kp LEFT  &kp DOWN  &kp RIGHT  &kp LA(RIGHT) &kp KP_MULTIPLY &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS
-&kp END      &kp PG_DN &kp LG(C) &kp LG(G)  &kp LG(G)     &kp KP_COMMA    &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_EQUAL
-                       &lt l_cfg LA(BSPC) &kp LA(DEL)   &kp KP_N0  &kp KP_DOT
+&kp END      &kp PG_DN &kp LG(C) &kp LG(V)  &kp LG(G)     &kp KP_COMMA    &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_EQUAL
+                       &lt l_cfg LA(BSPC) &kp LA(DEL)     &kp KP_N0  &kp KP_DOT
                         >;
                 };
 
