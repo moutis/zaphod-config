@@ -33,10 +33,10 @@ combos {
 //
 // control/modes
 //
-COMBO_LAYER(enmode, &kp LANG2, 11 12 13, l_alpha)
-COMBO_LAYER(jpmode, &kp LANG1, 16 17 18, l_alpha)
-COMBO_LAYER(settings, &mo l_cfg, 32 33, l_alpha) // get the settings/media layer from anywhere
-COMBO_LAYER(appswitch, &kp RG(TAB), 30 31, l_alpha) // App switch
+COMBO_ANY(enmode, &kp LANG2, 11 12 13)
+COMBO_ANY(jpmode, &kp LANG1, 16 17 18)
+COMBO_ANY(settings, &mo l_cfg, 32 33) // get the settings/media layer from anywhere
+COMBO_ANY(appswitch, &kp RG(TAB), 30 31) // App switch
 //
 // H Digraphs REQUIRE macros (defined earlier) to process
 //
