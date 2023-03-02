@@ -68,7 +68,7 @@
                         bindings = <
 
 &kp HOME     &kp PG_UP &kp UP    &kp RETURN &kp TAB       &kp KP_SLASH    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS
-&kp LA(LEFT) &kp LEFT  &kp DOWN  &kp RIGHT  &kp LA(RIGHT) &kp KP_MULTIPLY &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS
+&kp LA(LEFT) &kp LEFT  &kp DOWN  &kp RIGHT  &kp LA(RIGHT) &kp KP_MULTIPLY &mt RSHFT KP_N4 &mt RGUI KP_N5 &mt RALT KP_N6 &mt LCTRL KP_PLUS
 &kp END      &kp PG_DN &kp LG(C) &kp LG(V)  &kp LG(G)     &kp KP_COMMA    &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_EQUAL
                        &lt l_cfg LA(BSPC) &kp LA(DEL)     &kp KP_N0  &kp KP_DOT
                         >;
