@@ -5,7 +5,7 @@
 * 
 */
 
-#define COMBO(NAME, BINDINGS, KEYPOS, LAYERS) \
+#define COMBO_LAYER(NAME, BINDINGS, KEYPOS, LAYERS) \
   combo_##NAME { \
     bindings = <BINDINGS>; \
     key-positions = <KEYPOS>; \
@@ -33,85 +33,85 @@ combos {
 //
 // control/modes
 //
-COMBO(enmode, &kp LANG2, 11 12 13, l_alpha)
-COMBO(jpmode, &kp LANG1, 16 17 18, l_alpha)
-COMBO(settings, &mo l_cfg, 32 33, l_alpha) // get the settings/media layer from anywhere
-COMBO(appswitch, &kp RG(TAB), 30 31, l_alpha) // App switch
+COMBO_LAYER(enmode, &kp LANG2, 11 12 13, l_alpha)
+COMBO_LAYER(jpmode, &kp LANG1, 16 17 18, l_alpha)
+COMBO_LAYER(settings, &mo l_cfg, 32 33, l_alpha) // get the settings/media layer from anywhere
+COMBO_LAYER(appswitch, &kp RG(TAB), 30 31, l_alpha) // App switch
 //
 // H Digraphs REQUIRE macros (defined earlier) to process
 //
-COMBO(sch, &trigraphSch, 10 11 12, l_alpha) // Sch
-COMBO(tch, &trigraphTch, 10 11 13, l_alpha) // Tch
-COMBO(th, &digraphTh, 12 13, l_alpha) // Th
-COMBO(sh, &digraphSh, 11 12, l_alpha) // Sh
-COMBO(ch, &digraphCh, 11 13, l_alpha) // Ch
-COMBO(wh, &digraphWh, 21 23, l_alpha) // Wh
-COMBO(ph, &digraphPh,  2  3, l_alpha) // Ph
-COMBO(gh, &digraphGh,  1  2, l_alpha) // Gh
+COMBO_LAYER(sch, &trigraphSch, 10 11 12, l_alpha) // Sch
+COMBO_LAYER(tch, &trigraphTch, 10 11 13, l_alpha) // Tch
+COMBO_LAYER(th, &digraphTh, 12 13, l_alpha) // Th
+COMBO_LAYER(sh, &digraphSh, 11 12, l_alpha) // Sh
+COMBO_LAYER(ch, &digraphCh, 11 13, l_alpha) // Ch
+COMBO_LAYER(wh, &digraphWh, 21 23, l_alpha) // Wh
+COMBO_LAYER(ph, &digraphPh,  2  3, l_alpha) // Ph
+COMBO_LAYER(gh, &digraphGh,  1  2, l_alpha) // Gh
 
 //
 // Editing actions (&whitespace)
 //
 COMBO_ANY(Gent, &kp LG(RETURN), 22 23 24)
-COMBO(entr, &kp RETURN, 23 24, l_alpha)
-COMBO(tab, &kp TAB, 10 11, l_alpha)
-COMBO(spce, &kp SPACE, 13 14, l_alpha)
-COMBO(esc, &kp ESC, 10 13, l_alpha)
-COMBO(sall, &kp LG(A), 20 23, l_alpha)
-COMBO(selword, &m_selword, 20 24, l_alpha)
-COMBO(undo, &kp LG(Z), 20 21, l_alpha)
-COMBO(cut, &kp LG(X), 20 22, l_alpha)
-COMBO(copy, &kp LG(C), 21 22, l_alpha)
-COMBO(pste, &kp LG(V), 22 23, l_alpha)
-COMBO(cloz, &kp LG(W), 14 12, l_alpha)
-COMBO(new, &kp LG(N), 10 14, l_alpha)
-COMBO(open, &kp LG(O), 0 4, l_alpha)
-COMBO(quit, &kp LG(Q), 14 11, l_alpha)
-COMBO(findsel, &m_findsel, 10 24, l_alpha)
+COMBO_ANY(entr, &kp RETURN, 23 24)
+COMBO_ANY(tab, &kp TAB, 10 11)
+COMBO_ANY(spce, &kp SPACE, 13 14)
+COMBO_ANY(esc, &kp ESC, 10 13)
+COMBO_ANY(sall, &kp LG(A), 20 23)
+COMBO_ANY(selword, &m_selword, 20 24)
+COMBO_ANY(undo, &kp LG(Z), 20 21)
+COMBO_ANY(cut, &kp LG(X), 20 22)
+COMBO_ANY(copy, &kp LG(C), 21 22)
+COMBO_ANY(pste, &kp LG(V), 22 23)
+COMBO_ANY(cloz, &kp LG(W), 14 12)
+COMBO_ANY(new, &kp LG(N), 10 14)
+COMBO_ANY(open, &kp LG(O), 0 4)
+COMBO_ANY(quit, &kp LG(Q), 14 11)
+COMBO_ANY(findsel, &m_findsel, 10 24)
          
 /* type a glyph */
-COMBO(typeQ, &typeQu, 1 3, l_alpha)
-COMBO(typeZ, &kp Z, 0 1, l_alpha)
-COMBO(typeColn, &kp COLON, 6 9, l_alpha)
-COMBO(typeSemi, &kp SEMI, 6 8, l_alpha)
-COMBO(typeExcl, &kp EXCL, 6 7, l_alpha)
-COMBO(typeQues, &kp QMARK, 7 8, l_alpha)
-COMBO(typeatMk, &kp AT_SIGN, 5 6, l_alpha)
-COMBO(typeUnder, &kp UNDER, 26 28, l_alpha) // _
-COMBO(typeEqual, &kp EQUAL, 27 28, l_alpha) // =
-COMBO(typePercent, &kp LS(N5), 28 29, l_alpha) // percent
-COMBO(typeNdash, &kp LA(MINUS), 25 26, l_alpha) // N-dash (minus)
-COMBO(typeMdash, &kp LA(LS(MINUS)), 25 27, l_alpha) // M-dash (minus)
-COMBO(typeTilde, &kp TILDE, 25 29, l_alpha) // tilde (not dead key)
+COMBO_LAYER(typeQ, &typeQu, 1 3, l_alpha)
+COMBO_LAYER(typeZ, &kp Z, 0 1, l_alpha)
+COMBO_LAYER(typeColn, &kp COLON, 6 9, l_alpha)
+COMBO_LAYER(typeSemi, &kp SEMI, 6 8, l_alpha)
+COMBO_LAYER(typeExcl, &kp EXCL, 6 7, l_alpha)
+COMBO_LAYER(typeQues, &kp QMARK, 7 8, l_alpha)
+COMBO_LAYER(typeatMk, &kp AT_SIGN, 5 6, l_alpha)
+COMBO_LAYER(typeUnder, &kp UNDER, 26 28, l_alpha) // _
+COMBO_LAYER(typeEqual, &kp EQUAL, 27 28, l_alpha) // =
+COMBO_LAYER(typePercent, &kp LS(N5), 28 29, l_alpha) // percent
+COMBO_LAYER(typeNdash, &kp LA(MINUS), 25 26, l_alpha) // N-dash (minus)
+COMBO_LAYER(typeMdash, &kp LA(LS(MINUS)), 25 27, l_alpha) // M-dash (minus)
+COMBO_LAYER(typeTilde, &kp TILDE, 25 29, l_alpha) // tilde (not dead key)
 
-COMBO(ligAE, &kp LA(APOS), 16 26, l_alpha) // ligature æ
-COMBO(ligOE, &kp LA(Q), 17 27, l_alpha) // ligature œ
+COMBO_LAYER(ligAE, &kp LA(APOS), 16 26, l_alpha) // ligature æ
+COMBO_LAYER(ligOE, &kp LA(Q), 17 27, l_alpha) // ligature œ
 
-COMBO(diacAccent, &kp LA(E), 16 17, l_alpha) // ´
-COMBO(diacGrave, &kp LA(GRAVE), 17 18, l_alpha) // `
-COMBO(diacAcute, &kp LA(N6), 16 18, l_alpha) // ˆ
-COMBO(diacMacron, &kp LA(A), 17 19, l_alpha) // ¯
-COMBO(diacCirc, &kp LA(K), 16 19, l_alpha) // ˚
-COMBO(diacUmlaut, &kp LA(U), 26 27, l_alpha) // ¨
+COMBO_LAYER(diacAccent, &kp LA(E), 16 17, l_alpha) // ´
+COMBO_LAYER(diacGrave, &kp LA(GRAVE), 17 18, l_alpha) // `
+COMBO_LAYER(diacAcute, &kp LA(N6), 16 18, l_alpha) // ˆ
+COMBO_LAYER(diacMacron, &kp LA(A), 17 19, l_alpha) // ¯
+COMBO_LAYER(diacCirc, &kp LA(K), 16 19, l_alpha) // ˚
+COMBO_LAYER(diacUmlaut, &kp LA(U), 26 27, l_alpha) // ¨
 
 /* numpad symbol combos */
 /*
-COMBO(numLPRN, &kp LPAR, 16 17, l_num)
-COMBO(numRPRN, &kp RPAR, 17 18, l_num)
-COMBO(numEQUAL, &kp EQUAL, 18 19, l_num)
-COMBO(numCOLN, &kp COLON, 16 18, l_num)
-COMBO(numPRCNT, &kp PRCNT, 28 29, l_num)
-COMBO(numLT, &kp LT, 15 16, l_num)
-COMBO(numGT, &kp GT, 15 19, l_num)
-COMBO(numDASH, &kp LA(MINUS), 25 26, l_num)
-COMBO(numTILD, &kp TILDE, 25 29, l_num)
-COMBO(numELIP, &kp LA(SEMI), 26 29, l_num)
+COMBO_LAYER(numLPRN, &kp LPAR, 16 17, l_num)
+COMBO_LAYER(numRPRN, &kp RPAR, 17 18, l_num)
+COMBO_LAYER(numEQUAL, &kp EQUAL, 18 19, l_num)
+COMBO_LAYER(numCOLN, &kp COLON, 16 18, l_num)
+COMBO_LAYER(numPRCNT, &kp PRCNT, 28 29, l_num)
+COMBO_LAYER(numLT, &kp LT, 15 16, l_num)
+COMBO_LAYER(numGT, &kp GT, 15 19, l_num)
+COMBO_LAYER(numDASH, &kp LA(MINUS), 25 26, l_num)
+COMBO_LAYER(numTILD, &kp TILDE, 25 29, l_num)
+COMBO_LAYER(numELIP, &kp LA(SEMI), 26 29, l_num)
 
-COMBO(numDLLR, &kp DLLR, 6 7, l_num) //
-COMBO(numCENT, &kp LA(N4), 6 8, l_num)
-COMBO(numEURO, &kp LS(LA(N2)), 7 8, l_num)
-COMBO(numYEN, &kp LA(Y), 8 9, l_num)
-COMBO(numBPND, &kp LA(N3), 5 6, l_num)
+COMBO_LAYER(numDLLR, &kp DLLR, 6 7, l_num) //
+COMBO_LAYER(numCENT, &kp LA(N4), 6 8, l_num)
+COMBO_LAYER(numEURO, &kp LS(LA(N2)), 7 8, l_num)
+COMBO_LAYER(numYEN, &kp LA(Y), 8 9, l_num)
+COMBO_LAYER(numBPND, &kp LA(N3), 5 6, l_num)
 */
 
 #ifdef EN_PRONOUN_COMBOS
@@ -119,22 +119,22 @@ COMBO(numBPND, &kp LA(N3), 5 6, l_num)
 // Pronoun combos REQUIRE macros to process
 //
 
-COMBO(pnI, &typePnI, 18 19, l_alpha) // "I "
+COMBO_LAYER(pnI, &typePnI, 18 19, l_alpha) // "I "
 
-COMBO(pnIm, &typePnIm, 18 2, l_alpha) // "I'm "
-COMBO(pnIll, &typePnIll, 18 22, l_alpha) // "I'll "
-COMBO(pnId, &typePnId, 18 23, l_alpha) // "I'd "
-COMBO(pnIve, &typePnIve, 18 24 , l_alpha) // "I've "
+COMBO_LAYER(pnIm, &typePnIm, 18 2, l_alpha) // "I'm "
+COMBO_LAYER(pnIll, &typePnIll, 18 22, l_alpha) // "I'll "
+COMBO_LAYER(pnId, &typePnId, 18 23, l_alpha) // "I'd "
+COMBO_LAYER(pnIve, &typePnIve, 18 24 , l_alpha) // "I've "
 
-COMBO(pnYoure, &typePnYoure, 28 31, l_alpha) // "You're "
-COMBO(pnYoull, &typePnYoull, 28 22, l_alpha) // "You'll "
-COMBO(pnYoud, &typePnYoud, 28 23, l_alpha) // "You'd "
-COMBO(pnYouve, &typePnYouve, 28 24, l_alpha) // "You've "
+COMBO_LAYER(pnYoure, &typePnYoure, 28 31, l_alpha) // "You're "
+COMBO_LAYER(pnYoull, &typePnYoull, 28 22, l_alpha) // "You'll "
+COMBO_LAYER(pnYoud, &typePnYoud, 28 23, l_alpha) // "You'd "
+COMBO_LAYER(pnYouve, &typePnYouve, 28 24, l_alpha) // "You've "
 /*
-COMBO(pnWere, &typePnWere, 0 31, l_alpha) // "We're "
-COMBO(pnWell, &typePnWell, 0 2, l_alpha) // "We'll "
-COMBO(pnWed, &typePnWed, 0 3, l_alpha) // "We'd "
-COMBO(pnWeve, &typePnWeve, 0 4, l_alpha) // "We've "
+COMBO_LAYER(pnWere, &typePnWere, 0 31, l_alpha) // "We're "
+COMBO_LAYER(pnWell, &typePnWell, 0 2, l_alpha) // "We'll "
+COMBO_LAYER(pnWed, &typePnWed, 0 3, l_alpha) // "We'd "
+COMBO_LAYER(pnWeve, &typePnWeve, 0 4, l_alpha) // "We've "
 */
 #endif // EN_PRONOUN_COMBOS
 
