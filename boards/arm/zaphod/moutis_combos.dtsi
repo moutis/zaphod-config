@@ -45,7 +45,7 @@ COMBO(gh, &digraphGh,  1  2, l_alpha) // Gh
 //
 // Editing actions (&whitespace)
 //
-COMBO(Gent, &kp LG(RETURN), 22 23 24, l_alpha)
+COMBO(Gent, &kp LG(RETURN), 22 23 24, -1)
 COMBO(entr, &kp RETURN, 23 24, l_alpha)
 COMBO(tab, &kp TAB, 10 11, l_alpha)
 COMBO(spce, &kp SPACE, 13 14, l_alpha)
