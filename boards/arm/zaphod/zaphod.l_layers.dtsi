@@ -64,7 +64,7 @@
 //╰─────────────────╮        |  BKSP  |   DEL  | |    0   |   .   |       ╭───────────────╯
 //                  ╰──────────────────────────╯ ╰────────────────────────╯
                 numpad_layer {
-                        label = "numpad";
+                        label = "numpad"; //
                         bindings = <
 
 &kp HOME     &kp PG_UP &kp UP    &kp RETURN &kp TAB       &kp KP_SLASH    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS
