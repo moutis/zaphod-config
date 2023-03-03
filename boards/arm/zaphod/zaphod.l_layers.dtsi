@@ -58,19 +58,19 @@
 
 //                                          Nav & NumPad (standard)
 //╭────────────────────────────────────────────╮ ╭────────────────────────────────────────╮
-//|   HOME |  PG_UP |   UP   |  RET   |  TAB   | |    /   |   7   |   8   |   9   |   -   |
-//|  Lword |  LEFT  |  DOWN  |   RGT  | Rword  | |    *   |   4   |   5   |   6   |   +   |
-//|   END  |  PG_DN |  COPY  |  PASTE | FAGAIN | |    ,   |   1   |   2   |   3   |   =   |
-//╰─────────────────╮        |  BKSP  |   DEL  | |    0   |   .   |       ╭───────────────╯
+//|   ESC  |  HOME  |   UP   |  PG_UP |  NUM   | |    /   |   7   |   8   |   9   |   -   |
+//|  Lword |  LEFT  |  DOWN  |   RGT  | Rword  | |    *   |  S/4  |  G/5  |  A/6  |  C/+  |
+//|   DEL  |  END   |  TAB   |  PG_DN |  SPC   | |    ,   |   1   |   2   |   3   |   =   |
+//╰─────────────────╮        |  BKSP  | ENTER  | |    0   |   .   |       ╭───────────────╯
 //                  ╰──────────────────────────╯ ╰────────────────────────╯
                 numpad_layer {
                         label = "numpad"; //
                         bindings = <
 
-&kp HOME     &kp PG_UP &kp UP    &kp RETURN &kp TAB       &kp KP_SLASH    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS
+&kp ESC      &kp HOME &kp UP    &kp PG_UP &kp KP_NUM      &kp KP_SLASH    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS
 &kp LA(LEFT) &kp LEFT  &kp DOWN  &kp RIGHT  &kp LA(RIGHT) &kp KP_MULTIPLY &mt RSHFT KP_N4 &mt RGUI KP_N5 &mt RALT KP_N6 &mt LCTRL KP_PLUS
-&kp END      &kp PG_DN &kp LG(C) &kp LG(V)  &kp LG(G)     &kp KP_COMMA    &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_EQUAL
-                       &lt l_cfg LA(BSPC) &kp LA(DEL)     &kp KP_N0  &kp KP_DOT
+&kp DEL   &kp END &kp TAB &kp PG_DN  &kp SPC     &kp KP_COMMA    &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_EQUAL
+                &lt l_fn BSPC &lt l_nav KP_ENTER     &kp KP_N0  &kp KP_DOT
                         >;
                 };
 
