@@ -58,6 +58,20 @@ behaviors {
             bindings = <&kp DQT>, <&kp LBKT>;
             mods = <(MOD_LALT|MOD_RALT)>;
         };
+        DqtRbkt: DqtRbkt {
+            compatible = "zmk,behavior-mod-morph";
+            label = "DqtRbkt";
+            #binding-cells = <0>;
+            bindings = <&kp DQT>, <&kp RBKT>;
+            mods = <(MOD_LALT|MOD_RALT)>;
+        };
+        SqtLbkt: SqtLbkt {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SqtLbkt";
+            #binding-cells = <0>;
+            bindings = <&kp SQT>, <&kp LBKT>;
+            mods = <(MOD_LALT|MOD_RALT)>;
+        };
         SqtRbkt: SqtRbkt {
             compatible = "zmk,behavior-mod-morph";
             label = "SqtRbkt";
