@@ -45,9 +45,9 @@ COMBO_LAYER(tch, &trigraphTch, 10 11 13, l_alpha) // Tch
 COMBO_LAYER(th, &digraphTh, 12 13, l_alpha) // Th
 COMBO_LAYER(sh, &digraphSh, 11 12, l_alpha) // Sh
 COMBO_LAYER(ch, &digraphCh, 11 13, l_alpha) // Ch
-COMBO_LAYER(wh, &digraphGh,  1  2, l_alpha) // Wh
-COMBO_LAYER(gh, &digraphPh,  2  3, l_alpha) // Gh
-COMBO_LAYER(ph, &digraphWh, 21 23, l_alpha) // Ph
+COMBO_LAYER(wh, &digraphWh,  1  2, l_alpha) // Wh
+COMBO_LAYER(gh, &digraphGh,  2  3, l_alpha) // Gh
+COMBO_LAYER(ph, &digraphPh, 21 23, l_alpha) // Ph
 
 //
 // Editing actions (&whitespace)
