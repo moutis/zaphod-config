@@ -40,7 +40,7 @@
                 ;
         };
 
-        adapt_g: adapt_g {
+        ak_g: ak_g {
             label = "adapt_g";
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
@@ -51,7 +51,7 @@
                 ;
         };
 
-        adapt_m: adapt_m {
+        ak_m: ak_m {
             label = "adapt_m";
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
@@ -62,19 +62,7 @@
                 ;
         };
         
-        adaptLG: adaptLG {
-            label = "adaptLG";
-            compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp BSPC>
-                    , <&macro_tap &kp L>
-                    , <&macro_tap &kp G>
-                ;
-        };
-
-        adapt_x: adapt_x {
+        ak_x: ak_x {
             label = "adapt_x";
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
@@ -85,7 +73,19 @@
                 ;
         };
 
-        adapt_au: adapt_au {
+        ak_lg: ak_lg {
+            label = "ak_LG";
+            compatible = "zmk,behavior-macro";
+            tap-ms = <10>;
+            wait-ms = <10>;
+            #binding-cells = <0>;
+            bindings = <&macro_tap &kp BSPC>
+                    , <&macro_tap &kp L>
+                    , <&macro_tap &kp G>
+                ;
+        };
+
+        ak_au: ak_au {
             label = "adapt_a";
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;

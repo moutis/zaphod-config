@@ -16,7 +16,7 @@
 //   &none &none &none &none &none   &none &none &none &none &none
 //                     &none &none   &none &none
 
-&kp W       &adapt_x &adapt_m     &adapt_g     &kp J                   &HashDllr  &DotColn    &SlshStar   &DqtLbkt   &SqtRbkt
+&kp W       &ak_x &ak_m     &ak_g     &kp J                   &HashDllr  &DotColn    &SlshStar   &DqtLbkt   &SqtRbkt
 &hm LCTRL C &hm LALT S      &hm LGUI N  &hm LSHFT T &lt l_num K &CmmaSemi  &hm RSHFT A &hm RGUI E  &hm RALT I  &hm RCTRL H
 &kp P       &kp F &kp L     &kp D       &kp V                   &MinusPlus  &kp U      &kp O       &kp Y       &kp B
 
@@ -40,7 +40,7 @@ ___     ___     ___     ___     ___  /*/  ___    ___     ___     ___     ___
                         label = "adptHU";
                         bindings = <
 
-___     ___     ___     ___     ___  /*/  ___    ___     ___     ___     ___
+&kp P   ___     ___     &ak_lg     ___  /*/  ___    ___     ___     ___     ___
 ___     ___     ___     ___     ___  /*/  ___    ___     ___     ___     &kp U
 ___     ___     ___     ___     ___  /*/  ___    ___     ___     ___     ___
                         ___     ___  /*/  ___    ___
