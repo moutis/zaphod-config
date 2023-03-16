@@ -40,13 +40,35 @@
                 ;
         };
 
-        adaptive_g: adaptive_g {
-            label = "adaptive_g";
+        adapt_g: adapt_g {
+            label = "adapt_g";
             compatible = "zmk,behavior-macro";
-            tap-ms = <20>;
-            wait-ms = <20>;
+            tap-ms = <10>;
+            wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp G>
+                    , <&sl l_adaptL>
+                ;
+        };
+
+        adapt_m: adapt_m {
+            label = "adapt_m";
+            compatible = "zmk,behavior-macro";
+            tap-ms = <10>;
+            wait-ms = <10>;
+            #binding-cells = <0>;
+            bindings = <&macro_tap &kp BSPC>
+                    , <&macro_tap &kp L>
+                    , <&sl l_adaptL>
+                ;
+        };
+        adapt_x: adapt_x {
+            label = "adapt_x";
+            compatible = "zmk,behavior-macro";
+            tap-ms = <10>;
+            wait-ms = <10>;
+            #binding-cells = <0>;
+            bindings = <&macro_tap &kp X>
                     , <&sl l_adaptL>
                 ;
         };

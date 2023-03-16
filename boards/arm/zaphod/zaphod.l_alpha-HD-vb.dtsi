@@ -16,16 +16,16 @@
 //   &none &none &none &none &none   &none &none &none &none &none
 //                     &none &none   &none &none
 
-&kp W       &kp X &kp M     &adaptive_g      &kp J                   &HashDllr  &DotColn    &SlshStar   &DqtLbkt   &SqtRbkt
+&kp W       &adapt_x &adapt_m     &adapt_g     &kp J                   &HashDllr  &DotColn    &SlshStar   &DqtLbkt   &SqtRbkt
 &hm LCTRL C &hm LALT S      &hm LGUI N  &hm LSHFT T &lt l_num K &CmmaSemi  &hm RSHFT A &hm RGUI E  &hm RALT I  &hm RCTRL H
 &kp P       &kp F &kp L     &kp D       &kp V                   &MinusPlus  &kp U      &kp O       &kp Y       &kp B
 
 
-                &lt l_fn BACKSPACE &lt l_nav R      &lt l_sym SPACE &lt l_nav RETURN
+                &lt l_fn BSPC &lt l_nav R      &lt l_sym SPACE &lt l_nav RETURN
                         >;
                 };
 
-                adaptiveL_layer {
+                adptL {
                         label = "adptL";
                         bindings = <
 
