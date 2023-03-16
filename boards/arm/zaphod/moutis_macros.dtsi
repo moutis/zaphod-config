@@ -39,6 +39,17 @@
                     , <&macro_tap &kp U>
                 ;
         };
+
+        adaptive_g: adaptive_g {
+            label = "adaptive_g";
+            compatible = "zmk,behavior-macro";
+            tap-ms = <20>;
+            wait-ms = <20>;
+            #binding-cells = <0>;
+            bindings = <&kp G &sl adaptiveL_layer>
+                ;
+        };
+
         digraphTh: digraphTh {
             label = "digraphTh";
             compatible = "zmk,behavior-macro";
