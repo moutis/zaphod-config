@@ -29,10 +29,10 @@
                         label = "adptL";
                         bindings = <
 
-&kp P   &trans  &kp L   &adaptLG  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&kp T  &kp G  &trans  &kp P  &trans    &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans    &trans  &trans
+&kp P   ___     &kp L   ___     ___  /*/  ___    ___     ___     ___     ___
+___     ___     ___     ___     ___  /*/  ___    ___     ___     ___     ___
+&kp T   &kp G   ___     &kp P   ___  /*/  ___    ___     ___     ___     ___
+                        ___     ___  /*/  ___    ___
                         >;
                 };
 
@@ -40,9 +40,9 @@
                         label = "adptHU";
                         bindings = <
 
-&kp P   ___  ___   ___  ___    ___  ___  ___  ___  ___
-___   ___  ___   ___  ___    ___  ___  ___  ___  &kp U
-___   ___  ___   ___  ___    ___  ___  ___  ___  ___
-                 ___  ___    ___  ___
+___     ___     ___     ___     ___  /*/  ___    ___     ___     ___     ___
+___     ___     ___     ___     ___  /*/  ___    ___     ___     ___     &kp U
+___     ___     ___     ___     ___  /*/  ___    ___     ___     ___     ___
+                        ___     ___  /*/  ___    ___
                         >;
                 };
