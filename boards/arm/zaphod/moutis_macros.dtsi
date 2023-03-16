@@ -70,7 +70,7 @@
                 ;
         };
 
-    ZMK_MACRO(ak_au,
+    ZMK_MACRO(ak_a,
         wait-ms = <30>;
         tap-ms = <40>;
         bindings = <&macro_tap &kp A>
