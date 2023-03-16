@@ -16,6 +16,15 @@ behaviors {
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
+        hma: homerow_mods_a {
+            compatible = "zmk,behavior-hold-tap";
+            label = "homerow_mods";
+            #binding-cells = <2>;
+            tapping-term-ms = <160>;
+            quick-tap-ms = <0>;
+            flavor = "balanced";
+            bindings = <&kp>, <&ak_a>;
+        };
         CmmaSemi: CmmaSemi {
             compatible = "zmk,behavior-mod-morph";
             label = "comma_semi";
