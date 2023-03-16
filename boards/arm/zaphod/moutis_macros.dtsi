@@ -49,7 +49,7 @@
         wait-ms = <30>;
         tap-ms = <40>;
         bindings = <&macro_tap &kp M>
-                , <&sl l_adaptHU>
+                , <&sl l_akHU>
                 ;
         )
         
@@ -74,7 +74,7 @@
         wait-ms = <30>;
         tap-ms = <40>;
         bindings = <&macro_tap &kp A>
-                , <&sl l_adaptHU>
+                , <&sl l_akHU>
                 ;
         )
 
