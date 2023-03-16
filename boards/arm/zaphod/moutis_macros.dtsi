@@ -27,154 +27,113 @@
                 ;
         };
 
-        typeQu: typeQu {
-            label = "typeQu";
-            compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp Q>
-                    , <&macro_release &kp LSHFT>
-                    , <&macro_release &kp RSHFT>
-                    , <&macro_tap &kp U>
+    ZMK_MACRO(typeQu,
+        wait-ms = <30>;
+        tap-ms = <40>;
+        bindings = <&macro_tap &kp Q>
+                , <&macro_release &kp LSHFT>
+                , <&macro_release &kp RSHFT>
+                , <&macro_tap &kp U>
                 ;
         };
 
-        ak_g: ak_g {
-            label = "adapt_g";
-            compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp G>
-                    , <&sl l_adaptL>
+    ZMK_MACRO(ak_g,
+        wait-ms = <30>;
+        tap-ms = <40>;
+        bindings = <&macro_tap &kp G>
+                , <&sl l_akL>
                 ;
         };
 
-        ak_m: ak_m {
-            label = "adapt_m";
-            compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp M>
-                    , <&sl l_adaptHU>
+    ZMK_MACRO(ak_m,
+        wait-ms = <30>;
+        tap-ms = <40>;
+        bindings = <&macro_tap &kp M>
+                , <&sl l_adaptHU>
                 ;
         };
         
-        ak_x: ak_x {
-            label = "adapt_x";
-            compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp X>
-                    , <&sl l_adaptL>
+    ZMK_MACRO(ak_x,
+        wait-ms = <30>;
+        tap-ms = <40>;
+        bindings = <&macro_tap &kp X>
+                , <&sl l_akL>
                 ;
         };
 
-        ak_lg: ak_lg {
-            label = "ak_LG";
-            compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp BSPC>
-                    , <&macro_tap &kp L>
-                    , <&macro_tap &kp G>
+    ZMK_MACRO(ak_lg,
+        wait-ms = <30>;
+        tap-ms = <40>;
+        bindings = <&macro_tap &kp BSPC>
+                , <&macro_tap &kp L>
+                , <&macro_tap &kp G>
                 ;
         };
 
-        ak_au: ak_au {
-            label = "adapt_a";
-            compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp A>
-                    , <&sl l_adaptHU>
+    ZMK_MACRO(ak_au,
+        wait-ms = <30>;
+        tap-ms = <40>;
+        bindings = <&macro_tap &kp A>
+                , <&sl l_adaptHU>
                 ;
         };
 
 
-
-
-
-
-
-
-        digraphTh: digraphTh {
-            label = "digraphTh";
-            compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp T>
-                    , <&macro_release &kp LSHFT>
-                    , <&macro_release &kp RSHFT>
-                    , <&macro_tap &kp H>
+    ZMK_MACRO(digraphTh,
+        wait-ms = <30>;
+        tap-ms = <40>;
+        bindings = <&macro_tap &kp T>
+                , <&macro_release &kp LSHFT>
+                , <&macro_release &kp RSHFT>
+                , <&macro_tap &kp H>
                 ;
-        };
-        digraphSh: digraphSh {
-            label = "digraphSh";
-            compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp S>
-                    , <&macro_release &kp LSHFT>
-                    , <&macro_release &kp RSHFT>
-                    , <&macro_tap &kp H>
+    )
+    ZMK_MACRO(digraphSh,
+        wait-ms = <30>;
+        tap-ms = <40>;
+        bindings = <&macro_tap &kp S>
+                , <&macro_release &kp LSHFT>
+                , <&macro_release &kp RSHFT>
+                , <&macro_tap &kp H>
                 ;
-        };
-        digraphCh: digraphCh {
-            label = "digraphCh";
-            compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp C>
-                    , <&macro_release &kp LSHFT>
-                    , <&macro_release &kp RSHFT>
-                    , <&macro_tap &kp H>
+    )
+    ZMK_MACRO(digraphCh,
+        wait-ms = <30>;
+        tap-ms = <40>;
+        bindings = <&macro_tap &kp C>
+                , <&macro_release &kp LSHFT>
+                , <&macro_release &kp RSHFT>
+                , <&macro_tap &kp H>
                 ;
-        };
-        digraphWh: digraphWh {
-            label = "digraphWh";
-            compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp W>
-                    , <&macro_release &kp LSHFT>
-                    , <&macro_release &kp RSHFT>
-                    , <&macro_tap &kp H>
+    )
+    ZMK_MACRO(digraphWh,
+        wait-ms = <30>;
+        tap-ms = <40>;
+        bindings = <&macro_tap &kp W>
+                , <&macro_release &kp LSHFT>
+                , <&macro_release &kp RSHFT>
+                , <&macro_tap &kp H>
                 ;
-        };
-        digraphPh: digraphPh {
-            label = "digraphPh";
-            compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp P>
-                    , <&macro_release &kp LSHFT>
-                    , <&macro_release &kp RSHFT>
-                    , <&macro_tap &kp H>
+    )
+    ZMK_MACRO(digraphGh,
+        wait-ms = <30>;
+        tap-ms = <40>;
+        bindings = <&macro_tap &kp G>
+                , <&macro_release &kp LSHFT>
+                , <&macro_release &kp RSHFT>
+                , <&macro_tap &kp H>
                 ;
-        };
-        digraphGh: digraphGh {
-            label = "digraphGh";
-            compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
-            #binding-cells = <0>;
-            bindings = <&macro_tap &kp G>
-                    , <&macro_release &kp LSHFT>
-                    , <&macro_release &kp RSHFT>
-                    , <&macro_tap &kp H>
+    )
+    ZMK_MACRO(digraphPh,
+        wait-ms = <30>;
+        tap-ms = <40>;
+        bindings = <&macro_tap &kp P>
+                , <&macro_release &kp LSHFT>
+                , <&macro_release &kp RSHFT>
+                , <&macro_tap &kp H>
                 ;
-        };
+    )
+
 
         trigraphSch: trigraphSch {
             label = "trigraphSch";
