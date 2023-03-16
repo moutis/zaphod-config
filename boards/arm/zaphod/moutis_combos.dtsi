@@ -70,7 +70,7 @@ COMBO_ANY(quit, &kp LG(Q), 14 11)
 COMBO_ANY(findsel, &m_findsel, 10 24)
          
 /* type a glyph */
-COMBO_LAYER(typeQ, &typeQu, 1 3, l_alpha)
+COMBO_LAYER(typeQ, &ln_qu Q 0, 1 3, l_alpha)
 COMBO_LAYER(typeZ, &kp Z, 0 1, l_alpha)
 COMBO_LAYER(typeColn, &kp COLON, 6 9, l_alpha)
 COMBO_LAYER(typeSemi, &kp SEMI, 6 8, l_alpha)

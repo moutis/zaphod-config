@@ -32,7 +32,7 @@ behaviors {
             tapping-term-ms = <160>;
             quick-tap-ms = <0>;
             flavor = "balanced";
-            bindings = <&kp Q>, <&typeQu>;
+            bindings = <&kp>, <&typeQu>;
         };
 
         CmmaSemi: CmmaSemi {
