@@ -7,8 +7,8 @@
                    ╰───────╮  BSP R  │ │ SPC RET  ╭──────╯
                            ╰─────────╯ ╰──────────╯   */
 
-                default_layer {
-                        label = "HD-vd";
+                l_alpha {
+                        label = "l_alpha";
                         bindings = <
 
 //   &none &none &none &none &none   &none &none &none &none &none
@@ -25,8 +25,8 @@
                         >;
                 };
 
-                adptL {
-                        label = "adptL";
+                l_akL {
+                        label = "l_akL";
                         bindings = <
 
 &kp P   ___     &kp L   ___     ___  /*/  ___    ___     ___     ___     ___
@@ -36,8 +36,8 @@ ___     ___     ___     ___     ___  /*/  ___    ___     ___     ___     ___
                         >;
                 };
 
-                adptHU {
-                        label = "adptHU";
+                l_akHU {
+                        label = "l_akHU";
                         bindings = <
 
 &kp P   ___     ___     &ak_lg  ___  /*/  ___    ___     ___     ___     ___
