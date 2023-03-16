@@ -35,7 +35,7 @@
                 , <&macro_release &kp RSHFT>
                 , <&macro_tap &kp U>
                 ;
-        };
+        )
 
     ZMK_MACRO(ak_g,
         wait-ms = <30>;
@@ -43,7 +43,7 @@
         bindings = <&macro_tap &kp G>
                 , <&sl l_akL>
                 ;
-        };
+        )
 
     ZMK_MACRO(ak_m,
         wait-ms = <30>;
@@ -51,7 +51,7 @@
         bindings = <&macro_tap &kp M>
                 , <&sl l_adaptHU>
                 ;
-        };
+        )
         
     ZMK_MACRO(ak_x,
         wait-ms = <30>;
@@ -59,7 +59,7 @@
         bindings = <&macro_tap &kp X>
                 , <&sl l_akL>
                 ;
-        };
+        )
 
     ZMK_MACRO(ak_lg,
         wait-ms = <30>;
@@ -68,7 +68,7 @@
                 , <&macro_tap &kp L>
                 , <&macro_tap &kp G>
                 ;
-        };
+        )
 
     ZMK_MACRO(ak_a,
         wait-ms = <30>;
@@ -76,7 +76,7 @@
         bindings = <&macro_tap &kp A>
                 , <&sl l_adaptHU>
                 ;
-        };
+        )
 
 
     ZMK_MACRO(digraphTh,
@@ -87,7 +87,7 @@
                 , <&macro_release &kp RSHFT>
                 , <&macro_tap &kp H>
                 ;
-    )
+        )
     ZMK_MACRO(digraphSh,
         wait-ms = <30>;
         tap-ms = <40>;
@@ -96,7 +96,7 @@
                 , <&macro_release &kp RSHFT>
                 , <&macro_tap &kp H>
                 ;
-    )
+        )
     ZMK_MACRO(digraphCh,
         wait-ms = <30>;
         tap-ms = <40>;
@@ -105,7 +105,7 @@
                 , <&macro_release &kp RSHFT>
                 , <&macro_tap &kp H>
                 ;
-    )
+        )
     ZMK_MACRO(digraphWh,
         wait-ms = <30>;
         tap-ms = <40>;
@@ -114,7 +114,7 @@
                 , <&macro_release &kp RSHFT>
                 , <&macro_tap &kp H>
                 ;
-    )
+        )
     ZMK_MACRO(digraphGh,
         wait-ms = <30>;
         tap-ms = <40>;
@@ -123,7 +123,7 @@
                 , <&macro_release &kp RSHFT>
                 , <&macro_tap &kp H>
                 ;
-    )
+        )
     ZMK_MACRO(digraphPh,
         wait-ms = <30>;
         tap-ms = <40>;
@@ -132,7 +132,7 @@
                 , <&macro_release &kp RSHFT>
                 , <&macro_tap &kp H>
                 ;
-    )
+        )
 
 
         trigraphSch: trigraphSch {
