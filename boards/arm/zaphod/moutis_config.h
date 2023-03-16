@@ -10,7 +10,7 @@
 
 #define l_any   -1
 #define l_alpha  0
-#define l_adapt  1
+#define l_adaptL 1
 #define l_nav    2
 #define l_sym    3
 #define l_fn     4

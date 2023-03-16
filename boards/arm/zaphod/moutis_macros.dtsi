@@ -47,7 +47,7 @@
             wait-ms = <20>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp G>
-                    , <&sl adaptiveL_layer>
+                    , <&sl l_adaptL>
                 ;
         };
 
