@@ -57,11 +57,23 @@
             tap-ms = <10>;
             wait-ms = <10>;
             #binding-cells = <0>;
-            bindings = <&macro_tap &kp BSPC>
-                    , <&macro_tap &kp L>
+            bindings = <&macro_tap &kp M>
                     , <&sl l_adaptL>
                 ;
         };
+        
+        adaptLG: adaptLG {
+            label = "adaptLG";
+            compatible = "zmk,behavior-macro";
+            tap-ms = <10>;
+            wait-ms = <10>;
+            #binding-cells = <0>;
+            bindings = <&macro_tap &kp BSPC>
+                    , <&macro_tap &kp L>
+                    , <&macro_tap &kp G>
+                ;
+        };
+
         adapt_x: adapt_x {
             label = "adapt_x";
             compatible = "zmk,behavior-macro";

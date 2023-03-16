@@ -34,7 +34,7 @@
 //   &none &none &none &none &none   &none &none &none &none &none
 //                     &none &none   &none &none
 
-&kp P   &trans  &kp L   &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&kp P   &trans  &kp L   &adaptLG  &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
                         &trans  &trans    &trans  &trans
