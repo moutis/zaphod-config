@@ -29,14 +29,20 @@
                         label = "adptL";
                         bindings = <
 
-//   &none &none &none &none &none   &none &none &none &none &none
-//   &none &none &none &none &none   &none &none &none &none &none
-//   &none &none &none &none &none   &none &none &none &none &none
-//                     &none &none   &none &none
-
 &kp P   &trans  &kp L   &adaptLG  &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&kp T  &kp G  &trans  &kp P  &trans    &trans  &trans  &trans  &trans  &trans
                         &trans  &trans    &trans  &trans
+                        >;
+                };
+
+                adptHU {
+                        label = "adptHU";
+                        bindings = <
+
+&kp P   ___  ___   ___  ___    ___  ___  ___  ___  ___
+___   ___  ___   ___  ___    ___  ___  ___  ___  &kp U
+___   ___  ___   ___  ___    ___  ___  ___  ___  ___
+                 ___  ___    ___  ___
                         >;
                 };

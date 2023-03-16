@@ -58,7 +58,7 @@
             wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp M>
-                    , <&sl l_adaptL>
+                    , <&sl l_adaptHU>
                 ;
         };
         
@@ -84,6 +84,24 @@
                     , <&sl l_adaptL>
                 ;
         };
+
+        adapt_au: adapt_au {
+            label = "adapt_a";
+            compatible = "zmk,behavior-macro";
+            tap-ms = <10>;
+            wait-ms = <10>;
+            #binding-cells = <0>;
+            bindings = <&macro_tap &kp A>
+                    , <&sl l_adaptHU>
+                ;
+        };
+
+
+
+
+
+
+
 
         digraphTh: digraphTh {
             label = "digraphTh";
