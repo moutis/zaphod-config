@@ -64,10 +64,7 @@
     ZMK_MACRO(ak_a,
         wait-ms = <20>;
         tap-ms = <20>;
-        bindings = <&kp A>
-                , <&sl l_akHU>
-                , <&kp H>
-                ;
+        bindings = <&kp A &sl l_akHU>;
         )
 
 
