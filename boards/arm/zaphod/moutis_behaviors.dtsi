@@ -18,7 +18,7 @@ behaviors {
         };
         hrm_a: hrm_a {
             compatible = "zmk,behavior-hold-tap";
-            label = "homerow_mods";
+            label = "hrm_a";
             #binding-cells = <2>;
             tapping-term-ms = <160>;
             quick-tap-ms = <0>;
@@ -27,7 +27,7 @@ behaviors {
         };
         ln_qu: ln_qu {
             compatible = "zmk,behavior-hold-tap";
-            label = "homerow_mods";
+            label = "ln_qu";
             #binding-cells = <2>;
             tapping-term-ms = <160>;
             quick-tap-ms = <0>;
