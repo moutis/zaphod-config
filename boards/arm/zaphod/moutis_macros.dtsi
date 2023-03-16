@@ -65,7 +65,8 @@
         wait-ms = <20>;
         tap-ms = <20>;
         bindings = <&kp A>
-                , <&sl 2>
+                , <&sl l_akHU>
+                , <&kp H>
                 ;
         )
 
