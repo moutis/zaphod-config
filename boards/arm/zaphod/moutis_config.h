@@ -10,11 +10,12 @@
 
 #define l_any   -1
 #define l_alpha  0
-#define l_nav    1
-#define l_sym    2
-#define l_fn     3
-#define l_num    4
-#define l_cfg    5
+#define l_adapt  1
+#define l_nav    2
+#define l_sym    3
+#define l_fn     4
+#define l_num    5
+#define l_cfg    6
 
 
 &mt {

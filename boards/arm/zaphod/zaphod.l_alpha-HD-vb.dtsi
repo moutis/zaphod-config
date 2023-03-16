@@ -1,4 +1,4 @@
-            /*           Base (alpha) Layer  (Hands Down Palladium)
+            /*           Base (alpha) Layer  (Hands Down Vibranium)
             Building for a 36 key on a 42 key board (outside column is unused)
                    ╭─────────────────╮ ╭─────────────────╮
                    │  W  X  M  G  J  │ │ #$  .: /* "[ '] │
@@ -8,13 +8,13 @@
                            ╰─────────╯ ╰──────────╯   */
 
                 default_layer {
-                        label = "HD-ti";
+                        label = "HD-vd";
                         bindings = <
 
-//   &none &none &none &none &none &none   &none &none &none &none &none &none
-//   &none &none &none &none &none &none   &none &none &none &none &none &none
-//   &none &none &none &none &none &none   &none &none &none &none &none &none
-//                     &none &none &none   &none &none &none
+//   &none &none &none &none &none   &none &none &none &none &none
+//   &none &none &none &none &none   &none &none &none &none &none
+//   &none &none &none &none &none   &none &none &none &none &none
+//                     &none &none   &none &none
 
 &kp W       &kp X &kp M     &kp G      &kp J                   &HashDllr  &DotColn    &SlshStar   &DqtLbkt   &SqtRbkt
 &hm LCTRL C &hm LALT S      &hm LGUI N  &hm LSHFT T &lt l_num K &CmmaSemi  &hm RSHFT A &hm RGUI E  &hm RALT I  &hm RCTRL H
@@ -25,3 +25,18 @@
                         >;
                 };
 
+                adaptiveL_layer {
+                        label = "adptL";
+                        bindings = <
+
+//   &none &none &none &none &none   &none &none &none &none &none
+//   &none &none &none &none &none   &none &none &none &none &none
+//   &none &none &none &none &none   &none &none &none &none &none
+//                     &none &none   &none &none
+
+&kp P   &trans  &kp L   &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans    &trans  &trans
+                        >;
+                };
