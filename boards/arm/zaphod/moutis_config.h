@@ -43,16 +43,16 @@
 #define RM3 18
 #define RM4 19
 
-#define LB0 14
-#define LB1 13
-#define LB2 12
-#define LB3 11
-#define LB4 10
-#define RB0 15
-#define RB1 16
-#define RB2 17
-#define RB3 18
-#define RB4 19
+#define LB0 24
+#define LB1 23
+#define LB2 22
+#define LB3 21
+#define LB4 20
+#define RB0 25
+#define RB1 26
+#define RB2 27
+#define RB3 28
+#define RB4 29
 
 #define LH1 30
 #define LH2 31

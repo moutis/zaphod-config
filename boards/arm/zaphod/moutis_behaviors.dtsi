@@ -73,9 +73,9 @@ behaviors {
             flavor = "balanced";
             bindings = <&kp>, <&typeQu>;
         };
-        ln_linger: ln_linger {
+        lk: lk {
             compatible = "zmk,behavior-hold-tap";
-            label = "ln_cutcopy";
+            label = "lk";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
             quick-tap-ms = <my_quick_tapping_term>;
