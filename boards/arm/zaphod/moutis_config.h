@@ -17,7 +17,7 @@
 #define l_num   6
 #define l_cfg   7
 
-#my-tapping-term 170
+#define my-tapping-term 170
 
 &mt {
     tapping-term-ms = <my-tapping-term>;
