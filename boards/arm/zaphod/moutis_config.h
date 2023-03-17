@@ -18,7 +18,7 @@
 #define l_num   7
 #define l_cfg   8
 
-#define my_tapping_term 170
+#define my_tapping_term 160
 #define my_quick_tapping_term 125
 
 #define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24  // left-hand keys
