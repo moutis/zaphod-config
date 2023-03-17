@@ -42,7 +42,7 @@ behaviors {
             quick-tap-ms = <0>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 32 33>; // right hand allowed
+            hold-trigger-key-positions = <KEYS_R THUMBS>; // right hand allowed
         };
         hrm_a: hrm_a {
             compatible = "zmk,behavior-hold-tap";
@@ -52,7 +52,7 @@ behaviors {
             quick-tap-ms = <0>;
             flavor = "balanced";
             bindings = <&kp>, <&ak_a>;
-            hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31>; // right hand allowed
+            hold-trigger-key-positions = <KEYS_L THUMBS>; // left hand allowed
         };
         hrm_e: hrm_e {
             compatible = "zmk,behavior-hold-tap";
@@ -62,7 +62,7 @@ behaviors {
             quick-tap-ms = <0>;
             flavor = "balanced";
             bindings = <&kp>, <&ak_e>;
-            hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31>; // right hand allowed
+            hold-trigger-key-positions = <KEYS_L THUMBS>; // left hand allowed
         };
         ln_qu: ln_qu {
             compatible = "zmk,behavior-hold-tap";

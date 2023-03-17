@@ -20,6 +20,10 @@
 
 #define my-tapping-term 170
 
+#define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24  // left-hand keys
+#define KEYS_R 5 6 7 8 9 15 16 17 18 19 25 26 27 28 29  // right-hand keys
+#define THUMBS 30 31 32 33                              // thumb keys
+
 &mt {
     tapping-term-ms = <170>;
 };
