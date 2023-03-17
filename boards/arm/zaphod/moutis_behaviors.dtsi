@@ -7,6 +7,14 @@
          ╰───────╯ ╰───────╯   */
 
 behaviors {
+        bspc_del: backspace_delete {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BACKSPACE_DELETE";
+            #binding-cells = <0>;
+            bindings = <&kp BACKSPACE>, <&kp DELETE>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+            keep-mods = <(MOD_RSFT)>;
+        };
         hm: homerow_mods { // use on either hand
             compatible = "zmk,behavior-hold-tap";
             label = "homerow_mods";
@@ -72,6 +80,7 @@ behaviors {
             #binding-cells = <0>;
             bindings = <&kp CMMA>, <&kp SEMI>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
+            keep-mods = <>;
         };
         DotColn: DotColn {
             compatible = "zmk,behavior-mod-morph";
