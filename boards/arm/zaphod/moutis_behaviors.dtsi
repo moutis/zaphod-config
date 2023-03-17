@@ -80,7 +80,6 @@ behaviors {
             #binding-cells = <0>;
             bindings = <&kp CMMA>, <&kp SEMI>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
-            keep-mods = <>;
         };
         DotColn: DotColn {
             compatible = "zmk,behavior-mod-morph";
