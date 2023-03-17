@@ -17,9 +17,10 @@
 #define l_num   6
 #define l_cfg   7
 
+#my-tapping-term 170
 
 &mt {
-    tapping-term-ms = <170>;
+    tapping-term-ms = <my-tapping-term>;
 };
 &sl {
     release-after-ms = <500>;

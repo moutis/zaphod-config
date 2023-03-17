@@ -7,30 +7,50 @@
          ╰───────╯ ╰───────╯   */
 
 behaviors {
-        hm: homerow_mods {
+        hm: homerow_mods { // use on either hand
             compatible = "zmk,behavior-hold-tap";
             label = "homerow_mods";
             #binding-cells = <2>;
-            tapping-term-ms = <160>;
+            tapping-term-ms = <my-tapping-term>;
             quick-tap-ms = <0>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
+        };
+        hmr: homerow_mods_right { // use on right hand to mod left
+            compatible = "zmk,behavior-hold-tap";
+            label = "homerow_mods";
+            #binding-cells = <2>;
+            tapping-term-ms = <my-tapping-term>;
+            quick-tap-ms = <0>;
+            flavor = "balanced";
+            bindings = <&kp>, <&kp>;
+            hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31>; // left hand allowed
+        };
+        hml: homerow_mods_left { // use on left hand to mod right
+            compatible = "zmk,behavior-hold-tap";
+            label = "homerow_mods";
+            #binding-cells = <2>;
+            tapping-term-ms = <my-tapping-term>;
+            quick-tap-ms = <0>;
+            flavor = "balanced";
+            bindings = <&kp>, <&kp>;
+            hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 32 33>; // right hand allowed
         };
         hrm_a: hrm_a {
             compatible = "zmk,behavior-hold-tap";
             label = "hrm_a";
             #binding-cells = <2>;
-            tapping-term-ms = <160>;
+            tapping-term-ms = <my-tapping-term>;
             quick-tap-ms = <0>;
-            flavor = "tap-unless-interrupted";
+            flavor = "balanced";
             bindings = <&kp>, <&ak_a>;
-            hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 15 20 21 22 23 24 25 30 31>; // opposite hand
+            hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31>; // right hand allowed
         };
         ln_qu: ln_qu {
             compatible = "zmk,behavior-hold-tap";
             label = "ln_qu";
             #binding-cells = <2>;
-            tapping-term-ms = <160>;
+            tapping-term-ms = <my-tapping-term>;
             quick-tap-ms = <0>;
             flavor = "balanced";
             bindings = <&kp>, <&typeQu>;
