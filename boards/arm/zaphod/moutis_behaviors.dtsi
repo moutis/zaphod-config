@@ -20,7 +20,7 @@ behaviors {
             label = "homerow_mods";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <0>;
+            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
@@ -29,7 +29,7 @@ behaviors {
             label = "homerow_mods";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <0>;
+            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31>; // left hand allowed
@@ -39,7 +39,7 @@ behaviors {
             label = "homerow_mods";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <0>;
+            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_R THUMBS>; // right hand allowed
@@ -49,7 +49,7 @@ behaviors {
             label = "hrm_a";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <0>;
+            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "balanced";
             bindings = <&kp>, <&ak_a>;
             hold-trigger-key-positions = <KEYS_L THUMBS>; // left hand allowed
@@ -59,7 +59,7 @@ behaviors {
             label = "hrm_e";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <125>;
+            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "balanced";
             bindings = <&kp>, <&ak_e>;
             hold-trigger-key-positions = <KEYS_L THUMBS>; // left hand allowed
@@ -69,7 +69,7 @@ behaviors {
             label = "ln_qu";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <0>;
+            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "balanced";
             bindings = <&kp>, <&typeQu>;
         };
