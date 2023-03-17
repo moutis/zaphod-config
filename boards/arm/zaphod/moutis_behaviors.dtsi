@@ -73,6 +73,15 @@ behaviors {
             flavor = "balanced";
             bindings = <&kp>, <&typeQu>;
         };
+        ln_linger: ln_linger {
+            compatible = "zmk,behavior-hold-tap";
+            label = "ln_cutcopy";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            quick-tap-ms = <my_quick_tapping_term>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
 
         CmmaSemi: CmmaSemi {
             compatible = "zmk,behavior-mod-morph";
