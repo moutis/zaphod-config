@@ -22,7 +22,7 @@
     tapping-term-ms = <170>;
 };
 &sl {
-    release-after-ms = <170>;
+    release-after-ms = <500>;
 };
 
 #define EN_PRONOUN_COMBOS //  (I, I'm, I've I'd I'll etc)
