@@ -20,7 +20,7 @@
 #define my-tapping-term 170
 
 &mt {
-    tapping-term-ms = <my-tapping-term>;
+    tapping-term-ms = <170>;
 };
 &sl {
     release-after-ms = <500>;

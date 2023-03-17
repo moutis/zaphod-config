@@ -11,7 +11,7 @@ behaviors {
             compatible = "zmk,behavior-hold-tap";
             label = "homerow_mods";
             #binding-cells = <2>;
-            tapping-term-ms = <my-tapping-term>;
+            tapping-term-ms = <170>;
             quick-tap-ms = <0>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
@@ -20,7 +20,7 @@ behaviors {
             compatible = "zmk,behavior-hold-tap";
             label = "homerow_mods";
             #binding-cells = <2>;
-            tapping-term-ms = <my-tapping-term>;
+            tapping-term-ms = <170>;
             quick-tap-ms = <0>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
@@ -30,7 +30,7 @@ behaviors {
             compatible = "zmk,behavior-hold-tap";
             label = "homerow_mods";
             #binding-cells = <2>;
-            tapping-term-ms = <my-tapping-term>;
+            tapping-term-ms = <170>;
             quick-tap-ms = <0>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
@@ -40,7 +40,7 @@ behaviors {
             compatible = "zmk,behavior-hold-tap";
             label = "hrm_a";
             #binding-cells = <2>;
-            tapping-term-ms = <my-tapping-term>;
+            tapping-term-ms = <170>;
             quick-tap-ms = <0>;
             flavor = "balanced";
             bindings = <&kp>, <&ak_a>;
@@ -50,7 +50,7 @@ behaviors {
             compatible = "zmk,behavior-hold-tap";
             label = "ln_qu";
             #binding-cells = <2>;
-            tapping-term-ms = <my-tapping-term>;
+            tapping-term-ms = <170>;
             quick-tap-ms = <0>;
             flavor = "balanced";
             bindings = <&kp>, <&typeQu>;
