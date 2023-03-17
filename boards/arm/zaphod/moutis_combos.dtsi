@@ -53,7 +53,7 @@ COMBO_LAYER(ph,  &digraphPh,   LB3 LB1, l_alpha) // Ph
 // Editing actions (&whitespace)
 //
 COMBO_ANY(Gent, &kp LG(RETURN), LB2 LB1 LB0)
-COMBO_ANY(entr, &kp RETURN,     LB1 LB2)
+COMBO_ANY(entr, &kp RETURN,     LB1 LB0)
 COMBO_ANY(tab,  &kp TAB,        LM4 LM3)
 COMBO_ANY(spce, &kp SPACE,      LM1 LM0)
 COMBO_ANY(esc,  &kp ESC,        LM4 LM1)
