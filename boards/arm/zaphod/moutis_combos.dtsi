@@ -77,7 +77,7 @@ COMBO_ANY(findsel, &m_findsel,  LM4 LB0)
          
 /* type a glyph */
 COMBO_LAYER(typeQ, &ln_qu Q 0,      LT3 LT1, l_alpha)
-COMBO_LAYER(typeZ, &kp Z,           LT4 LT3  l_alpha)
+COMBO_LAYER(typeZ, &kp Z,           LT4 LT3, l_alpha)
 COMBO_LAYER(typeColn, &kp COLON,    RT1 RT4, l_alpha)
 COMBO_LAYER(typeSemi, &kp SEMI,     RT1 RT3, l_alpha)
 COMBO_LAYER(typeExcl, &kp EXCL,     RT1 RT2, l_alpha)
@@ -131,9 +131,9 @@ COMBO_LAYER(pnI, &typePnI,          RM3 RM4, l_alpha) // "I "
 COMBO_LAYER(pnIm, &typePnIm,        RM3 LT2, l_alpha) // "I'm "
 COMBO_LAYER(pnIll, &typePnIll,      RM3 LB2, l_alpha) // "I'll "
 COMBO_LAYER(pnId, &typePnId,        RM3 LB1, l_alpha) // "I'd "
-COMBO_LAYER(pnIve, &typePnIve,      RM3 LB0 , l_alpha) // "I've "
+COMBO_LAYER(pnIve, &typePnIve,      RM3 LB0, l_alpha) // "I've "
 
-COMBO_LAYER(pnYoure, &typePnYoure,  RB3 31, l_alpha) // "You're "
+COMBO_LAYER(pnYoure, &typePnYoure,  RB3 LH1, l_alpha) // "You're "
 COMBO_LAYER(pnYoull, &typePnYoull,  RB3 LB2, l_alpha) // "You'll "
 COMBO_LAYER(pnYoud, &typePnYoud,    RB3 LB1, l_alpha) // "You'd "
 COMBO_LAYER(pnYouve, &typePnYouve,  RB3 LB0, l_alpha) // "You've "
