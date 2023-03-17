@@ -27,6 +27,13 @@
                 ;
         };
 
+    ZMK_MACRO(typeSemi,
+        wait-ms = <20>;
+        tap-ms = <20>;
+        bindings = <&macro_release &kp LSHFT>
+                , <&macro_tap &kp SEMICOLON>
+                ;
+        )
     ZMK_MACRO(typeQu,
         wait-ms = <20>;
         tap-ms = <20>;

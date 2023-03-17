@@ -87,9 +87,8 @@ behaviors {
             compatible = "zmk,behavior-mod-morph";
             label = "comma_semi";
             #binding-cells = <0>;
-            bindings = <&kp CMMA>, <&kp SEMI>;
+            bindings = <&kp CMMA>, <&typeSemi>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
-            masked_mods =  <(MOD_LSFT|MOD_RSFT)>;
         };
         DotColn: DotColn {
             compatible = "zmk,behavior-mod-morph";
