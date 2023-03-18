@@ -19,7 +19,7 @@
     keymap {
         compatible = "zmk,keymap";
 #include "zaphod.l_alpha-HD-vb.dtsi"  // base (alpha) layer (& related to adaptives)
-#include "zaphod.l_layers.dtsi"  // all other (common) layers
+#include "zaphod.l_layers.dtsi"  // all other (common) layers (shouldn't vary)
 
     };
 };
