@@ -79,12 +79,15 @@
 #define my_tapping_term 160
 #define my_quick_tapping_term 125
 
-
 &mt {
     tapping-term-ms = <my_tapping_term>;
 };
 &sl {
     release-after-ms = <my_tapping_term>;
 };
+&caps_word {
+    continue-list = <UNDER MINUS BSPC DEL LEFT RIGHT>;
+};
+
 
 #define EN_PRONOUN_COMBOS //  (I, I'm, I've I'd I'll etc)
