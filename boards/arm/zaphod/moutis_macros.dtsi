@@ -75,6 +75,11 @@
         tap-ms = <20>;
         bindings = <&kp E &sl l_akEO>;
         )
+    ZMK_MACRO(ak_k,
+        wait-ms = <20>;
+        tap-ms = <20>;
+        bindings = <&kp K &sl l_akHU>;
+        )
 
 
     ZMK_MACRO(digraphTh,
