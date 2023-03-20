@@ -47,23 +47,24 @@
     ZMK_MACRO(ak_g,
         wait-ms = <20>;
         tap-ms = <20>;
-        bindings = <&kp G &sl l_akL>;
-        )
-    ZMK_MACRO(ak_m,
-        wait-ms = <20>;
-        tap-ms = <20>;
-        bindings = <&kp M>
-                , <&macro_release &kp LSHFT>
-                , <&macro_release &kp RSHFT>
-                , <&sl l_akM>;
+        bindings = <&macro_tap &kp G>
+                , <&sl l_akL>;
         )
     ZMK_MACRO(ak_x,
         wait-ms = <20>;
         tap-ms = <20>;
-        bindings = <&kp X>
+        bindings = <&macro_tap &kp X>
                 , <&macro_release &kp LSHFT>
                 , <&macro_release &kp RSHFT>
                 , <&sl l_akL>;
+        )
+    ZMK_MACRO(ak_m,
+        wait-ms = <20>;
+        tap-ms = <20>;
+        bindings = <&macro_tap &kp M>
+                , <&macro_release &kp LSHFT>
+                , <&macro_release &kp RSHFT>
+                , <&sl l_akM>;
         )
     ZMK_MACRO(ak_lg,
         wait-ms = <20>;
@@ -73,7 +74,7 @@
     ZMK_MACRO(ak_k,
         wait-ms = <20>;
         tap-ms = <20>;
-        bindings = <&kp K>
+        bindings = <&macro_tap &kp K>
                 , <&macro_release &kp LSHFT>
                 , <&macro_release &kp RSHFT>
                 , <&sl l_akK>;
@@ -82,22 +83,26 @@
     ZMK_MACRO(ak_a,
         wait-ms = <20>;
         tap-ms = <20>;
-        bindings = <&kp A &sl l_akA>;
+        bindings = <&macro_tap &kp A>
+                , <&sl l_akA>;
         )
     ZMK_MACRO(ak_u,
         wait-ms = <20>;
         tap-ms = <20>;
-        bindings = <&kp U &sl l_akU>;
+        bindings = <&macro_tap &kp U>
+                , <&sl l_akU>;
         )
     ZMK_MACRO(ak_e,
         wait-ms = <20>;
         tap-ms = <20>;
-        bindings = <&kp E &sl l_akE>;
+        bindings = <&macro_tap &kp E>
+                , <&sl l_akE>;
         )
     ZMK_MACRO(ak_o,
         wait-ms = <20>;
         tap-ms = <20>;
-        bindings = <&kp O &sl l_akO>;
+        bindings = <&macro_tap &kp O>
+                , <&sl l_akO>;
         )
 
 
