@@ -68,15 +68,17 @@
 #define l_any   -1
 #define l_alpha 0
 #define l_akL   1
-#define l_akA   2
-#define l_akU   3
-#define l_akE   4
-#define l_akO   5
-#define l_nav   6
-#define l_sym   7
-#define l_fn    8
-#define l_num   9
-#define l_cfg   10
+#define l_akM   2
+#define l_akK   3
+#define l_akA   4
+#define l_akU   5
+#define l_akE   6
+#define l_akO   7
+#define l_nav   8
+#define l_sym   9
+#define l_fn    10
+#define l_num   11
+#define l_cfg   12
 
 #define my_tapping_term 160
 #define my_quick_tapping_term 125
