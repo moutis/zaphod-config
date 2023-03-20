@@ -48,14 +48,14 @@
         wait-ms = <20>;
         tap-ms = <20>;
         bindings = <&macro_tap &kp G>
+                , <&macro_release &kp LSHFT>
+                , <&macro_release &kp RSHFT>
                 , <&sl l_akL>;
         )
     ZMK_MACRO(ak_x,
         wait-ms = <20>;
         tap-ms = <20>;
         bindings = <&macro_tap &kp X>
-                , <&macro_release &kp LSHFT>
-                , <&macro_release &kp RSHFT>
                 , <&sl l_akL>;
         )
     ZMK_MACRO(ak_m,
