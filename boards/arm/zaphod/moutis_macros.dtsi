@@ -55,7 +55,7 @@
         bindings = <&kp M>
                 , <&macro_release &kp LSHFT>
                 , <&macro_release &kp RSHFT>
-                &sl l_akM>;
+                , <&sl l_akM>;
         )
     ZMK_MACRO(ak_x,
         wait-ms = <20>;
@@ -63,7 +63,7 @@
         bindings = <&kp X>
                 , <&macro_release &kp LSHFT>
                 , <&macro_release &kp RSHFT>
-                ,&sl l_akL>;
+                , <&sl l_akL>;
         )
     ZMK_MACRO(ak_lg,
         wait-ms = <20>;
@@ -76,7 +76,7 @@
         bindings = <&kp K>
                 , <&macro_release &kp LSHFT>
                 , <&macro_release &kp RSHFT>
-                ,&sl l_akK>;
+                , <&sl l_akK>;
         )
 
     ZMK_MACRO(ak_a,
