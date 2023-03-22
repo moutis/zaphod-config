@@ -64,6 +64,18 @@ behaviors {
             bindings = <&kp>, <&ak_e>;
             hold-trigger-key-positions = <KEYS_L THUMBS>; // left hand allowed
         };
+
+        ln_gh: ln_gh {
+            compatible = "zmk,behavior-hold-tap";
+            label = "ln_gh";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            quick-tap-ms = <my_quick_tapping_term>;
+            flavor = "balanced";
+            bindings = <&digraphGh>, <&typeGht>;
+        };
+
+
         ln_qu: ln_qu {
             compatible = "zmk,behavior-hold-tap";
             label = "ln_qu";
