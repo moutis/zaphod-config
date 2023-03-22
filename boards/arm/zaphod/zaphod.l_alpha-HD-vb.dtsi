@@ -16,7 +16,7 @@
 //   &none &none &none &none &none   &none &none &none &none &none
 //                     &none &none   &none &none
 
-&ak_x  &kp W  &ak_m     &ak_g     &lt l_num J              &HashDllr  &DotColn    &SlshStar   &DqtLbkt   &SqtRbkt
+&ak_x  &ak_w  &ak_m     &ak_g     &lt l_num J              &HashDllr  &DotColn    &SlshStar   &DqtLbkt   &SqtRbkt
 &hml LCTRL S &hml LALT C   &hml LGUI N  &hml LSHFT T &ak_k    &CmmaSemi  &hrm_a RSHFT 0 &hrm_e RGUI 0  &hmr RALT I  &hmr RCTRL H
 &kp F       &kp P &kp L     &kp D       &kp V                 &MinusPlus  &ak_u      &ak_o       &kp Y       &kp B
 
@@ -29,7 +29,7 @@
                         label = "l_akL";
                         bindings = <
 
-___     &kp P   &kp L   ___     ___    ___     ___     ___     ___     ___
+___     &ak_xp  &kp L   ___     ___    ___     ___     ___     ___     ___
 ___     ___     ___     ___     ___    ___     ___     ___     ___     ___
 &kp G   &kp T   ___     &kp P   ___    ___     ___     ___     ___     ___
                         ___     ___    ___     ___
