@@ -34,6 +34,12 @@
                 , <&macro_tap &kp SEMICOLON>
                 ;
         )
+    ZMK_MACRO(typeQu,
+        wait-ms = <20>;
+        tap-ms = <20>;
+        bindings = <&kp G &kp H &kp T>
+                ;
+        )
 
     ZMK_MACRO(ak_g,
         wait-ms = <20>;
@@ -148,7 +154,6 @@
         bindings = <&kp G &kp H &kp T>
                 ;
         )
-
     ZMK_MACRO(digraphPh,
         wait-ms = <20>;
         tap-ms = <20>;
