@@ -37,7 +37,10 @@
     ZMK_MACRO(typeQu,
         wait-ms = <20>;
         tap-ms = <20>;
-        bindings = <&kp G &kp H &kp T>
+        bindings = <&macro_tap &kp Q>
+                , <&macro_release &kp LSHFT>
+                , <&macro_release &kp RSHFT>
+                , <&macro_tap &kp U>
                 ;
         )
 
