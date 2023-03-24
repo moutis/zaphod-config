@@ -7,12 +7,13 @@
          ╰───────╯ ╰───────╯   */
 
 behaviors {
-        bspc_del: bspc_del {
+        bspc_del: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
-            label = "bspc_del";
+            label = "BACKSPACE_DELETE";
             #binding-cells = <0>;
-            bindings = <&lt l_fn BSPC>, <&kp DELETE>;
+            bindings = <&kp BACKSPACE>, <&kp DELETE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
+            keep-mods = <(MOD_RSFT)>;
         };
         hm: homerow_mods { // use on either hand
             compatible = "zmk,behavior-hold-tap";
