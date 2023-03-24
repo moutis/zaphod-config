@@ -13,7 +13,6 @@ behaviors {
             #binding-cells = <0>;
             bindings = <&lt l_fn BACKSPACE>, <&kp DELETE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
-            keep-mods = <(MOD_RSFT)>;
         };
         hm: homerow_mods { // use on either hand
             compatible = "zmk,behavior-hold-tap";
