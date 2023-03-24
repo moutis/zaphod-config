@@ -21,7 +21,7 @@
 &kp F     &kp P    &kp L    &ak_d     &kp V                 &MinusPlus  &ak_u      &ak_o       &kp Y       &kp B
 
 
-                &lt l_fn bspc_del &lt l_nav R      &lt l_sym SPACE &lt l_nav RETURN
+                &bspc_del &lt l_nav R      &lt l_sym SPACE &lt l_nav RETURN
                         >;
                 };
 
