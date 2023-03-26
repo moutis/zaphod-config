@@ -54,6 +54,7 @@ COMBO_LAYER(diacMacron, &kp LA(A),  RM2 RM4, l_alpha) // ¯
 COMBO_LAYER(diacCirc, &kp LA(K),    RM1 RM4, l_alpha) // ˚
 COMBO_LAYER(diacUmlaut, &kp LA(U),  RB1 RB2, l_alpha) // ¨
 
+COMBO_ANY(tab,  &kp TAB,        LM4 LM3)
 COMBO_LAYER(typeQ, &lk_qu U Q,      LT3 LT1, l_alpha)
 COMBO_LAYER(typeZ, &kp Z,           LT4 LT3, l_alpha)
 COMBO_LAYER(typeColn, &lk LA(SEMI) COLON,    RT1 RT3, l_alpha)
