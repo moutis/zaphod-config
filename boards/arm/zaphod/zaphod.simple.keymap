@@ -14,7 +14,7 @@
 / {
 #include "moutis_behaviors.dtsi"
 #include "moutis_macros.dtsi"
-ns
+
     keymap {
         compatible = "zmk,keymap";
 #include "zaphod.l_alpha-HD-vb.dtsi"  // base (alpha) layer (& related to adaptives)
