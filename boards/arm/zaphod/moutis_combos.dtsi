@@ -118,7 +118,7 @@ COMBO_LAYER(numYEN, &kp LA(Y),      RT3 RT4, l_num)
 COMBO_LAYER(numBPND, &kp LA(N3),    RT0 RT1, l_num)
 */
 
-/* #ifdef EN_PRONOUN_COMBOS
+#ifdef EN_PRONOUN_COMBOS
 //
 // Pronoun combos REQUIRE macros to process
 //
@@ -141,6 +141,6 @@ COMBO_LAYER(pnWed, &typePnWed,      LT4 LT1, l_alpha) // "We'd "
 COMBO_LAYER(pnWeve, &typePnWeve,    LT4 LT0, l_alpha) // "We've "
 
 #endif // EN_PRONOUN_COMBOS
-*/
+
 
 };
