@@ -43,14 +43,14 @@ COMBO_LAYER(docaps, &caps_word, LM1 RM1, l_alpha) // CAPSWORD
 COMBO_ANY(esc,  &kp ESC,        LM4 LM1)
 COMBO_ANY(sall, &kp LG(A),      LB4 LB1)
 COMBO_ANY(undo, &kp K_UNDO,      LB4 LB3)
-COMBO_ANY(copy, &lk K_COPY K_COPY, LB3 LB2)
+COMBO_ANY(copy, &lk K_COPY K_CUT, LB3 LB2)
 COMBO_ANY(pste, &kp K_PASTE,      LB2 LB1)
 //
 // H Digraphs REQUIRE macros (defined earlier) to process
 //
          
 /* type a glyph */
-COMBO_LAYER(typeQ, &lk_qu Q 0,      LT3 LT1, l_alpha)
+COMBO_LAYER(typeQ, &lk_qu Q U,      LT3 LT1, l_alpha)
 COMBO_LAYER(typeZ, &kp Z,           LT4 LT3, l_alpha)
 COMBO_LAYER(typeColn, &lk LA(SEMI) COLON,    RT1 RT3, l_alpha)
 COMBO_LAYER(typeSemi, &kp SEMI,     RM0 RM1, l_alpha)
