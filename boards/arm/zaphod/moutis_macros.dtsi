@@ -48,7 +48,7 @@
         wait-ms = <20>;
         tap-ms = <20>;
         bindings = <&macro_tap &kp G>
-                , <&sl l_akL>;
+                , <&sl l_akG>;
         )
     ZMK_MACRO(ak_d,
         wait-ms = <20>;
