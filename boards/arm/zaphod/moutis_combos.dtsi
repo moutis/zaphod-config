@@ -49,7 +49,7 @@ COMBO_LAYER(th,  &digraphTh,   LM2 LM1, l_alpha) // Th
 COMBO_LAYER(ch,  &digraphCh,   LM3 LM2, l_alpha) // Ch
 COMBO_LAYER(wh,  &digraphWh,   LT3 LT2, l_alpha) // Wh
 COMBO_LAYER(sh,  &digraphSh,   LM3 LM1, l_alpha) // Sh
-COMBO_LAYER(gh,  &lk_gh 0 0,   LT2 LT1, l_alpha) // Gh
+COMBO_LAYER(gh,  &lk_gh G H,   LT2 LT1, l_alpha) // Gh
 COMBO_LAYER(ph,  &digraphPh,   LB3 LB1, l_alpha) // Ph
 
 //
