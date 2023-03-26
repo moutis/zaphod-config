@@ -182,7 +182,7 @@
         )
 
 
-        trigraphSch: Sch {
+        Sch: Sch {
             label = "Sch";
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
@@ -194,7 +194,7 @@
                     , <&macro_tap &kp C &kp H>
                 ;
         };
-        trigraphTch: Tch {
+        Tch: Tch {
             label = "Tch";
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;

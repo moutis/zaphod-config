@@ -30,15 +30,16 @@ combos {
 ╰───────────╮ LH2 LH1 | | RH1 RH2 ╭───────────╯
             ╰─────────╯ ╰─────────╯
 */
+
 //
 // H Digraphs REQUIRE macros (defined earlier) to process
 //
-COMBO_LAYER(th,  &Th,   LM2 LM1, l_alpha) // Th
-COMBO_LAYER(ch,  &Ch,   LM3 LM2, l_alpha) // Ch
-COMBO_LAYER(wh,  &Wh,   LT3 LT2, l_alpha) // Wh
-COMBO_LAYER(sh,  &Sh,   LM3 LM1, l_alpha) // Sh
-COMBO_LAYER(gh,  &lk_gh H G,   LT2 LT1, l_alpha) // Gh
-COMBO_LAYER(ph,  &Ph,   LB3 LB1, l_alpha) // Ph
+COMBO_LAYER(th,  &Th,   LM2 LM1,     l_alpha) // Th
+COMBO_LAYER(ch,  &Ch,   LM3 LM2,     l_alpha) // Ch
+COMBO_LAYER(wh,  &Wh,   LT3 LT2,     l_alpha) // Wh
+COMBO_LAYER(sh,  &Sh,   LM3 LM1,     l_alpha) // Sh
+COMBO_LAYER(gh,  &lk_gh H G,   LT2 LT1,     l_alpha) // Gh
+COMBO_LAYER(ph,  &Ph,   LB3 LB1,     l_alpha) // Ph
 
          
 /* type a glyph */
