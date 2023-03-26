@@ -50,7 +50,7 @@ COMBO_ANY(pste, &kp K_PASTE,      LB2 LB1)
 //
          
 /* type a glyph */
-COMBO_LAYER(typeQ, &lk_qu Q U,      LT3 LT1, l_alpha)
+COMBO_LAYER(typeQ, &lk_qu U Q,      LT3 LT1, l_alpha)
 COMBO_LAYER(typeZ, &kp Z,           LT4 LT3, l_alpha)
 COMBO_LAYER(typeColn, &lk LA(SEMI) COLON,    RT1 RT3, l_alpha)
 COMBO_LAYER(typeSemi, &kp SEMI,     RM0 RM1, l_alpha)
