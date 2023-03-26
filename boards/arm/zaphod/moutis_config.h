@@ -82,7 +82,7 @@
 #define l_num   13
 #define l_cfg   14
 
-#define my_tapping_term 160
+#define my_tapping_term 170
 #define my_quick_tapping_term 125
 
 &mt {
