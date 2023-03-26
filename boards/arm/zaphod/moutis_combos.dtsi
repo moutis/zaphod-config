@@ -89,14 +89,14 @@ COMBO_LAYER(diacUmlaut, &kp LA(U),  RB1 RB2, l_alpha) // ¨
 //
 // H Digraphs REQUIRE macros (defined earlier) to process
 //
-COMBO_LAYER(sch, &c_Sch, LM4 LM3 LM2, l_alpha) // Sch
-COMBO_LAYER(tch, &c_Tch, LM4 LM3 LM1, l_alpha) // Tch
-COMBO_LAYER(th,  &c_Th,   LM2 LM1, l_alpha) // Th
-COMBO_LAYER(ch,  &c_Ch,   LM3 LM2, l_alpha) // Ch
-COMBO_LAYER(wh,  &c_Wh,   LT3 LT2, l_alpha) // Wh
-COMBO_LAYER(sh,  &c_Sh,   LM3 LM1, l_alpha) // Sh
+COMBO_LAYER(sch, &dSch, LM4 LM3 LM2, l_alpha) // Sch
+COMBO_LAYER(tch, &dTch, LM4 LM3 LM1, l_alpha) // Tch
+COMBO_LAYER(th,  &dTh,   LM2 LM1, l_alpha) // Th
+COMBO_LAYER(ch,  &dCh,   LM3 LM2, l_alpha) // Ch
+COMBO_LAYER(wh,  &dWh,   LT3 LT2, l_alpha) // Wh
+COMBO_LAYER(sh,  &dSh,   LM3 LM1, l_alpha) // Sh
 COMBO_LAYER(gh,  &lk_gh G H,   LT2 LT1, l_alpha) // Gh
-COMBO_LAYER(ph,  &c_Ph,   LB3 LB1, l_alpha) // Ph
+COMBO_LAYER(ph,  &dPh,   LB3 LB1, l_alpha) // Ph
 
 /* numpad symbol combos */
 /*
