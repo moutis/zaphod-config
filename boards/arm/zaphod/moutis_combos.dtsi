@@ -75,7 +75,7 @@ COMBO_ANY(findsel, &m_findsel,  LM4 LB0)
 /* type a glyph */
 COMBO_LAYER(typeQ, &lk_qu Q 0,      LT3 LT1, l_alpha)
 COMBO_LAYER(typeZ, &kp Z,           LT4 LT3, l_alpha)
-COMBO_LAYER(typeColn, &lk COLON LA(SEMI),    RT1 RT3, l_alpha)
+COMBO_LAYER(typeColn, &lk LA(SEMI) COLON,    RT1 RT3, l_alpha)
 COMBO_LAYER(typeSemi, &kp SEMI,     RM0 RM1, l_alpha)
 COMBO_LAYER(typeExcl, &kp EXCL,     RT1 RT2, l_alpha)
 COMBO_LAYER(typeQues, &kp QMARK,    RT2 RT3, l_alpha)
