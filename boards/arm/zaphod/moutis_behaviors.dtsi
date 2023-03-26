@@ -71,7 +71,7 @@ behaviors {
             tapping-term-ms = <my_tapping_term>;
             quick-tap-ms = <my_quick_tapping_term>;
             flavor = "balanced";
-            bindings = <&typeGht>, <&digraphGh>;
+            bindings = <&Ght>, <&Gh>;
         };
 
 
@@ -82,7 +82,7 @@ behaviors {
             tapping-term-ms = <my_tapping_term>;
             quick-tap-ms = <my_quick_tapping_term>;
             flavor = "balanced";
-            bindings = <&kp>, <&typeQu>;
+            bindings = <&kp>, <&Qu>;
         };
         lk: lk {
             compatible = "zmk,behavior-hold-tap";

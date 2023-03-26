@@ -43,14 +43,14 @@ COMBO_LAYER(docaps, &kp CAPS, LM3 LM2 RM2 RM3, l_alpha) // CAPS LOCK
 //
 // H Digraphs REQUIRE macros (defined earlier) to process
 //
-COMBO_LAYER(sch, &digraphSch,  LM4 LM3 LM2, l_alpha) // Sch
-COMBO_LAYER(tch, &digraphTch,  LM4 LM3 LM1, l_alpha) // Tch
-COMBO_LAYER(th,  &digraphTh,   LM2 LM1,     l_alpha) // Th
-COMBO_LAYER(ch,  &digraphCh,   LM3 LM2,     l_alpha) // Ch
-COMBO_LAYER(wh,  &digraphWh,   LT3 LT2,     l_alpha) // Wh
-COMBO_LAYER(sh,  &digraphSh,   LM3 LM1,     l_alpha) // Sh
+COMBO_LAYER(sch, &Sch,  LM4 LM3 LM2, l_alpha) // Sch
+COMBO_LAYER(tch, &Tch,  LM4 LM3 LM1, l_alpha) // Tch
+COMBO_LAYER(th,  &Th,   LM2 LM1,     l_alpha) // Th
+COMBO_LAYER(ch,  &Ch,   LM3 LM2,     l_alpha) // Ch
+COMBO_LAYER(wh,  &Wh,   LT3 LT2,     l_alpha) // Wh
+COMBO_LAYER(sh,  &Sh,   LM3 LM1,     l_alpha) // Sh
 COMBO_LAYER(gh,  &lk_gh H G,   LT2 LT1,     l_alpha) // Gh
-COMBO_LAYER(ph,  &digraphPh,   LB3 LB1,     l_alpha) // Ph
+COMBO_LAYER(ph,  &Ph,   LB3 LB1,     l_alpha) // Ph
 
 //
 // Editing actions (&whitespace)

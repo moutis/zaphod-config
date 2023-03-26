@@ -34,7 +34,7 @@
                 , <&macro_tap &kp SEMICOLON>
                 ;
         )
-    ZMK_MACRO(typeQu,
+    ZMK_MACRO(Qu,
         wait-ms = <20>;
         tap-ms = <20>;
         bindings = <&macro_tap &kp Q>
@@ -120,7 +120,7 @@
         )
 
 
-    ZMK_MACRO(digraphTh,
+    ZMK_MACRO(Th,
         wait-ms = <20>;
         tap-ms = <20>;
         bindings = <&macro_tap &kp T>
@@ -129,7 +129,7 @@
                 , <&macro_tap &kp H>
                 ;
         )
-    ZMK_MACRO(digraphCh,
+    ZMK_MACRO(Ch,
         wait-ms = <20>;
         tap-ms = <20>;
         bindings = <&macro_tap &kp C>
@@ -138,7 +138,7 @@
                 , <&macro_tap &kp H>
                 ;
         )
-    ZMK_MACRO(digraphWh,
+    ZMK_MACRO(Wh,
         wait-ms = <20>;
         tap-ms = <20>;
         bindings = <&macro_tap &kp W>
@@ -147,7 +147,7 @@
                 , <&macro_tap &kp H>
                 ;
         )
-    ZMK_MACRO(digraphSh,
+    ZMK_MACRO(Sh,
         wait-ms = <20>;
         tap-ms = <20>;
         bindings = <&macro_tap &kp S>
@@ -156,7 +156,7 @@
                 , <&macro_tap &kp H>
                 ;
         )
-    ZMK_MACRO(digraphGh,
+    ZMK_MACRO(Gh,
         wait-ms = <20>;
         tap-ms = <20>;
         bindings = <&macro_tap &kp G>
@@ -165,13 +165,13 @@
                 , <&macro_tap &kp H>
                 ;
         )
-    ZMK_MACRO(typeGht,
+    ZMK_MACRO(Ght,
         wait-ms = <20>;
         tap-ms = <20>;
         bindings = <&kp G &kp H &kp T>
                 ;
         )
-    ZMK_MACRO(digraphPh,
+    ZMK_MACRO(Ph,
         wait-ms = <20>;
         tap-ms = <20>;
         bindings = <&macro_tap &kp P>
@@ -182,8 +182,8 @@
         )
 
 
-        trigraphSch: trigraphSch {
-            label = "trigraphSch";
+        trigraphSch: Sch {
+            label = "Sch";
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
             wait-ms = <10>;
@@ -194,8 +194,8 @@
                     , <&macro_tap &kp C &kp H>
                 ;
         };
-        trigraphTch: trigraphTch {
-            label = "trigraphTch";
+        trigraphTch: Tch {
+            label = "Tch";
             compatible = "zmk,behavior-macro";
             tap-ms = <10>;
             wait-ms = <10>;
