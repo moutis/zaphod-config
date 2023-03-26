@@ -79,6 +79,11 @@
         tap-ms = <20>;
         bindings = <&kp BSPC &kp L &kp G>;
         )
+    ZMK_MACRO(ak_lm,
+        wait-ms = <20>;
+        tap-ms = <20>;
+        bindings = <&kp BSPC &kp L &kp M>;
+        )
     ZMK_MACRO(ak_lk,
         wait-ms = <20>;
         tap-ms = <20>;
