@@ -33,12 +33,10 @@ combos {
 //
 // control/modes
 //
-COMBO_ANY(enmode, &kp LANG2,    LM3 LM2 LM1)
-COMBO_ANY(jpmode, &kp LANG1,    RM1 RM2 RM3)
 COMBO_ANY(settings, &mo l_cfg,  RH1 RH2) // get the settings/media layer from anywhere
 COMBO_ANY(appswitch, &kp RG(TAB), LH2 LH1) // App switch
-COMBO_LAYER(docaps, &caps_word, LM2 LM1 RM1 RM2, l_alpha) // CAPSWORD
-COMBO_LAYER(docaps, &kp CAPS, LM3 LM2 RM2 RM3, l_alpha) // CAPS LOCK
+COMBO_LAYER(docaps, &caps_word, LM1 RM1, l_alpha) // CAPSWORD
+COMBO_LAYER(docaps, &kp CAPS, LM2 RM2, l_alpha) // CAPS LOCK
 
 //
 // H Digraphs REQUIRE macros (defined earlier) to process
@@ -71,11 +69,10 @@ COMBO_LAYER(typeGrav, &kp GRAVE,    RT3 RT4, l_alpha)
 COMBO_LAYER(typeatMk, &kp AT_SIGN,  RT0 RT1, l_alpha)
 COMBO_LAYER(typeUnder, &kp UNDER,   RB1 RB3, l_alpha) // _
 COMBO_LAYER(typeEqual, &kp EQUAL,   RB2 RB3, l_alpha) // =
-COMBO_LAYER(typePercent, &kp LS(N5), RB3 RB4, l_alpha) // percent
+COMBO_LAYER(typePercent, &kp PRCNT, RB3 RB4, l_alpha) // percent
 COMBO_LAYER(typeNdash, &kp LA(MINUS), RB0 RB1, l_alpha) // N-dash (minus)
 COMBO_LAYER(typeMdash, &kp LA(LS(MINUS)), RB0 RB2, l_alpha) // M-dash (minus)
 COMBO_LAYER(typeTilde, &kp TILDE,   RB0 RB4, l_alpha) // tilde (not dead key)
-
 
 
 };

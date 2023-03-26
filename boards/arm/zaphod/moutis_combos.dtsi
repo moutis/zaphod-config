@@ -83,7 +83,7 @@ COMBO_LAYER(typeGrav, &kp GRAVE,    RT3 RT4, l_alpha)
 COMBO_LAYER(typeatMk, &kp AT_SIGN,  RT0 RT1, l_alpha)
 COMBO_LAYER(typeUnder, &kp UNDER,   RB1 RB3, l_alpha) // _
 COMBO_LAYER(typeEqual, &kp EQUAL,   RB2 RB3, l_alpha) // =
-COMBO_LAYER(typePercent, &kp LS(N5), RB3 RB4, l_alpha) // percent
+COMBO_LAYER(typePercent, &kp PRCNT, RB3 RB4, l_alpha) // percent
 COMBO_LAYER(typeNdash, &kp LA(MINUS), RB0 RB1, l_alpha) // N-dash (minus)
 COMBO_LAYER(typeMdash, &kp LA(LS(MINUS)), RB0 RB2, l_alpha) // M-dash (minus)
 COMBO_LAYER(typeTilde, &kp TILDE,   RB0 RB4, l_alpha) // tilde (not dead key)
