@@ -44,6 +44,13 @@
                 ;
         )
 
+    ZMK_MACRO(pairParen,
+        wait-ms = <20>;
+        tap-ms = <20>;
+        bindings = <&kp LPAR &kp RPAR &kp LEFT>
+                ;
+        )
+
     ZMK_MACRO(ak_g,
         wait-ms = <20>;
         tap-ms = <20>;

@@ -30,7 +30,7 @@
                     label = "Sym";
                     bindings = <
 &kp Z &kp Q &kp LG(LS(N4)) &kp LG(LS(LC(N4))) &kp ESC             &kp RA(N4) &kp DLLR  &kp LA(LS(N2)) &kp LA(N3) &kp RA(Y)
-&mt LCTRL LT  &mt LALT LBKT &mt LGUI LPAR &mt LSHFT LBRC &kp TAB  &kp LA(N1) &mt RSHFT STAR  &mt RGUI EQUAL &mt RALT PLUS  &mt LCTRL FSLH
+&mt LCTRL LT  &mt LALT LBKT &lk LPAR pairParen &mt LSHFT LBRC &kp TAB  &kp LA(N1) &mt RSHFT STAR  &mt RGUI EQUAL &mt RALT PLUS  &mt LCTRL FSLH
 &kp GT  &kp RBKT &kp RPAR &kp RBRC &kp RETURN                     &kp MINUS  &kp PIPE  &kp AMPS     &kp CARET &kp PRCNT
                 &kp LA(BSPC)   &kp LA(DEL)              &none      &kp LA(N0)
                     >;
