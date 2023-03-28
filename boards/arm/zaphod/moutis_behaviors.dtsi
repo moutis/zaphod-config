@@ -93,7 +93,7 @@ behaviors {
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-&lk LPAR pairParen
+
         lk_gh: lk_gh {
             compatible = "zmk,behavior-hold-tap";
             label = "lk_gh";
