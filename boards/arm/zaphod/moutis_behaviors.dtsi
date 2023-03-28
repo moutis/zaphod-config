@@ -111,7 +111,7 @@ behaviors {
             tapping-term-ms = <my_tapping_term>;
             quick-tap-ms = <my_quick_tapping_term>;
             flavor = "balanced";
-            bindings = <&pairParen>, <&kp LPAR>;
+            bindings = <&pairParen>, <&kp>;
         };
 
         CmmaSemi: CmmaSemi {
