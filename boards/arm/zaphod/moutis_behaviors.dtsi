@@ -113,6 +113,15 @@ behaviors {
             flavor = "balanced";
             bindings = <&pairDquo>, <&kp>;
         };
+        lk_ltgt: lk_ltgt {
+            compatible = "zmk,behavior-hold-tap";
+            label = "lk_ltgt";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            quick-tap-ms = <my_quick_tapping_term>;
+            flavor = "balanced";
+            bindings = <&pairLtGt>, <&kp>;
+        };
         lk_par: lk_par {
             compatible = "zmk,behavior-hold-tap";
             label = "lk_par";

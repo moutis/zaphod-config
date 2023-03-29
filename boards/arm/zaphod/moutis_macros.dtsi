@@ -50,6 +50,12 @@
         bindings = <&kp LA(LBKT) &kp LS(LA(LBKT)) &kp LEFT>
                 ;
         )
+    ZMK_MACRO(pairLtGt,
+        wait-ms = <20>;
+        tap-ms = <20>;
+        bindings = <&kp LT &kp GT &kp LEFT>
+                ;
+        )
     ZMK_MACRO(pairPar,
         wait-ms = <20>;
         tap-ms = <20>;
