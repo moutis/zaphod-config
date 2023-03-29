@@ -104,14 +104,41 @@ behaviors {
             bindings = <&Ght>, <&Gh>;
         };
 
-        lk_paren: lk_paren {
+        lk_quote: lk_quote {
             compatible = "zmk,behavior-hold-tap";
-            label = "lk_paren";
+            label = "lk_quote";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
             quick-tap-ms = <my_quick_tapping_term>;
             flavor = "balanced";
-            bindings = <&pairParen>, <&kp>;
+            bindings = <&pairDquo>, <&kp>;
+        };
+        lk_par: lk_par {
+            compatible = "zmk,behavior-hold-tap";
+            label = "lk_par";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            quick-tap-ms = <my_quick_tapping_term>;
+            flavor = "balanced";
+            bindings = <&pairPar>, <&kp>;
+        };
+        lk_bkt: lk_bkt {
+            compatible = "zmk,behavior-hold-tap";
+            label = "lk_bkt";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            quick-tap-ms = <my_quick_tapping_term>;
+            flavor = "balanced";
+            bindings = <&pairBkt>, <&kp>;
+        };
+        lk_brc: lk_brc {
+            compatible = "zmk,behavior-hold-tap";
+            label = "lk_brc";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            quick-tap-ms = <my_quick_tapping_term>;
+            flavor = "balanced";
+            bindings = <&pairBrc>, <&kp>;
         };
 
         CmmaSemi: CmmaSemi {

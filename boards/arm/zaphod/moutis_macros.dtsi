@@ -44,10 +44,28 @@
                 ;
         )
 
-    ZMK_MACRO(pairParen,
+    ZMK_MACRO(pairDquo,
+        wait-ms = <20>;
+        tap-ms = <20>;
+        bindings = <&kp LA(LBKT) &kp LS(LA(LBKT)) &kp LEFT>
+                ;
+        )
+    ZMK_MACRO(pairPar,
         wait-ms = <20>;
         tap-ms = <20>;
         bindings = <&kp LPAR &kp RPAR &kp LEFT>
+                ;
+        )
+    ZMK_MACRO(pairBrc,
+        wait-ms = <20>;
+        tap-ms = <20>;
+        bindings = <&kp LBRC &kp RBRC &kp LEFT>
+                ;
+        )
+    ZMK_MACRO(pairBkt,
+        wait-ms = <20>;
+        tap-ms = <20>;
+        bindings = <&kp LBKT &kp RBKT &kp LEFT>
                 ;
         )
 
