@@ -19,10 +19,11 @@
                     >;
                 };
 
-//                                       Symbol & math
+//                                       Symbol & math (for Mac)
+//  * left paired symbols are "linger keys" via hold taps. Tap for left, hold for pair with insertion point between
 //╭────────────────────────────────────────────╮ ╭──────────────────────────────────────────╮
 //|    Z   |    Q    | ScrCp | SelCp |   ESC   | |   ¢   |    $   |    €   |    £   |   ¥   |
-//|    <   |    [    |   (   |   {   |   TAB   | |   ¡   |    *   |    =   |    +   |   /   |
+//|    <*  |    [$   |   (*  |   {*  |   TAB   | |   ¡   |    *   |    =   |    +   |   /   |
 //|    >   |    ]    |   )   |   }   |   RET   | |   _   |    |   |    &   |    ^   |   %   |
 //╰──────────────────╮       | dwdlt |  dwdr   | |       |    °   |        ╭────────────────╯
 //                   ╰─────────────────────────╯ ╰─────────────────────────╯
