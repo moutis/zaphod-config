@@ -9,7 +9,7 @@
 //|  undo  |   cut   |  copy |  pste | findAgn | | Zoom- |   END  | Zreset |  PG_DN |  |
 //╰──────────────────╮       | mute  |  APPSW  | |  back |  fwd   |        ╭────────────────╯
 //                   ╰─────────────────────────╯ ╰─────────────────────────╯
-                nav_layer {
+                l_nav {
                     label = "Nav";
                     bindings = <
 &kp RG(W) &kp RG(Q) &kp LG(LS(N4)) &kp LG(LS(LC(N4))) &kp ESC  &kp LG(EQUAL) &kp HOME &kp UP     &kp PG_UP &none
@@ -27,7 +27,7 @@
 //|    >   |    ]    |   )   |   }   |   RET   | |   _   |    |   |    &   |    ^   |   %   |
 //╰──────────────────╮       | dwdlt |  dwdr   | |       |    °   |        ╭────────────────╯
 //                   ╰─────────────────────────╯ ╰─────────────────────────╯
-                math_layer {
+                l_sym {
                     label = "Sym";
                     bindings = <
 &kp Z &kp Q &kp LG(LS(N4)) &kp LG(LS(LC(N4))) &kp ESC             &kp RA(N4) &kp DLLR  &kp LA(LS(N2)) &kp LA(N3) &kp RA(Y)
@@ -45,7 +45,7 @@
 //╰──────────────────╮        |  BKSP  |   DEL | |   0   |   .   |       ╭───────────────╯
 //                   ╰─────────────────────────╯ ╰───────────────────────╯
 
-                numrow_layer {
+                l_fn {
                         label = "FnNum";
                         bindings = <
 
@@ -64,7 +64,7 @@
 //|   DEL  |  END   |  TAB   |  PG_DN |  SPC   | |    ,   |   1   |   2   |   3   |   =   |
 //╰─────────────────╮        |  BKSP  | ENTER  | |    0   |   .   |       ╭───────────────╯
 //                  ╰──────────────────────────╯ ╰────────────────────────╯
-                numpad_layer {
+                l_num {
                         label = "numpad"; //
                         bindings = <
 
@@ -76,7 +76,7 @@
                 };
 
 //                                     Keyboard & System Settings
-                setup_layer {
+                l_cfg {
                         label = "setup";
                         bindings = <
 //&none &none &none &none &none &none &none &none &none &none &none &none
