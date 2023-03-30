@@ -10,7 +10,7 @@
 //╰──────────────────╮       | mute  |  APPSW  | |  back |  fwd   |        ╭────────────────╯
 //                   ╰─────────────────────────╯ ╰─────────────────────────╯
                 l_nav {
-                    label = "Nav";
+                    label = "l_nav";
                     bindings = <
 &kp RG(W) &kp RG(Q) &kp LG(LS(N4)) &kp LG(LS(LC(N4))) &kp ESC  &kp LG(EQUAL) &kp HOME &kp UP     &kp PG_UP &none
 &kp LCTRL  &kp LALT &kp LGUI &kp LSHFT   &kp RG(F)             &kp LA(LEFT)  &kp LEFT &kp DOWN   &kp RIGHT &kp LA(RIGHT)
@@ -28,7 +28,7 @@
 //╰──────────────────╮       | dwdlt |  dwdr   | |       |    °   |        ╭────────────────╯
 //                   ╰─────────────────────────╯ ╰─────────────────────────╯
                 l_sym {
-                    label = "Sym";
+                    label = "l_sym";
                     bindings = <
 &kp Z &kp Q &kp LG(LS(N4)) &kp LG(LS(LC(N4))) &kp ESC             &kp RA(N4) &kp DLLR  &kp LA(LS(N2)) &kp LA(N3) &kp RA(Y)
 &lk_ltgt GT LT  &lk_bkt RBKT LBKT &lk_par RPAR LPAR &lk_brc RBRC LBRC &kp TAB  &kp LA(N1) &mt RSHFT STAR  &mt RGUI EQUAL &mt RALT PLUS  &mt LCTRL FSLH
@@ -46,7 +46,7 @@
 //                   ╰─────────────────────────╯ ╰───────────────────────╯
 
                 l_fn {
-                        label = "FnNum";
+                        label = "l_fn";
                         bindings = <
 
 &kp F9       &kp F10     &kp F11      &kp F12      &kp F13 &kp GRAVE &kp N7       &kp N8      &kp N9      &kp BSLH
@@ -65,7 +65,7 @@
 //╰─────────────────╮        |  BKSP  | ENTER  | |    0   |   .   |       ╭───────────────╯
 //                  ╰──────────────────────────╯ ╰────────────────────────╯
                 l_num {
-                        label = "numpad"; //
+                        label = "l_num"; //
                         bindings = <
 
 &kp ESC      &kp HOME &kp UP    &kp PG_UP &lt l_cfg KP_NUM      &kp KP_SLASH    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS
@@ -77,7 +77,7 @@
 
 //                                     Keyboard & System Settings
                 l_cfg {
-                        label = "setup";
+                        label = "l_cfg";
                         bindings = <
 //&none &none &none &none &none &none &none &none &none &none &none &none
 &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0 &bt BT_CLR   &none        &none        &none      &none        &none
