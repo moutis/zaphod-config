@@ -18,7 +18,7 @@
 
 &ak_x  &ak_w  &ak_m     &ak_g     &lt l_num J              &HashDllr  &DotColn    &SlshStar   &DqtLbkt   &SqtRbkt
 &hml LCTRL S &hml LALT C   &hml LGUI N  &hml LSHFT T &ak_k    &CmmaSemi  &hrm_a RSHFT A &hrm_e RGUI E  &hmr RALT I  &hmr RCTRL H
-&kp F     &kp P    &kp L    &ak_d     &kp V                 &MinusPlus  &ak_u      &ak_o       &kp Y       &kp B
+&ak_f     &kp P    &kp L    &ak_d     &kp V                 &MinusPlus  &ak_u      &ak_o       &kp Y       &kp B
 
 
                 &mm_bspc_del &lt l_nav R      &lt l_sym SPACE &lt l_nav RETURN
@@ -125,6 +125,16 @@ ___     ___     ___     ___     ___    ___     ___     ___     ___     ___
 ___     ___     ___     ___     ___    ___     ___     ___     ___     ___
 ___     ___     ___     ___     ___    ___     ___     ___     ___     &kp E
 ___     ___     ___     ___     ___    ___     ___     ___     ___     ___
+                        ___     ___    ___     ___
+                        >;
+                };
+                l_akF {
+                        label = "l_akF";
+                        bindings = <
+
+___     ___     ___     ___     ___    ___     ___     ___     ___     ___
+___     ___     ___     ___     ___    ___     ___     ___     ___     ___
+___     &ak_sp  ___     ___     ___    ___     ___     ___     ___     ___
                         ___     ___    ___     ___
                         >;
                 };
