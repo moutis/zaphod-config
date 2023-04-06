@@ -73,11 +73,11 @@
 #define l_akK   4
 #define l_akD   5
 #define l_akW   6
-#define l_akA   7
-#define l_akU   8
-#define l_akE   9
-#define l_akO   10
-#define l_akF   11
+#define l_akF   7
+#define l_akA   8
+#define l_akU   9
+#define l_akE   10
+#define l_akO   11
 #define l_nav   12
 #define l_sym   13
 #define l_fn    14

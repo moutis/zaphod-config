@@ -75,15 +75,6 @@ behaviors {
         };
 
 
-        lk_qu: lk_qu {
-            compatible = "zmk,behavior-hold-tap";
-            label = "lk_qu";
-            #binding-cells = <2>;
-            tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <my_quick_tapping_term>;
-            flavor = "balanced";
-            bindings = <&kp>, <&Qu>;
-        };
         lk: lk {
             compatible = "zmk,behavior-hold-tap";
             label = "lk";
@@ -93,51 +84,68 @@ behaviors {
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-
-        lk_quote: lk_quote {
+        lk_qu: lk_qu {
+            compatible = "zmk,behavior-hold-tap";
+            label = "lk_qu";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            quick-tap-ms = <my_quick_tapping_term>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&Qu>;
+        };
+        lk_gh: lk_gh { // Gh on tap, Ght on "linger"
+            compatible = "zmk,behavior-hold-tap";
+            label = "lk_gh";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            quick-tap-ms = <my_quick_tapping_term>;
+            flavor = "balanced";
+            bindings = <&Ght>, <&Gh>;
+        };
+        lk_quote: lk_quote { // " on tap, “” on "linger" (curly quotes)
             compatible = "zmk,behavior-hold-tap";
             label = "lk_quote";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
             quick-tap-ms = <my_quick_tapping_term>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             bindings = <&pairDquo>, <&kp>;
         };
-        lk_ltgt: lk_ltgt {
-            compatible = "zmk,behavior-hold-tap";
-            label = "lk_ltgt";
-            #binding-cells = <2>;
-            tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <my_quick_tapping_term>;
-            flavor = "balanced";
-            bindings = <&pairLtGt>, <&kp>;
-        };
-        lk_par: lk_par {
+        lk_par: lk_par { // ( on tap, () on "linger"
             compatible = "zmk,behavior-hold-tap";
             label = "lk_par";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
             quick-tap-ms = <my_quick_tapping_term>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             bindings = <&pairPar>, <&kp>;
         };
-        lk_bkt: lk_bkt {
+        lk_bkt: lk_bkt { // [ on tap, [] on "linger"
             compatible = "zmk,behavior-hold-tap";
             label = "lk_bkt";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
             quick-tap-ms = <my_quick_tapping_term>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             bindings = <&pairBkt>, <&kp>;
         };
-        lk_brc: lk_brc {
+        lk_brc: lk_brc { // { on tap, {} on "linger"
             compatible = "zmk,behavior-hold-tap";
             label = "lk_brc";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
             quick-tap-ms = <my_quick_tapping_term>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             bindings = <&pairBrc>, <&kp>;
+        };
+        lk_ltgt: lk_ltgt { // < on tap, <|> on "linger"
+            compatible = "zmk,behavior-hold-tap";
+            label = "lk_ltgt";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            quick-tap-ms = <my_quick_tapping_term>;
+            flavor = "tap-preferred";
+            bindings = <&pairLtGt>, <&kp>;
         };
 
         CmmaSemi: CmmaSemi {
