@@ -88,8 +88,26 @@ behaviors {
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
             quick-tap-ms = <my_quick_tapping_term>;
-            flavor = "balanced";
-            bindings = <&Ght>, <&Gh>;
+            flavor = "tap-preferred";
+            bindings = <&ght>, <&Gh>;
+        };
+        lk_th: lk_th { // Th on tap, tion on "linger"
+            compatible = "zmk,behavior-hold-tap";
+            label = "lk_th";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            quick-tap-ms = <my_quick_tapping_term>;
+            flavor = "tap-preferred";
+            bindings = <&tion>, <&Th>;
+        };
+        lk_sh: lk_sh { // Sh on tap, sion on "linger"
+            compatible = "zmk,behavior-hold-tap";
+            label = "lk_sh";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            quick-tap-ms = <my_quick_tapping_term>;
+            flavor = "tap-preferred";
+            bindings = <&sion>, <&Sh>;
         };
         lk_quote: lk_quote { // " on tap, “” on "linger" (curly quotes)
             compatible = "zmk,behavior-hold-tap";

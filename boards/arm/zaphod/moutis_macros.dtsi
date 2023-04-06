@@ -5,8 +5,6 @@
         m_findsel: m_findsel {
             label = "Find Selection";
             compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp LG(C)>
                     , <&macro_tap &kp LG(F)>
@@ -19,24 +17,14 @@
         m_selword: m_selword {
             label = "m_select word";
             compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp LA(LEFT)>
                     , <&macro_tap &kp LS(LA(RIGHT))>
                 ;
         };
 
-    ZMK_MACRO(typeSemi,
-        wait-ms = <20>;
-        tap-ms = <20>;
-        bindings = <&macro_release &kp LSHFT>
-                , <&macro_tap &kp SEMICOLON>
-                ;
-        )
+
     ZMK_MACRO(Qu,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&macro_tap &kp Q>
                 , <&macro_release &kp LSHFT>
                 , <&macro_release &kp RSHFT>
@@ -45,143 +33,107 @@
         )
 
     ZMK_MACRO(pairDquo,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&kp LA(LBKT) &kp LS(LA(LBKT)) &kp LEFT>
                 ;
         )
     ZMK_MACRO(pairLtGt,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&kp LT &kp GT &kp LEFT>
                 ;
         )
     ZMK_MACRO(pairPar,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&kp LPAR &kp RPAR &kp LEFT>
                 ;
         )
     ZMK_MACRO(pairBrc,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&kp LBRC &kp RBRC &kp LEFT>
                 ;
         )
     ZMK_MACRO(pairBkt,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&kp LBKT &kp RBKT &kp LEFT>
                 ;
         )
 
     ZMK_MACRO(ak_g,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&macro_tap &kp G>
                 , <&sl l_akG>;
         )
     ZMK_MACRO(ak_d,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&macro_tap &kp D>
                 , <&sl l_akD>;
         )
     ZMK_MACRO(ak_x,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&macro_tap &kp X>
                 , <&sl l_akX>;
         )
     ZMK_MACRO(ak_xp,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&macro_tap &kp P>
                 , <&sl l_akX>;
         )
     ZMK_MACRO(ak_m,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&macro_tap &kp M>
                 , <&sl l_akM>;
         )
     ZMK_MACRO(ak_lg,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&kp BSPC &kp L &kp G>;
         )
     ZMK_MACRO(ak_lm,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&kp BSPC &kp L &kp M>
                     , <&sl l_akM>
         ;
         )
     ZMK_MACRO(ak_lk,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&kp BSPC &kp L &kp K>;
         )
     ZMK_MACRO(ak_k,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&macro_tap &kp K>
                 , <&sl l_akK>;
         )
     ZMK_MACRO(ak_w,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&macro_tap &kp W>
                 , <&sl l_akW>;
         )
     ZMK_MACRO(ak_f,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&macro_tap &kp F>
                 , <&sl l_akF>;
         )
     ZMK_MACRO(ak_sp,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&kp BSPC &kp S &kp P>;
         )
 
     ZMK_MACRO(ak_a,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&macro_tap &kp A>
                 , <&sl l_akA>;
         )
     ZMK_MACRO(ak_u,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&macro_tap &kp U>
                 , <&sl l_akU>;
         )
     ZMK_MACRO(ak_e,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&kp E &sl l_akE>;
         )
     ZMK_MACRO(ak_o,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&kp O &sl l_akO>;
         )
 
 
+    ZMK_MACRO(typeSemi,
+        bindings = <&macro_release &kp LSHFT>
+                , <&macro_tap &kp SEMICOLON>
+                ;
+        )
+
     ZMK_MACRO(Th,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&macro_tap &kp T>
                 , <&macro_release &kp LSHFT>
                 , <&macro_release &kp RSHFT>
                 , <&macro_tap &kp H>
                 ;
         )
+    ZMK_MACRO(tion,
+        bindings = <&kp T &kp I &kp O &kp N>
+                ;
+        )
     ZMK_MACRO(Ch,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&macro_tap &kp C>
                 , <&macro_release &kp LSHFT>
                 , <&macro_release &kp RSHFT>
@@ -189,8 +141,6 @@
                 ;
         )
     ZMK_MACRO(Wh,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&macro_tap &kp W>
                 , <&macro_release &kp LSHFT>
                 , <&macro_release &kp RSHFT>
@@ -198,32 +148,28 @@
                 ;
         )
     ZMK_MACRO(Sh,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&macro_tap &kp S>
                 , <&macro_release &kp LSHFT>
                 , <&macro_release &kp RSHFT>
                 , <&macro_tap &kp H>
                 ;
         )
+    ZMK_MACRO(sion,
+        bindings = <&kp S &kp I &kp O &kp N>
+                ;
+        )
     ZMK_MACRO(Gh,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&macro_tap &kp G>
                 , <&macro_release &kp LSHFT>
                 , <&macro_release &kp RSHFT>
                 , <&macro_tap &kp H>
                 ;
         )
-    ZMK_MACRO(Ght,
-        wait-ms = <20>;
-        tap-ms = <20>;
+    ZMK_MACRO(ght,
         bindings = <&kp G &kp H &kp T>
                 ;
         )
     ZMK_MACRO(Ph,
-        wait-ms = <20>;
-        tap-ms = <20>;
         bindings = <&macro_tap &kp P>
                 , <&macro_release &kp LSHFT>
                 , <&macro_release &kp RSHFT>
@@ -235,8 +181,6 @@
         Sch: Sch {
             label = "Sch";
             compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp S>
                     , <&macro_release &kp LSHFT>
@@ -247,8 +191,6 @@
         Tch: Tch {
             label = "Tch";
             compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp T>
                     , <&macro_release &kp LSHFT>
@@ -263,8 +205,6 @@
         typePnI: pnI {
             label = "pnI";
             compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp LS(I)>
                     , <&macro_tap &kp SPACE>
@@ -273,8 +213,6 @@
         typePnIm: pnIm {
             label = "pnIM";
             compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp LS(I)>
                     , <&macro_release &kp LSHFT>
@@ -285,8 +223,6 @@
         typePnId: pnId {
             label = "pnID";
             compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp LS(I)>
                     , <&macro_release &kp LSHFT>
@@ -297,8 +233,6 @@
         typePnIll: pnIll {
             label = "pnIL";
             compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp LS(I)>
                     , <&macro_release &kp LSHFT>
@@ -309,8 +243,6 @@
         typePnIve: pnIve {
             label = "pnIVE";
             compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp LS(I)>
                     , <&macro_release &kp LSHFT>
@@ -322,8 +254,6 @@
         typePnYoure: pnYoure {
             label = "pnYoure";
             compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp Y>
                     , <&macro_release &kp LSHFT>
@@ -334,8 +264,6 @@
         typePnYoud: pnYoud {
             label = "pnYou'd";
             compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp Y>
                     , <&macro_release &kp LSHFT>
@@ -346,8 +274,6 @@
         typePnYoull: pnYoull {
             label = "pnYou'll";
             compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp Y>
                     , <&macro_release &kp LSHFT>
@@ -358,8 +284,6 @@
         typePnYouve: pnYouve {
             label = "pnYou've";
             compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp Y>
                     , <&macro_release &kp LSHFT>
@@ -371,8 +295,6 @@
         typePnWere: pnWere {
             label = "pnWere";
             compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp W>
                     , <&macro_release &kp LSHFT>
@@ -383,8 +305,6 @@
         typePnWed: pnWed {
             label = "pnWe'd";
             compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp W>
                     , <&macro_release &kp LSHFT>
@@ -395,8 +315,6 @@
         typePnWell: pnWell {
             label = "pnWe'll";
             compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp W>
                     , <&macro_release &kp LSHFT>
@@ -407,8 +325,6 @@
         typePnWeve: pnWeve {
             label = "pnWe've";
             compatible = "zmk,behavior-macro";
-            tap-ms = <10>;
-            wait-ms = <10>;
             #binding-cells = <0>;
             bindings = <&macro_tap &kp W>
                     , <&macro_release &kp LSHFT>
