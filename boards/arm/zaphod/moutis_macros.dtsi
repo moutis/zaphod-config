@@ -6,7 +6,7 @@
             label = "Find Selection";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
+            wait-ms = <20>;
             tap-ms = <20>;
              bindings = <&macro_tap &kp LG(C)>
                     , <&macro_tap &kp LG(F)>
@@ -20,7 +20,7 @@
             label = "m_select word";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = <&macro_tap &kp LA(LEFT)>
                     , <&macro_tap &kp LS(LA(RIGHT))>
@@ -197,7 +197,7 @@
             label = "Sch";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = <&macro_tap &kp S>
                     , <&macro_release &kp LSHFT>
@@ -209,7 +209,7 @@
             label = "Tch";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = <&macro_tap &kp T>
                     , <&macro_release &kp LSHFT>
@@ -222,7 +222,7 @@
             label = "typeJapan";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = <&macro_press &kp LSHFT>
                     , <&macro_tap &kp J>
@@ -235,7 +235,7 @@
             label = "typeJapanese";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = <&macro_press &kp LSHFT>
                     , <&macro_tap &kp J>
@@ -252,7 +252,7 @@
             label = "pnI";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = <&macro_tap &kp LS(I)>
                     , <&macro_tap &kp SPACE>
@@ -262,7 +262,7 @@
             label = "pnIM";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = <&macro_tap &kp LS(I)>
                     , <&macro_release &kp LSHFT>
@@ -274,7 +274,7 @@
             label = "pnID";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = <&macro_tap &kp LS(I)>
                     , <&macro_release &kp LSHFT>
@@ -286,7 +286,7 @@
             label = "pnIL";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = <&macro_tap &kp LS(I)>
                     , <&macro_release &kp LSHFT>
@@ -298,7 +298,7 @@
             label = "pnIVE";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = <&macro_tap &kp LS(I)>
                     , <&macro_release &kp LSHFT>
@@ -311,7 +311,7 @@
             label = "pnYoure";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = <&macro_tap &kp Y>
                     , <&macro_release &kp LSHFT>
@@ -323,7 +323,7 @@
             label = "pnYou'd";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = <&macro_tap &kp Y>
                     , <&macro_release &kp LSHFT>
@@ -335,7 +335,7 @@
             label = "pnYou'll";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = <&macro_tap &kp Y>
                     , <&macro_release &kp LSHFT>
@@ -347,7 +347,7 @@
             label = "pnYou've";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = <&macro_tap &kp Y>
                     , <&macro_release &kp LSHFT>
@@ -360,7 +360,7 @@
             label = "pnWere";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = <&macro_tap &kp W>
                     , <&macro_release &kp LSHFT>
@@ -372,7 +372,7 @@
             label = "pnWe'd";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = <&macro_tap &kp W>
                     , <&macro_release &kp LSHFT>
@@ -384,7 +384,7 @@
             label = "pnWe'll";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = <&macro_tap &kp W>
                     , <&macro_release &kp LSHFT>
@@ -396,7 +396,7 @@
             label = "pnWe've";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <30>;
+            wait-ms = <20>;
             tap-ms = <20>;
             bindings = <&macro_tap &kp W>
                     , <&macro_release &kp LSHFT>
