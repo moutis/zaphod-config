@@ -222,7 +222,7 @@
                 ;
         };
         typeJapanese: typeJapanese {
-            label = "typeJapan";
+            label = "typeJapanese";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_press &kp LSHFT>
