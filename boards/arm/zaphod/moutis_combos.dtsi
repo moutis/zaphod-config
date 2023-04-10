@@ -88,6 +88,8 @@ COMBO_LAYER(diacMacron, &kp LA(A),  RM2 RM4, l_alpha) // ¯
 COMBO_LAYER(diacCirc, &kp LA(K),    RM1 RM4, l_alpha) // ˚
 COMBO_LAYER(diacUmlaut, &kp LA(U),  RB1 RB2, l_alpha) // ¨
 
+COMBO_LAYER(typeJapan, &typeJapan,  RT1 RT2, RT3 l_alpha) // Japan
+
 //
 // H Digraphs REQUIRE macros (defined earlier) to process
 //

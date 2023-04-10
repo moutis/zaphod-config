@@ -210,6 +210,18 @@
                 ;
         };
 
+        typeJapan: typeJapan {
+            label = "typeJapan";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LSHFT>
+                    , <&macro_tap &kp J>
+                    , <&macro_release &kp LSHFT>
+                    , <&macro_release &kp RSHFT>
+                    , <&macro_tap &kp A &kp P &kp A &kp N>
+                ;
+        };
+
 
 #ifdef EN_PRONOUN_COMBOS
 // Pronouns
