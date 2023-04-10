@@ -101,7 +101,7 @@ behaviors {
         };
         lk_Japan: lk_Japan { // Japan on tap, Japanese on "linger"
             compatible = "zmk,behavior-hold-tap";
-            label = "lk_gh";
+            label = "lk_Japan";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
             quick-tap-ms = <my_quick_tapping_term>;
