@@ -35,7 +35,6 @@ behaviors {
             label = "homerow_mods";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31>; // left hand allowed
@@ -45,7 +44,6 @@ behaviors {
             label = "homerow_mods";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_R THUMBS>; // right hand allowed
@@ -55,7 +53,6 @@ behaviors {
             label = "hrm_t";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "balanced";
             bindings = <&kp>, <&ak_t>;
             hold-trigger-key-positions = <KEYS_R THUMBS>; // right hand allowed
@@ -65,7 +62,6 @@ behaviors {
             label = "hrm_a";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "balanced";
             bindings = <&kp>, <&ak_a>;
             hold-trigger-key-positions = <KEYS_L THUMBS>; // left hand allowed
@@ -75,7 +71,6 @@ behaviors {
             label = "hrm_e";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "balanced";
             bindings = <&kp>, <&ak_e>;
             hold-trigger-key-positions = <KEYS_L THUMBS>; // left hand allowed
@@ -86,7 +81,6 @@ behaviors {
             label = "lk";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
@@ -95,7 +89,6 @@ behaviors {
             label = "lk_qu";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&Qu>;
         };
@@ -104,7 +97,6 @@ behaviors {
             label = "lk_Japan";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "tap-preferred";
             bindings = <&typeJapanese>, <&typeJapan>;
         };
@@ -113,7 +105,6 @@ behaviors {
             label = "lk_gh";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "tap-preferred";
             bindings = <&ght>, <&Gh>;
         };
@@ -122,7 +113,6 @@ behaviors {
             label = "lk_th";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "tap-preferred";
             bindings = <&tion>, <&Th>;
         };
@@ -131,7 +121,6 @@ behaviors {
             label = "lk_sh";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "tap-preferred";
             bindings = <&sion>, <&Sh>;
         };
@@ -140,7 +129,6 @@ behaviors {
             label = "lk_quote";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "tap-preferred";
             bindings = <&pairDquo>, <&kp>;
         };
@@ -149,7 +137,6 @@ behaviors {
             label = "lk_par";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "tap-preferred";
             bindings = <&pairPar>, <&kp>;
         };
@@ -158,7 +145,6 @@ behaviors {
             label = "lk_bkt";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "tap-preferred";
             bindings = <&pairBkt>, <&kp>;
         };
@@ -167,7 +153,6 @@ behaviors {
             label = "lk_brc";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "tap-preferred";
             bindings = <&pairBrc>, <&kp>;
         };
@@ -176,7 +161,6 @@ behaviors {
             label = "lk_ltgt";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
-            quick-tap-ms = <my_quick_tapping_term>;
             flavor = "tap-preferred";
             bindings = <&pairLtGt>, <&kp>;
         };
