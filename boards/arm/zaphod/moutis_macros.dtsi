@@ -218,7 +218,18 @@
                     , <&macro_tap &kp J>
                     , <&macro_release &kp LSHFT>
                     , <&macro_release &kp RSHFT>
-                    , <&macro_tap &kp A &kp P &kp A &kp N>
+                    , <&macro_tap &kp A &kp P &kp A &kp N &kp SPACE>
+                ;
+        };
+        typeJapanese: typeJapanese {
+            label = "typeJapan";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LSHFT>
+                    , <&macro_tap &kp J>
+                    , <&macro_release &kp LSHFT>
+                    , <&macro_release &kp RSHFT>
+                    , <&macro_tap &kp A &kp P &kp A &kp N &kp E &kp S &kp E &kp SPACE>
                 ;
         };
 
