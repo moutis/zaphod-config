@@ -40,10 +40,14 @@
         bindings = <&kp LA(LBKT) &kp LS(LA(LBKT)) &kp LEFT>
                 ;
         )
-    ZMK_MACRO(pairLtGt,
+    pairLtGt: pairLtGt {
+        label = "pairLtGt";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <50>; // need to slow this down for some systems.
         bindings = <&kp LT &kp GT &kp LEFT>
                 ;
-        )
+        };
     pairPar: pairPar {
         label = "pairPar";
         compatible = "zmk,behavior-macro";
@@ -52,14 +56,22 @@
         bindings = <&kp LPAR &kp RPAR &kp LEFT>
                 ;
         };
-    ZMK_MACRO(pairBrc,
+    pairBrc: pairBrc {
+        label = "pairBrc";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <50>; // need to slow this down for some systems.
         bindings = <&kp LBRC &kp RBRC &kp LEFT>
                 ;
-        )
-    ZMK_MACRO(pairBkt,
+        };
+    pairBkt: pairBkt {
+        label = "pairBkt";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <50>; // need to slow this down for some systems.
         bindings = <&kp LBKT &kp RBKT &kp LEFT>
                 ;
-        )
+        };
 
     ZMK_MACRO(ak_g,
         bindings = <&macro_tap &kp G>

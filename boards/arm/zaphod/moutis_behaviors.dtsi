@@ -255,7 +255,7 @@ behaviors {
             compatible = "zmk,behavior-mod-morph";
             label = "DqtLbkt";
             #binding-cells = <0>;
-            bindings = <&kp DQT>, <&kp LBKT>;
+            bindings = <&lk pairDquo DQT>, <&kp LBKT>;
             mods = <(MOD_LALT|MOD_RALT)>;
         };
         DqtRbkt: DqtRbkt {
