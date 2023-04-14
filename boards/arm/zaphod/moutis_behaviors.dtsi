@@ -84,14 +84,6 @@ behaviors {
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-        lk_E_accent: lk_E_accent { // ´, é on "linger"
-            compatible = "zmk,behavior-hold-tap";
-            label = "lk_E_accent";
-            #binding-cells = <2>;
-            tapping-term-ms = <my_tapping_term>;
-            flavor = "tap-preferred";
-            bindings = <&typeEaccent>, <&kp>;
-        };
         lk_qu: lk_qu {
             compatible = "zmk,behavior-hold-tap";
             label = "lk_qu";
@@ -100,6 +92,57 @@ behaviors {
             flavor = "tap-preferred";
             bindings = <&kp>, <&Qu>;
         };
+
+        lk_E_accent: lk_E_accent { // ´, é on "linger"
+            compatible = "zmk,behavior-hold-tap";
+            label = "lk_E_accent";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            flavor = "tap-preferred";
+            bindings = <&typeEaccent>, <&kp>;
+        };
+        lk_E_grave: lk_E_grave { // `, è on "linger"
+            compatible = "zmk,behavior-hold-tap";
+            label = "lk_E_grave";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            flavor = "tap-preferred";
+            bindings = <&typeEgrave>, <&kp>;
+        };
+        lk_E_acute: lk_E_acute { // ˆ, ê on "linger"
+            compatible = "zmk,behavior-hold-tap";
+            label = "lk_E_acute";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            flavor = "tap-preferred";
+            bindings = <&typeEacute>, <&kp>;
+        };
+        lk_O_macron: lk_O_macron { // ¯, ō on "linger"
+            compatible = "zmk,behavior-hold-tap";
+            label = "lk_O_macron";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            flavor = "tap-preferred";
+            bindings = <&typeOmacron>, <&kp>;
+        };
+        lk_A_ring: lk_A_ring { // ˚, å on "linger"
+            compatible = "zmk,behavior-hold-tap";
+            label = "lk_A_ring";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            flavor = "tap-preferred";
+            bindings = <&typeAring>, <&kp>;
+        };
+        lk_U_umlaut: lk_U_umlaut { // ¨, ü on "linger"
+            compatible = "zmk,behavior-hold-tap";
+            label = "lk_U_umlaut";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            flavor = "tap-preferred";
+            bindings = <&typeUumlaut>, <&kp>;
+        };
+
+
         lk_Japan: lk_Japan { // Japan on tap, Japanese on "linger"
             compatible = "zmk,behavior-hold-tap";
             label = "lk_Japan";

@@ -223,6 +223,26 @@
         bindings = <&kp LA(E) &kp E>
                 ;
         )
+    ZMK_MACRO(typeEgrave,
+        bindings = <&kp LA(GRAVE) &kp E>
+                ;
+        )
+    ZMK_MACRO(typeEacute,
+        bindings = <&kp LA(N6) &kp E>
+                ;
+        )
+    ZMK_MACRO(typeOmacron,
+        bindings = <&kp LA(A) &kp O>
+                ;
+        )
+    ZMK_MACRO(typeAring,
+        bindings = <&kp LA(K) &kp A>
+                ;
+        )
+    ZMK_MACRO(typeUumlaut,
+        bindings = <&kp LA(U) &kp U>
+                ;
+        )
         typeJapan: typeJapan {
             label = "typeJapan";
             compatible = "zmk,behavior-macro";
