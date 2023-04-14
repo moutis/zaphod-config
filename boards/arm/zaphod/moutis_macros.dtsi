@@ -44,11 +44,14 @@
         bindings = <&kp LT &kp GT &kp LEFT>
                 ;
         )
-    ZMK_MACRO(pairPar,
-        wait-ms = <30>; // need to slow this down for some systems.
+    pairPar: pairPar {
+        label = "pairPar";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <50>; // need to slow this down for some systems.
         bindings = <&kp LPAR &kp RPAR &kp LEFT>
                 ;
-        )
+        };
     ZMK_MACRO(pairBrc,
         bindings = <&kp LBRC &kp RBRC &kp LEFT>
                 ;
