@@ -40,6 +40,14 @@
         bindings = <&kp LA(LBKT) &kp LS(LA(LBKT)) &kp LEFT>
                 ;
         )
+    pairDquo: pairDquo {
+        label = "pairDquo";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <50>; // need to slow this down for some systems.
+        bindings = <&kp LA(LBKT) &kp LS(LA(LBKT)) &kp LEFT>
+                ;
+        };
     pairLtGt: pairLtGt {
         label = "pairLtGt";
         compatible = "zmk,behavior-macro";
