@@ -36,10 +36,6 @@
                 ;
         )
 
-    ZMK_MACRO(pairDquo,
-        bindings = <&kp LA(LBKT) &kp LS(LA(LBKT)) &kp LEFT>
-                ;
-        )
     pairDquo: pairDquo {
         label = "pairDquo";
         compatible = "zmk,behavior-macro";
