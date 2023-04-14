@@ -45,6 +45,7 @@
                 ;
         )
     ZMK_MACRO(pairPar,
+        wait-ms = <30>; // need to slow this down for some systems.
         bindings = <&kp LPAR &kp RPAR &kp LEFT>
                 ;
         )
@@ -131,11 +132,6 @@
         )
 
 
-    ZMK_MACRO(typeSemi,
-        bindings = <&macro_release &kp LSHFT>
-                , <&macro_tap &kp SEMICOLON>
-                ;
-        )
 
     ZMK_MACRO(Th,
         bindings = <&macro_tap &kp T>
@@ -218,6 +214,15 @@
                 ;
         };
 
+    ZMK_MACRO(typeSemi,
+        bindings = <&macro_release &kp LSHFT>
+                , <&macro_tap &kp SEMICOLON>
+                ;
+        )
+    ZMK_MACRO(typeEaccent,
+        bindings = <&kp LA(E) &kp E>
+                ;
+        )
         typeJapan: typeJapan {
             label = "typeJapan";
             compatible = "zmk,behavior-macro";
