@@ -262,6 +262,10 @@
         bindings = <&kp LA(U) &kp U>
                 ;
         )
+    ZMK_MACRO(typeCedille,
+        bindings = <&kp LA(C) &kp C>
+                ;
+        )
         typeJapan: typeJapan {
             label = "typeJapan";
             compatible = "zmk,behavior-macro";

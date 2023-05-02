@@ -141,6 +141,14 @@ behaviors {
             flavor = "tap-preferred";
             bindings = <&typeUumlaut>, <&kp>;
         };
+        lk_C_cedille: lk_C_cedille { // ¸, ç on "linger"
+            compatible = "zmk,behavior-hold-tap";
+            label = "lk_C_cedille";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            flavor = "tap-preferred";
+            bindings = <&typeCedille>, <&kp>;
+        };
 
 
         lk_Japan: lk_Japan { // Japan on tap, Japanese on "linger"
@@ -151,19 +159,13 @@ behaviors {
             flavor = "tap-preferred";
             bindings = <&typeJapanese>, <&typeJapan>;
         };
-        lk_gh: lk_gh { // Gh on tap, Ght on "linger"
-            compatible = "zmk,behavior-hold-tap";
-            label = "lk_gh";
-            #binding-cells = <2>;
-            tapping-term-ms = <my_tapping_term>;
-            flavor = "tap-preferred";
-            bindings = <&ght>, <&Gh>;
-        };
         lk_th: lk_th { // Th on tap, tion on "linger"
             compatible = "zmk,behavior-hold-tap";
             label = "lk_th";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
+            quick-tap-ms = <90>;
+            global-quick-tap;
             flavor = "tap-preferred";
             bindings = <&tion>, <&Th>;
         };
@@ -172,8 +174,20 @@ behaviors {
             label = "lk_sh";
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
+            quick-tap-ms = <90>;
+            global-quick-tap;
             flavor = "tap-preferred";
             bindings = <&sion>, <&Sh>;
+        };
+        lk_gh: lk_gh { // Gh on tap, Ght on "linger"
+            compatible = "zmk,behavior-hold-tap";
+            label = "lk_gh";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            quick-tap-ms = <90>;
+            global-quick-tap;
+            flavor = "tap-preferred";
+            bindings = <&ght>, <&Gh>;
         };
         lk_quote: lk_quote { // " on tap, “” on "linger" (curly quotes)
             compatible = "zmk,behavior-hold-tap";

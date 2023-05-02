@@ -1,11 +1,11 @@
-            /*           Base (alpha) Layer  (Hands Down Vibranium)
-            Building for a 36 key on a 42 key board (outside column is unused)
-                   ╭─────────────────╮ ╭─────────────────╮
-                   │  W  X  M  G  J  │ │ #$  .: /* "[ '] │
-                   │  C  S  N  T  K  | | ,;   A  E  I  H │
-                   │  P  F  L  D  V  │ │ -+   U  O  Y  B │
-                   ╰───────╮  BSP R  │ │ SPC RET  ╭──────╯
-                           ╰─────────╯ ╰──────────╯   */
+        /*      Base (alpha) Layer  (Hands Down Vibranium)
+        Building for a 34 key board (outside column is unused)
+                ╭─────────────────╮ ╭─────────────────╮
+                │  W  X  M  G  J  │ │ #$  .: /* "[ '] │
+                │  C  S  N  T  K  | | ,;   A  E  I  H │
+                │  P  F  L  D  V  │ │ -+   U  O  Y  B │
+                ╰───────╮  BSP R  │ │ SPC RET  ╭──────╯
+                        ╰─────────╯ ╰──────────╯   */
 
                 l_alpha {
                         label = "l_alpha";
