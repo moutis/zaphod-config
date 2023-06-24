@@ -3,9 +3,9 @@
     macros {
 
     ZMK_MACRO(AppSwitch,
-        bindings =  <&macro_press &kp LALT>
+        bindings =  <&macro_press &kp LGUI>
                 , <&macro_tap &kp TAB> // Should combine with shift OK?
-                , <&macro_tap &sk LALT> // to leave app menu up? will this release on timeout?
+                , <&macro_tap &sk LGUI> // to leave app menu up? will this release on timeout?
                 ;
         )
 
