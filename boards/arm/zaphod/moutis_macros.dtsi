@@ -2,6 +2,13 @@
 
     macros {
 
+    ZMK_MACRO(AppSwitch,
+        bindings =  <&macro_press &kp LALT>
+                , <&macro_tap &kp TAB> // Should combine with shift OK?
+                , <&macro_tap &sk LALT> // to leave app menu up? will this release on timeout?
+                ;
+        )
+
         m_findsel: m_findsel {
             label = "Find Selection";
             compatible = "zmk,behavior-macro";
