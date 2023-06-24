@@ -3,10 +3,11 @@
     macros {
 
     ZMK_MACRO(AppSwitch,
-        bindings =  <&macro_press &kp LGUI>
+        bindings =  <&macro_press &kp LGUI> // leave GUI down to keep menu up
                 , <&macro_tap &kp TAB> // Should combine with shift OK?
-                , <&macro_tap &sk LGUI> // to leave app menu up? will this release on timeout?
-                ;
+                , <&macro_tap &sk LGUI> // will this end up releasing GUI on timeout?
+                , <&macro_release &kp LGUI> // bridge this hold?
+                        ;
         )
 
         m_findsel: m_findsel {
