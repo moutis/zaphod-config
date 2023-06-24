@@ -4,9 +4,9 @@
 
     ZMK_MACRO(AppSwitch,
         bindings =  <&macro_press &kp LGUI> // leave GUI down to keep menu up
-                , <&macro_tap &kp TAB> // Should combine with shift OK?
-                , <&macro_tap &sk LGUI> // will this end up releasing GUI on timeout?
-                , <&macro_release &kp LGUI> // bridge this hold?
+                , <&macro_tap &kp TAB> // combines with shift fine
+                , <&macro_tap &sk LGUI> // this will release GUI after a timeout
+                , <&macro_release &kp LGUI> // now release the previous hold
                         ;
         )
 
