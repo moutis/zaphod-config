@@ -10,6 +10,14 @@
                         ;
         )
 
+    ZMK_MACRO(S_AppSwitch,
+        bindings =  <&macro_press &kp LSHFT> //
+                , <&AppSwitch> // combines with shift fine
+                , <&macro_release &kp LSHFT> // 
+                        ;
+        )
+
+
         m_findsel: m_findsel {
             label = "Find Selection";
             compatible = "zmk,behavior-macro";
