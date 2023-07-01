@@ -173,6 +173,7 @@
         )
     ZMK_MACRO(ak_y,
         bindings = <&kp Y &sl l_akI>;
+        )
 
 
 
