@@ -85,6 +85,15 @@ behaviors {
             bindings = <&kp>, <&ak_e>;
             hold-trigger-key-positions = <KEYS_L THUMBS>; // left hand allowed
         };
+        hrm_i: hrm_i {
+            compatible = "zmk,behavior-hold-tap";
+            label = "hrm_i";
+            #binding-cells = <2>;
+            tapping-term-ms = <my_tapping_term>;
+            flavor = "balanced";
+            bindings = <&kp>, <&ak_i>;
+            hold-trigger-key-positions = <KEYS_L THUMBS>; // left hand allowed
+        };
 
         lk: lk {
             compatible = "zmk,behavior-hold-tap";

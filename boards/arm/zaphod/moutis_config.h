@@ -80,11 +80,12 @@
 #define l_akU   11
 #define l_akE   12
 #define l_akO   13
-#define l_nav   14
-#define l_sym   15
-#define l_fn    16
-#define l_num   17
-#define l_cfg   18
+#define l_akI   14
+#define l_nav   15
+#define l_sym   16
+#define l_fn    17
+#define l_num   18
+#define l_cfg   19
 
 #define my_tapping_term 170
 #define my_quick_tapping_term 125

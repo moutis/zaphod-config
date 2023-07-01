@@ -34,8 +34,8 @@
 //                     &none &none   &none &none
 
 &ak_x  &ak_w  &ak_m     &ak_g     &lt l_num J              &HashDllr  &DotColn    &SlshStar   &DqtLbkt   &SqtRbkt
-&hml LCTRL S &hml LALT C   &hml LGUI N  &hrm_t LSHFT T &ak_k    &CmmaSemi  &hrm_a RSHFT A &hrm_e RGUI E  &hmr RALT I  &hmr RCTRL H
-&ak_f     &ak_p    &kp L    &ak_d     &kp V                 &MinusPlus  &ak_u      &ak_o       &kp Y       &kp F
+&hml LCTRL S &hml LALT C   &hml LGUI N  &hrm_t LSHFT T &ak_k    &CmmaSemi  &hrm_a RSHFT A &hrm_e RGUI E  &hmr_i RALT I  &hmr RCTRL H
+&ak_f     &ak_p    &kp L    &ak_d     &kp V                 &MinusPlus  &ak_u      &ak_o       &ak_y       &kp F
 
 
                 &mm_bspc_del &lt l_nav R      &lt l_sym SPACE &lt l_nav RETURN
@@ -174,6 +174,16 @@ ___     ___     ___     ___     ___    ___     ___     ___     ___     ___
 ___     ___     ___     ___     ___    ___     ___     ___     ___     ___
 ___     ___     ___     ___     ___    ___     ___     ___     ___     &kp E
 ___     ___     ___     ___     ___    ___     ___     ___     ___     ___
+                        ___     ___    ___     ___
+                        >;
+                };
+                l_akI {
+                        label = "l_akI";
+                        bindings = <
+
+___     ___     ___     ___     ___    ___     ___     ___     ___     ___
+___     ___     ___     ___     ___    ___     ___     ___     ___     &kp F
+___     ___     ___     ___     ___    ___     ___     ___     ___     &kp I
                         ___     ___    ___     ___
                         >;
                 };
