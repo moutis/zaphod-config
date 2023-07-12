@@ -76,19 +76,20 @@
 #define l_akW   7
 #define l_akB   8
 #define l_akP   9
-#define l_akA   10
-#define l_akU   11
-#define l_akE   12
-#define l_akO   13
-#define l_akI   14
-#define l_nav   15
-#define l_sym   16
-#define l_fn    17
-#define l_num   18
-#define l_cfg   19
+#define l_akL   10
+#define l_akA   11
+#define l_akU   12
+#define l_akE   13
+#define l_akO   14
+#define l_akI   15
+#define l_nav   16
+#define l_sym   17
+#define l_fn    18
+#define l_num   19
+#define l_cfg   20
 
 #define my_tapping_term 170
-#define my_quick_tapping_term 125
+#define my_quick_tapping_term 112
 
 &mt {
     tapping-term-ms = <my_tapping_term>;
