@@ -82,14 +82,16 @@
 #define l_akE   13
 #define l_akO   14
 #define l_akI   15
-#define l_nav   16
-#define l_sym   17
-#define l_fn    18
-#define l_num   19
-#define l_cfg   20
+#define l_akI   16
+#define l_nav   17
+#define l_sym   18
+#define l_fn    19
+#define l_num   20
+#define l_cfg   21
 
 #define my_tapping_term 170
 #define my_quick_tapping_term 112
+#define my_ak_delay 40
 
 &mt {
     tapping-term-ms = <my_tapping_term>;

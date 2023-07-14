@@ -260,7 +260,7 @@ behaviors {
             compatible = "zmk,behavior-mod-morph";
             label = "DotColn";
             #binding-cells = <0>;
-            bindings = <&kp DOT>, <&kp COLON>;
+            bindings = <&dot_ak>, <&kp COLON>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         SlshStar: SlshStar {

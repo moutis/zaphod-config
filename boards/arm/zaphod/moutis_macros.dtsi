@@ -95,6 +95,30 @@
         bindings = <&kp LBKT &kp RBKT &kp LEFT>
                 ;
         };
+    dot_ak: dot_ak {
+        label = "dot_ak";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <50>; // need to slow this down for some systems.
+        bindings = <&macro_tap &kp DOT>
+                , <&sl l_akDot>;
+        };
+    dotcom: dotcom {
+        label = "dotcom";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <50>; // need to slow this down for some systems.
+        bindings = <&kp C &kp O &kp M>
+                ;
+        };
+    dotedu: dotedu {
+        label = "dotedu";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <50>; // need to slow this down for some systems.
+        bindings = <&kp E &kp D &kp U>
+                ;
+        };
 
     ZMK_MACRO(ak_g,
         bindings = <&macro_tap &kp G>
