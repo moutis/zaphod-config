@@ -82,7 +82,7 @@
 #define l_akE   13
 #define l_akO   14
 #define l_akI   15
-#define l_akI   16
+#define l_akDot 16
 #define l_nav   17
 #define l_sym   18
 #define l_fn    19

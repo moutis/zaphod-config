@@ -118,7 +118,7 @@
         wait-ms = <50>; // need to slow this down for some systems.
         bindings = <&kp E &kp D &kp U>
                 ;
-        }
+        };
 
     ZMK_MACRO(ak_g,
         bindings = <&macro_tap &kp G>
