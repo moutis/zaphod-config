@@ -277,6 +277,13 @@ behaviors {
             bindings = <&kp HASH>, <&kp DLLR>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+        HashNo: HashNo {
+            compatible = "zmk,behavior-mod-morph";
+            label = "HashNo";
+            #binding-cells = <0>;
+            bindings = <&kp HASH>, <&kp LS(LA(SEMI))>;
+            mods = <(MOD_LALT|MOD_RALT)>;
+        };
         MinusPlus: MinusPlus {
             compatible = "zmk,behavior-mod-morph";
             label = "MinusPlus";
