@@ -14,7 +14,7 @@
 ╰───────────╮ LH2 LH1 | | RH1 RH2 ╭───────────╯
             ╰─────────╯ ╰─────────╯
 */
-/*  Base (alpha) Layer  Hands Down Vibranium
+/*  Base (alpha) Layer  Hands Down Vibranium-v
         Building for a 34 key board
     ╭─────────────────╮ ╭─────────────────╮
     │  X  W  M  G  "[ │ │ #$  .: ']  J  B │
@@ -33,12 +33,10 @@
 //   &none &none &none &none &none   &none &none &none &none &none
 //                     &none &none   &none &none
 
-&ak_x  &ak_w  &ak_m     &ak_g     &SqtRbkt             &HashDllr  &DotColn    &DqtLbkt &lt l_num J &kp B
-&hml LCTRL S &hml LALT C   &hml LGUI N  &hrm_t LSHFT T &ak_k    &CmmaSemi  &hrm_a RSHFT A &hrm_e RGUI E  &hmr RALT I  &hmr RCTRL H
-&ak_f     &ak_p    &kp L    &ak_d     &SlshStar                 &MinusPlus  &ak_u      &ak_o       &kp Y       &kp F
-
-
-                &mm_bspc_del &lt l_nav R      &lt l_sym SPACE &lt l_nav RETURN
+&ak_x   &ak_w   &ak_m   &ak_g     &lt l_num DqtLbkt             &HashDllr   &DotColn    &SqtRbkt    &kp J       &kp B
+&hml LCTRL S &hml LALT C   &hml LGUI N  &hrm_t LSHFT T &ak_k    &CmmaSemi   &hrm_a RSHFT A &hrm_e RGUI E  &hrm_i RALT I  &hmr RCTRL H
+&kp V   &ak_p   &kp L   &ak_d     &SlshStar                     &MinusPlus  &ak_u       &ak_o       &ak_y       &kp F
+                                &mm_bspc_del &lt l_nav R        &lt l_sym SPACE &lt l_nav RETURN
                         >;
                 };
 
@@ -122,6 +120,16 @@ ___     &ak_sp  ___     ___     ___    ___     ___     ___     ___     ___
                         ___     ___    ___     ___
                         >;
                 };
+                l_akB {
+                        label = "l_akB";
+                        bindings = <
+
+___     ___     ___     ___     ___    ___     ___     ___     ___     ___
+___     ___     ___     ___     ___    ___     ___     ___     ___     ___
+___     ___     ___     ___     ___    ___     ___     ___     ___     ___
+                        ___     ___    ___     ___
+                        >;
+                };
                 l_akP {
                         label = "l_akP";
                         bindings = <
@@ -173,6 +181,27 @@ ___     ___     ___     ___     ___    ___     ___     ___     ___     ___
 
 ___     ___     ___     ___     ___    ___     ___     ___     ___     ___
 ___     ___     ___     ___     ___    ___     ___     ___     ___     &kp E
+___     ___     ___     ___     ___    ___     ___     ___     ___     ___
+                        ___     ___    ___     ___
+                        >;
+                };
+                l_akI {
+                        label = "l_akI";
+                        bindings = <
+
+___     ___     ___     ___     ___    ___     ___     ___     ___     ___
+___     ___     ___     ___     ___    ___     ___     ___     ___     &kp F
+___     ___     ___     ___     ___    ___     ___     ___     ___     ---
+                        ___     ___    ___     ___
+                        >;
+                };
+
+                l_akDot {
+                        label = "l_akDot";
+                        bindings = <
+
+___     ___     ___     ___     ___    ___     ___     &dotcom &dotedu ___
+___     ___     ___     ___     ___    ___     ___     ___     ___     ___
 ___     ___     ___     ___     ___    ___     ___     ___     ___     ___
                         ___     ___    ___     ___
                         >;
