@@ -74,9 +74,9 @@
 #define l_akK   5
 #define l_akD   6
 #define l_akW   7
-#define l_akB   8
-#define l_akP   9
-#define l_akL   10
+#define l_akP   8
+#define l_akB   9
+#define l_akV   10
 #define l_akA   11
 #define l_akU   12
 #define l_akE   13
