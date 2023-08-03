@@ -171,7 +171,7 @@
                 , <&sl l_akP>;
         )
     ZMK_MACRO(ak_v,
-        bindings = <&macro_tap &kp v>
+        bindings = <&macro_tap &kp V>
                 , <&sl l_akV>;
         )
     ZMK_MACRO(ak_l,
