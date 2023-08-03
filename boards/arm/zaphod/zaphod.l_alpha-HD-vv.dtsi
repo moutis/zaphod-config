@@ -33,9 +33,9 @@
 //   &none &none &none &none &none   &none &none &none &none &none
 //                     &none &none   &none &none
 
-&ak_x  &ak_w  &ak_m     &ak_g     &DqtLbkt             &HashDllr   &DotColn   &SqtRbkt       &kp J      &ak_b
-&hml LCTRL S &hml LALT C   &hml LGUI N  &hrm_t LSHFT T &ak_k       &CmmaSemi  &hrm_a RSHFT A &hrm_e RGUI E  &hmr RALT I  &hmr RCTRL H
-&kp V  &ak_p    &ak_l    &ak_d     &SlshStar           &MinusPlus  &ak_u      &ak_o          &kp Y      &kp F
+&ak_x        &ak_w      &ak_m     &ak_g     &DqtLbkt            &HashDllr   &DotColn   &SqtRbkt       &kp J      &ak_b
+&hml LCTRL S &hml LALT C   &hml LGUI N  &hrm_t LSHFT T &ak_k    &CmmaSemi   &hrm_a RSHFT A &hrm_e RGUI E  &hmr RALT I  &hmr RCTRL H
+&lt l_num V  &ak_p      &ak_l     &ak_d     &SlshStar           &MinusPlus  &ak_u      &ak_o          &kp Y      &kp F
 
 
                 &mm_bspc_del &lt l_nav R      &lt l_sym SPACE &lt l_nav RETURN
@@ -77,7 +77,7 @@ ___     ___     ___     ___     ___    ___     ___     ___     ___     ___
                         bindings = <
 
 ___     ___     ___     ___     ___    ___     ___     ___     ___     ___
-___     &Ch     ___     ___    &ak_nk  ___     ___     ___     ___     ___
+___     &Ch     ___     ___    &ak_ck  ___     ___     ___     ___     ___
 ___     ___     ___     ___     ___    ___     ___     ___     ___     ___
                         ___     ___    ___     ___
                         >;
