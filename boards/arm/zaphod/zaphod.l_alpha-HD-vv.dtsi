@@ -19,7 +19,7 @@
     ╭─────────────────╮ ╭─────────────────╮
     │  X  W  M  G  "[ │ │ #$  .: ']  J  B │
     │  S  C  N  T  K  | | ,;   A  E  I  H │
-    │  V  P  L  D  /* │ │ -+   U  O  Y  F │
+    │  V  F  L  D  /* │ │ -+   U  O  Y  P │
     ╰───────╮  BSP R  │ │ SPC RET  ╭──────╯
             ╰─────────╯ ╰──────────╯
 */
@@ -35,7 +35,7 @@
 
 &ak_x        &ak_w      &ak_m     &ak_g     &DqtLbkt            &HashDllr   &DotColn   &SqtRbkt       &kp J      &ak_b
 &hml LCTRL S &hml LALT C   &hml LGUI N  &hrm_t LSHFT T &ak_k    &CmmaSemi   &hrm_a RSHFT A &hrm_e RGUI E  &hmr RALT I  &hmr RCTRL H
-&ak_v  &ak_p      &kp L     &ak_d     &SlshStar           &MinusPlus  &ak_u      &ak_o          &kp Y      &kp F
+&ak_v  &ak_f      &kp L     &ak_d     &SlshStar           &MinusPlus  &ak_u      &ak_o          &kp Y      &kp F
 
 
                 &mm_bspc_del &lt l_nav R      &lt l_sym SPACE &lt l_nav RETURN
@@ -48,7 +48,7 @@
 
 &kp T   &kp D   &kp L   ___     ___     ___     ___     ___     ___     ___
 ___     ___     ___     ___     &ak_lk  ___     ___     ___     ___     ___
-___     ___     ___     ___     ___    ___     ___     ___     ___     ___
+___     ___     ___     ___     ___     ___     ___     ___     ___     ___
                         ___     ___     ___     ___
                         >;
                 };
@@ -112,8 +112,8 @@ ___     ___     ___     ___     ___    ___     ___     ___     ___     ___
                         ___     ___    ___     ___
                         >;
                 };
-                l_akP {
-                        label = "l_akP";
+                l_akF {
+                        label = "l_akF";
                         bindings = <
 
 ___     ___     ___     ___     ___    ___     ___     ___     ___     ___
@@ -138,7 +138,7 @@ ___     ___     ___     ___     ___    ___     ___     ___     ___     ___
 
 ___     ___     ___     ___     ___    ___     ___     ___     ___     ___
 ___     ___     ___     ___     ___    ___     ___     ___     ___     ___
-___     &ak_sp  ___     ___     ___    ___     ___     ___     ___     ___
+___     &ak_sf  ___     ___     ___    ___     ___     ___     ___     ___
                         ___     ___    ___     ___
                         >;
                 };

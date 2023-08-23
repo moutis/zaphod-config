@@ -93,7 +93,7 @@ COMBO_LAYER(typeGrav, &kp GRAVE,    RT3 RT4, l_alpha)
 COMBO_LAYER(typeatMk, &lk LS(LA(SEMI)) AT_SIGN,  RT0 RT1, l_alpha) // @ (№ if held)
 COMBO_LAYER(typeUnder, &kp UNDER,   RB1 RB3, l_alpha) // _
 COMBO_LAYER(typeEqual, &lk PRCNT EQUAL,   RB2 RB3, l_alpha) // = (percent if held)
-COMBO_LAYER(typePercent, &kp PRCNT, RB3 RB4, l_alpha) // percent
+//COMBO_LAYER(typePercent, &kp PRCNT, RB3 RB4, l_alpha) // percent
 COMBO_LAYER(typeNdash, &lk LA(LS(MINUS)) LA(MINUS), RB0 RB1, l_alpha) // N-dash (M-dash if held)
 COMBO_LAYER(typeMdash, &kp LA(LS(MINUS)), RB0 RB2, l_alpha) // M-dash (minus)
 COMBO_LAYER(typeTilde, &kp TILDE,   RB0 RB4, l_alpha) // tilde (not dead key)
@@ -119,7 +119,7 @@ COMBO_LAYER(ch,  &Ch,        LM3 LM2, l_alpha) // Ch
 COMBO_LAYER(wh,  &Wh,        LT3 LT2, l_alpha) // Wh
 COMBO_LAYER(sh,  &lk_sh H S, LM4 LM3, l_alpha) // Sh/sion
 COMBO_LAYER(gh,  &lk_gh H G, LT2 LT1, l_alpha) // Gh/ght
-COMBO_LAYER(ph,  &Ph,        LB3 LB1, l_alpha) // Ph
+COMBO_LAYER(ph,  &Ph,        RB3 RB4, l_alpha) // Ph
 
 #ifdef EN_PRONOUN_COMBOS
 //
