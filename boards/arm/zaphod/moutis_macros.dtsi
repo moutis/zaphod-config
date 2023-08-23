@@ -132,8 +132,8 @@
         bindings = <&macro_tap &kp X>
                 , <&sl l_akX>;
         )
-    ZMK_MACRO(ak_xp,
-        bindings = <&macro_tap &kp P>
+    ZMK_MACRO(ak_xc,
+        bindings = <&macro_tap &kp C>
                 , <&sl l_akX>;
         )
     ZMK_MACRO(ak_m,
@@ -193,11 +193,11 @@
     ZMK_MACRO(ak_e,
         bindings = <&kp E &sl l_akE>;
         )
-    ZMK_MACRO(ak_i,
-        bindings = <&kp I &sl l_akI>;
-        )
     ZMK_MACRO(ak_o,
         bindings = <&kp O &sl l_akO>;
+        )
+    ZMK_MACRO(ak_i,
+        bindings = <&kp I &sl l_akI>;
         )
     ZMK_MACRO(ak_y,
         bindings = <&kp Y &sl l_akI>;
