@@ -82,12 +82,13 @@
 #define l_akE   13
 #define l_akO   14
 #define l_akI   15
-#define l_akDot 16
-#define l_nav   17
-#define l_sym   18
-#define l_fn    19
-#define l_num   20
-#define l_cfg   21
+#define l_akJ   16
+#define l_akDot 17
+#define l_nav   18
+#define l_sym   19
+#define l_fn    20
+#define l_num   21
+#define l_cfg   22
 
 #define my_tapping_term 170
 #define my_quick_tapping_term 112

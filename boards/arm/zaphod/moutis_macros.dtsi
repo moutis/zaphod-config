@@ -200,10 +200,10 @@
         bindings = <&kp I &sl l_akI>;
         )
     ZMK_MACRO(ak_y,
-        bindings = <&kp Y &sl l_akI>;
+        bindings = <&kp Y &sl l_akJ>;
         )
     ZMK_MACRO(ak_j,
-        bindings = <&kp J &sl l_akI>;
+        bindings = <&kp J &sl l_akJ>;
         )
 
 
