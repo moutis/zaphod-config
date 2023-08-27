@@ -208,6 +208,9 @@
     ZMK_MACRO(l_akO2,
         bindings = <&kp O &sl l_akJ>;
         )
+    ZMK_MACRO(l_akY2,
+        bindings = <&kp Y &sl l_akJ>;
+        )
 
 
 
