@@ -1,5 +1,5 @@
 
-![zaphod pic](zaphod.jpg)
+![zaphod pic](zaphod2.jpg)
 
 [**Hands Down**](http://handsdownlayout.com) [*Vibranium*](https://sites.google.com/alanreiser.com/handsdown/home/hands-down-neu#h.eyvjpfoqjy65) (a.k.a Neu-vv) on a [Zaphod](https://www.reddit.com/r/ErgoMechKeyboards/comments/1130oor/zaphod_in_café_society/) using just the github actions.
 
