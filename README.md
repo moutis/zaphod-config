@@ -1,5 +1,5 @@
 
-[**Hands Down**](http://handsdownlayout.com) [*Vibranium*](https://sites.google.com/alanreiser.com/handsdown/home/hands-down-neu#h.eyvjpfoqjy65) (a.k.a Neu-vv) on a [Zaphod](https://mkultra.click/zaphod-wireless-ble-34-key-lopro-kit/) using just the github actions.
+[**Hands Down**](http://handsdownlayout.com) [*Vibranium*](https://sites.google.com/alanreiser.com/handsdown/home/hands-down-neu#h.eyvjpfoqjy65) (a.k.a Neu-vv) on a [Zaphod](https://www.reddit.com/r/ErgoMechKeyboards/comments/1130oor/zaphod_in_café_society/) using just the github actions.
 
 ```
      ╭─────────────────────╮ ╭──────────────────────╮
