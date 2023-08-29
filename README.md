@@ -1,5 +1,5 @@
 
-# [**Hands Down**](http://handsdownlayout.com) [*Vibranium*](https://sites.google.com/alanreiser.com/handsdown/home/hands-down-neu#h.78qav8n932m7) on ![zen pic](zenlogo.png)
+# [**Hands Down**](http://handsdownlayout.com) [*Vibranium*](https://sites.google.com/alanreiser.com/handsdown/home/hands-down-neu#h.78qav8n932m7) on [Zaphod](https://github.com/petejohanson/zaphod-config)
 
 ![zaphod pic](zaphod2.jpg)
 
