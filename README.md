@@ -15,4 +15,6 @@
 
 Currently building only for a Mac (hard coded for gui instead of ctrl, and some mac specific keycodes). My [***Semantic Keys***](https://sites.google.com/alanreiser.com/handsdown#h.7mehnxbqcx2s) feature for platform independence isn't yet fully fleshed out on my QMK implementations, and will reguire more invasive work for ZMK, so this too is for later.
 
-thanks to [jcmkk3](https://github.com/jcmkk3) for the adaptive layers idea, and many others for the endless creativity and support. 
+Thanks to [jcmkk3](https://github.com/jcmkk3) for the adaptive layers idea, and many others for the endless creativity and support. 
+
+And of course, to [Pete Johanson](https://github.com/petejohanson) and contributors for ZMK, and for the very sweet [Zaphod](https://github.com/petejohanson/zaphod-config) board design.
