@@ -5,7 +5,6 @@
 //  Created by Alan on 7/24/22.
 //
 
-#define ___  &trans
 
 /*    KEY POSITION Numbers for Zaphod
  ╭────────────────────╮ ╭────────────────────╮
