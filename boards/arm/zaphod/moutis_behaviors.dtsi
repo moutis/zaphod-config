@@ -17,13 +17,20 @@
 /*  Base (alpha) Layer  Hands Down Vibranium
         Building for a 34 key board
     ╭─────────────────╮ ╭─────────────────╮
-    │  X  W  M  G  J  │ │ #$  .: /* "[ '] │
+    │  X  W  M  G  J  │ │ #$  .: '[ "]  B │
     │  S  C  N  T  K  | | ,;   A  E  I  H │
-    │  V  P  L  D  B  │ │ -+   U  O  Y  F │
+    │  V  P  L  D  /* │ │ -+   U  O  Y  F │
     ╰───────╮  BSP R  │ │ SPC RET  ╭──────╯
             ╰─────────╯ ╰──────────╯
 */
 behaviors {
+      skapp: sticky_key_app_switcher {
+        compatible = "zmk,behavior-sticky-key";
+        label = "SK_APP_SWITCHER";
+        #binding-cells = <1>;
+        bindings = <&kp>;
+        release-after-ms = <900>;
+      };
         mm_bspc_del: mm_backspace_delete {
             compatible = "zmk,behavior-mod-morph";
             label = "MM_BACKSPACE_DELETE";
@@ -184,7 +191,7 @@ behaviors {
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
             quick-tap-ms = <90>;
-            global-quick-tap;
+//            global-quick-tap;
             flavor = "tap-preferred";
             bindings = <&tion>, <&Th>;
         };
@@ -194,7 +201,7 @@ behaviors {
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
             quick-tap-ms = <90>;
-            global-quick-tap;
+//            global-quick-tap;
             flavor = "tap-preferred";
             bindings = <&sion>, <&Sh>;
         };
@@ -204,7 +211,7 @@ behaviors {
             #binding-cells = <2>;
             tapping-term-ms = <my_tapping_term>;
             quick-tap-ms = <90>;
-            global-quick-tap;
+//            global-quick-tap;
             flavor = "tap-preferred";
             bindings = <&ght>, <&Gh>;
         };
