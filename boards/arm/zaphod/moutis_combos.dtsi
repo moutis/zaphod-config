@@ -35,15 +35,6 @@
 ╰───────────╮ LH2 LH1 | | RH1 RH2 ╭───────────╯
             ╰─────────╯ ╰─────────╯
 */
-/*  Base (alpha) Layer  Hands Down Vibranium
-        Building for a 34 key board
-    ╭─────────────────╮ ╭─────────────────╮
-    │  X  W  M  G  J  │ │ #$  .: /* "[ '] │
-    │  S  C  N  T  K  | | ,;   A  E  I  H │
-    │  B  P  L  D  V  │ │ -+   U  O  Y  F │
-    ╰───────╮  BSP R  │ │ SPC RET  ╭──────╯
-            ╰─────────╯ ╰──────────╯
-*/
 
 combos {
     compatible = "zmk,combos";
@@ -54,7 +45,7 @@ combos {
 COMBO_ANY(enmode, &kp LANG2,    LB3 LB2 LB1)
 COMBO_ANY(jpmode, &kp LANG1,    RB1 RB2 RB3)
 COMBO_ANY(settings, &mo l_cfg,  RH1 RH2) // get the settings/media layer from anywhere
-COMBO_ANY(appswitch, &AppSwitch, LB3 LB1) // App switch
+COMBO_ANY(appswitch, &AppSwitch, LT1 LT0) // App switch
 COMBO_LAYER(docaps, &caps_word, LM2 LM1 RM1 RM2, l_alpha) // CAPSWORD
 COMBO_LAYER(capslk, &kp CAPS, LM3 LM2 RM2 RM3, l_alpha) // CAPS LOCK
 
@@ -84,7 +75,7 @@ COMBO_LAYER(findsel, &m_findsel,  LM4 LB0, l_alpha)
 //
 COMBO_LAYER(typeJapan, &lk_Japan P J,  RT1 RT2 RT3, l_alpha) // Japan
 COMBO_LAYER(typeQ, &lk_qu Q U,      LT3 LT1, l_alpha)
-COMBO_LAYER(typeZ, &kp Z,           LT1 LT0, l_alpha)
+COMBO_LAYER(typeZ, &kp Z,           LT4 LT3, l_alpha)
 COMBO_LAYER(typeColn, &lk LA(SEMI) COLON,    RT1 RT3, l_alpha)
 COMBO_LAYER(typeSemi, &kp SEMI,     RM0 RM1, l_alpha)
 COMBO_LAYER(typeExcl, &kp EXCL,     RT1 RT2, l_alpha)
@@ -118,7 +109,7 @@ COMBO_LAYER(ch,  &Ch,        LM3 LM2, l_alpha) // Ch
 COMBO_LAYER(wh,  &Wh,        LT3 LT2, l_alpha) // Wh
 COMBO_LAYER(sh,  &lk_sh H S, LM4 LM3, l_alpha) // Sh/sion
 COMBO_LAYER(gh,  &lk_gh H G, LT2 LT1, l_alpha) // Gh/ght
-COMBO_LAYER(ph,  &Ph,        RB3 RB4, l_alpha) // Ph
+COMBO_LAYER(ph,  &Ph,        LB3 LB1, l_alpha) // Ph
 
 #ifdef EN_PRONOUN_COMBOS
 //
