@@ -171,8 +171,7 @@
             wait-ms = <10>;
             tap-ms = <10>;
         bindings = <&kp BSPC &kp L &kp M>
-                    , <&sl l_akM>
-        ;
+                    , <&sl l_akM>;
         )
     ZMK_MACRO(ak_lk,
             wait-ms = <10>;
