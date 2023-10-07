@@ -2,23 +2,22 @@
  Building for a 34 key board
  */
 
-//                                     shorcuts & Navigation
-//╭────────────────────────────────────────────╮ ╭──────────────────────────────────────────╮
-//|  close |   quit  | ScrCp | SelCp |   ESC   | | Zoom+ |  HOME  |   UP   |  PG_UP |       |
-//|   ctrl |   alt   |  gui  |  shft |   Find  | | Lword |  LEFT  |  DOWN  |   RGT  | Rword |
-//|  undo  |   cut   |  copy |  pste | findAgn | | Zoom- |   END  | Zreset |  PG_DN |  |
-//╰──────────────────╮       | mute  |  APPSW  | |  back |  fwd   |        ╭────────────────╯
-//                   ╰─────────────────────────╯ ╰─────────────────────────╯
-                l_nav {
-                    label = "l_nav";
-                    bindings = <
-&kp RG(W) &kp RG(Q) &kp LG(LS(N4)) &kp LG(LS(LC(N4))) &kp ESC  &kp LG(EQUAL) &kp HOME &kp UP     &kp PG_UP &none
-&kp LCTRL  &kp LALT &kp LGUI &kp LSHFT   &kp RG(F)             &kp LA(LEFT)  &kp LEFT &kp DOWN   &kp RIGHT &kp LA(RIGHT)
-&kp RG(Z)  &kp RG(X) &kp RG(C) &kp RG(V) &kp RG(G)             &kp LG(MINUS) &kp END  &kp LG(N0) &kp PG_DN &none
-                            &S_AppSwitch    &AppSwitch        &kp LG(LBKT) &kp LG(RBKT)
-                    >;
-                };
-
+/*    KEY POSITION Numbers for Zaphod
+ ╭────────────────────╮ ╭────────────────────╮
+ │  0   1   2   3   4 │ │  5   6   7   8   9 │
+ │ 10  11  12  13  14 │ │ 15  16  17  18  19 |
+ | 20  21  22  23  24 │ │ 25  26  27  28  29 |
+ ╰───────────╮ 30  31 | | 32  33  ╭──────────╯
+             ╰────────╯ ╰─────────╯
+*/
+/*    KEY POSITION Names
+╭─────────────────────╮ ╭─────────────────────╮
+│ LT4 LT3 LT2 LT1 LT0 │ │ RT0 RT1 RT2 RT3 RT4 │
+│ LM4 LM3 LM2 LM1 LM0 │ │ RM0 RM1 RM2 RM3 RM4 │
+│ LB4 LB3 LB2 LB1 LB0 │ │ RB0 RB1 RB2 RB3 RB4 │
+╰───────────╮ LH2 LH1 | | RH1 RH2 ╭───────────╯
+            ╰─────────╯ ╰─────────╯
+*/
 //                                       Symbol & math (for Mac)
 //  * left paired symbols are "linger keys" via hold taps. Tap for left, hold for pair with insertion point between
 //╭────────────────────────────────────────────╮ ╭──────────────────────────────────────────╮
@@ -37,26 +36,6 @@
                     >;
                 };
 
-//                                         Fkey & Num Row (optimized)
-//╭────────────────────────────────────────────╮ ╭───────────────────────────────────────╮
-//|    F9   |  F10   |  F11   |  F12   |  F13  | |   `   |   7   |   8   |   9   |   \   |
-//|   C/F5  |  A/F6  |  G/F7  |  S/F8  |  F14  | |   ,   |  S/1  |  G/2  |  A/3  |  C//  |
-//|    F1   |   F2   |   F3   |   F4   |  F15  | |   -   |   4   |   5   |   6   |   =   |
-//╰──────────────────╮        |  BKSP  |   DEL | |   0   |   .   |       ╭───────────────╯
-//                   ╰─────────────────────────╯ ╰───────────────────────╯
-
-                l_fn {
-                        label = "l_fn";
-                        bindings = <
-
-&kp F9       &kp F10     &kp F11      &kp F12      &kp F13 &kp GRAVE &kp N7       &kp N8      &kp N9      &kp BSLH
-&mt LCTRL F5 &mt LALT F6 &mt LGUI F7  &mt LSHFT F8 &kp F14 &kp CMMA  &mt RSHFT N1 &mt RGUI N2 &mt RALT N3 &mt LCTRL FSLH
-&kp F1       &kp F2      &kp F3       &kp F4       &kp F15 &kp MINUS &kp N4       &kp N5      &kp N6      &kp EQUAL
-                         &kp BSPC     &kp DEL      &kp KP_N0    &kp DOT
-                        >;
-                };
-
-
 //                                          Nav & NumPad (standard)
 //╭────────────────────────────────────────────╮ ╭────────────────────────────────────────╮
 //|   ESC  |  HOME  |   UP   |  PG_UP |  NUM   | |    /   |   7   |   8   |   9   |   -   |
@@ -71,8 +50,44 @@
 &kp ESC      &kp HOME &kp UP    &kp PG_UP &lt l_cfg KP_NUM      &kp KP_SLASH    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MINUS
 &kp LA(LEFT) &kp LEFT  &kp DOWN  &kp RIGHT  &kp LA(RIGHT) &kp KP_MULTIPLY &mt RSHFT KP_N4 &mt RGUI KP_N5 &mt RALT KP_N6 &mt LCTRL KP_PLUS
 &kp DEL   &kp END &kp TAB &kp PG_DN  &kp SPC     &kp KP_COMMA    &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_EQUAL
-                &lt l_fn BSPC &lt l_nav KP_ENTER     &kp KP_N0  &kp KP_DOT
+                &lt l_fun BSPC &lt l_nav KP_ENTER     &kp KP_N0  &kp KP_DOT
                         >;
+                };
+
+//                                         Fkey & Num Row (optimized)
+//╭────────────────────────────────────────────╮ ╭───────────────────────────────────────╮
+//|    F9   |  F10   |  F11   |  F12   |  F13  | |   `   |   7   |   8   |   9   |   \   |
+//|   C/F5  |  A/F6  |  G/F7  |  S/F8  |  F14  | |   ,   |  S/1  |  G/2  |  A/3  |  C//  |
+//|    F1   |   F2   |   F3   |   F4   |  F15  | |   -   |   4   |   5   |   6   |   =   |
+//╰──────────────────╮        |  BKSP  |   DEL | |   0   |   .   |       ╭───────────────╯
+//                   ╰─────────────────────────╯ ╰───────────────────────╯
+
+                l_fun {
+                        label = "l_fn";
+                        bindings = <
+
+&kp F9       &kp F10     &kp F11      &kp F12      &kp F13 &kp GRAVE &kp N7       &kp N8      &kp N9      &kp BSLH
+&mt LCTRL F5 &mt LALT F6 &mt LGUI F7  &mt LSHFT F8 &kp F14 &kp CMMA  &mt RSHFT N1 &mt RGUI N2 &mt RALT N3 &mt LCTRL FSLH
+&kp F1       &kp F2      &kp F3       &kp F4       &kp F15 &kp MINUS &kp N4       &kp N5      &kp N6      &kp EQUAL
+                         &kp BSPC     &kp DEL      &kp KP_N0    &kp DOT
+                        >;
+                };
+
+//                                     shorcuts & Navigation
+//╭────────────────────────────────────────────╮ ╭──────────────────────────────────────────╮
+//|  close |   quit  | ScrCp | SelCp |   ESC   | | Zoom+ |  HOME  |   UP   |  PG_UP |       |
+//|   ctrl |   alt   |  gui  |  shft |   Find  | | Lword |  LEFT  |  DOWN  |   RGT  | Rword |
+//|  undo  |   cut   |  copy |  pste | findAgn | | Zoom- |   END  | Zreset |  PG_DN |  |
+//╰──────────────────╮       | mute  |  APPSW  | |  back |  fwd   |        ╭────────────────╯
+//                   ╰─────────────────────────╯ ╰─────────────────────────╯
+                l_nav {
+                    label = "l_nav";
+                    bindings = <
+&kp RG(W) &kp RG(Q) &kp LG(LS(N4)) &kp LG(LS(LC(N4))) &kp ESC  &kp LG(EQUAL) &kp HOME &kp UP     &kp PG_UP &none
+&kp LCTRL  &kp LALT &kp LGUI &kp LSHFT   &kp RG(F)             &kp LA(LEFT)  &kp LEFT &kp DOWN   &kp RIGHT &kp LA(RIGHT)
+&kp RG(Z)  &kp RG(X) &kp RG(C) &kp RG(V) &kp RG(G)             &kp LG(MINUS) &kp END  &kp LG(N0) &kp PG_DN &none
+                            &S_AppSwitch    &AppSwitch        &kp LG(LBKT) &kp LG(RBKT)
+                    >;
                 };
 
 //                                     Keyboard & System Settings
