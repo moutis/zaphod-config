@@ -9,7 +9,7 @@ My personal instance of [**Hands Down**](http://handsdownlayout.com) on a [Zapho
      ╭─────────────────────╮ ╭──────────────────────╮
      │  X   W   M   G   J  │ │  #$  .:  /*  "[  ']  │
      │  S   C   N   T   K  | |  ,;   A   E   I   H  │
-     │  B   P   L   D   /* │ │  -+   U   O   Y   f  │
+     │  B   P   L   D   V  │ │  -+   U   O   Y   F  │
      ╰──────────╮  BSP  R  │ │  SPC RET  ╭──────────╯
                 ╰──────────╯ ╰───────────╯
 ```
