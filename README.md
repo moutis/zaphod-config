@@ -20,3 +20,7 @@ Templates for [***Neu***](https://sites.google.com/alanreiser.com/handsdown/home
 Currently building only for a Mac (*hard coded for gui instead of ctrl, and some mac specific keycodes*), because I use this mainly with my iPads and phone when I'm on the road. My [***Semantic Keys***](https://sites.google.com/alanreiser.com/handsdown#h.7mehnxbqcx2s) feature for platform independence works on my QMK implementations, but isn't yet fully fleshed out and will require more invasive work for ZMK, so this too is for later.
 
 Thanks to [jcmkk3](https://github.com/jcmkk3) for the idea to implement adaptives via sticky layers, and many others on the [**Hands Down** Discord](https://discord.gg/BC3fzb2E) for the endless creativity and support. Of course, huge thanks to [Pete Johanson](https://github.com/petejohanson) *and contributors* for ZMK, and for the very sweet [Zaphod](https://github.com/petejohanson/zaphod-config) board design. 
+
+Below is a simplified keymap, thanks to Caksoylar's amazing [Keymap Drawer](https://keymap-drawer.streamlit.app/?). Missing are all the Adaptive layers (18 "ak_" layers), and more than 1/2 of the combos are removed to make this more legible (macros for pronouns, diacritics, handedness, shortcuts). Yes, it's a crowded little keyboard, but gosh, it sure is comfy!
+
+![zaphod_keymap_drawer](zaphod_keymap.png)
