@@ -5,20 +5,27 @@
 //                                       Symbol & math (for Mac)
 //  * left paired symbols are "linger keys" via hold taps. Tap for left, hold for pair with insertion point between
 //╭────────────────────────────────────────────╮ ╭──────────────────────────────────────────╮
-//|    Z   |    Q    | ScrCp | SelCp |   ESC   | |   ¢   |    $   |    €   |    £   |   ¥   |
-//|    <   |    [    |   (   |   {   |   TAB   | |   ¡   |    *   |    =   |    +   |   /   |
-//|    >   |    ]    |   )   |   }   |   RET   | |   _   |    |   |    &   |    ^   |   %   |
-//╰──────────────────╮       | dwdlt |  dwdr   | |       |    °   |        ╭────────────────╯
+//|    Z   |    Q    |   ¶   |   §   |    ‡    | |   ¢   |    $   |    €   |    £   |   ¥   |
+//|    •   |    [    |   (   |   {   |    †    | |   /   |    =   |    *   |    +   |   -   |
+//|    ·   |    ]    |   )   |   }   |    °    | |   ^   |    |   |    &   |    <   |   >   |
+//╰──────────────────╮       | dwdlt |  dwdr   | | &none |    ¡   |        ╭────────────────╯
 //                   ╰─────────────────────────╯ ╰─────────────────────────╯
                 l_sym {
                     label = "l_sym";
                     bindings = <
-&kp Z &kp Q &kp LG(LS(N4)) &kp LG(LS(LC(N4))) &kp ESC             &kp RA(N4) &kp DLLR  &kp LA(LS(N2)) &kp LA(N3) &kp RA(Y)
-&lk_ltgt GT LT  &lk_bkt RBKT LBKT &lk_par RPAR LPAR &lk_brc RBRC LBRC &kp TAB  &kp LA(N1) &mt RSHFT STAR  &mt RGUI EQUAL &mt RALT PLUS  &mt LCTRL FSLH
-&kp GT  &kp RBKT &kp RPAR &kp RBRC &kp RETURN                     &kp MINUS  &kp PIPE  &kp AMPS     &kp CARET &kp PRCNT
-                &kp LA(BSPC)   &kp LA(DEL)              &none      &kp LA(N0)
+&kp Z &kp Q &kp LG(LS(N4)) &kp LG(LS(LC(N4))) &kp LA(LS(N7))             	 &kp RA(N4) &kp DLLR  &kp LA(LS(N2)) &kp LA(N3) &kp RA(Y)
+&kp LA(N8)  &lk_bkt RBKT LBKT &lk_par RPAR LPAR &lk_brc RBRC LBRC &kp LA(LS(N5)) &kp FSLH &mt RSHFT EQUAL &mt RGUI STAR   &mt RALT PLUS  &mt LCTRL MINUS
+&kp LA(LS(N9)) &kp RBKT &kp RPAR &kp RBRC &kp LA(LS(N8))                    	 &kp CARET  &kp PIPE  &kp AMPS     &lk_ltgt GT LT  &kp GT
+                			&kp LA(BSPC)   &kp LA(DEL)          &none      &kp LA(N1)
                     >;
                 };
+
+//  The prior layer def for tmp reference
+//&kp Z &kp Q &kp LG(LS(N4)) &kp LG(LS(LC(N4))) &kp ESC             &kp RA(N4) &kp DLLR  &kp LA(LS(N2)) &kp LA(N3) &kp RA(Y)
+//&lk_ltgt GT LT  &lk_bkt RBKT LBKT &lk_par RPAR LPAR &lk_brc RBRC LBRC &kp TAB  &kp LA(N1) &mt RSHFT STAR  &mt RGUI EQUAL &mt RALT PLUS  &mt LCTRL FSLH
+//&kp GT  &kp RBKT &kp RPAR &kp RBRC &kp RETURN                     &kp MINUS  &kp PIPE  &kp AMPS     &kp CARET &kp PRCNT
+//                &kp LA(BSPC)   &kp LA(DEL)              &none      &kp LA(N0)
+
 
 //                                          Nav & NumPad (standard)
 //╭────────────────────────────────────────────╮ ╭────────────────────────────────────────╮
