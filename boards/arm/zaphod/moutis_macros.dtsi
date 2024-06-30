@@ -23,7 +23,7 @@
 			, <&macro_param_2to1>
         		, <&sl MACRO_PLACEHOLDER> // go to adaptive layer
                 	;
-        }
+        };
 
 
    ZMK_MACRO(AppSwitch,
