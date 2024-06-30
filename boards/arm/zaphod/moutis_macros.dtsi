@@ -1,7 +1,18 @@
  
     macros {
 
-    ZMK_MACRO(AppSwitch,
+     ZMK_MACRO(CmmaCap,
+            	wait-ms = <10>;
+            	tap-ms = <10>;
+     		release-after-ms = <2000>;
+    		quick-release;
+		bindings = <&macro_tap &kp CMMA>
+			, <&OSMod LSHFT>
+                	;
+        )
+
+
+   ZMK_MACRO(AppSwitch,
             wait-ms = <50>;
             tap-ms = <20>;
         bindings =
@@ -70,6 +81,14 @@
         #binding-cells = <0>;
         wait-ms = <50>; // need to slow this down for some systems.
         bindings = <&kp LA(LBKT) &kp LS(LA(LBKT)) &kp LEFT>
+                ;
+        };
+    pairDquo: pairSquo {
+        label = "pairSquo";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <50>; // need to slow this down for some systems.
+        bindings = <&kp LA(RBKT) &kp LS(LA(RBKT)) &kp LEFT>
                 ;
         };
     pairLtGt: pairLtGt {

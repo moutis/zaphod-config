@@ -267,11 +267,21 @@ behaviors {
             bindings = <&pairLtGt>, <&kp>;
         };
 
+	
+
+	OSMod:OSMod {
+	        compatible = "zmk,behavior-sticky-key";
+	        #binding-cells = <1>;
+        	bindings = <&kp>;
+        	release-after-ms = <5000>;
+        	quick-release;
+        	ignore-modifiers;
+	}
         CmmaSemi: CmmaSemi {
             compatible = "zmk,behavior-mod-morph";
             label = "comma_semi";
             #binding-cells = <0>;
-            bindings = <&kp CMMA>, <&typeSemi>;
+            bindings = <& CmmaCap>, <&typeSemi>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         DotColn: DotColn {
