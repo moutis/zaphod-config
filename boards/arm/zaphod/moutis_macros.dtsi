@@ -5,7 +5,7 @@
             	wait-ms = <40>;
             	tap-ms = <40>;
 		bindings = <&macro_tap &kp CMMA>
-          		, <&sl l_Caps>
+          		, <&sl l_CCaps>
                 	;
         )
 
