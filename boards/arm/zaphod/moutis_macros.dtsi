@@ -4,8 +4,6 @@
      ZMK_MACRO(CmmaCap,
             	wait-ms = <10>;
             	tap-ms = <10>;
-     		release-after-ms = <2000>;
-    		quick-release;
 		bindings = <&macro_tap &kp CMMA>
 			, <&OSMod LSHFT>
                 	;
@@ -76,7 +74,6 @@
         )
 
     pairDquo: pairDquo {
-        label = "pairDquo";
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         wait-ms = <50>; // need to slow this down for some systems.
@@ -84,7 +81,6 @@
                 ;
         };
     pairSquo: pairSquo {
-        label = "pairSquo";
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         wait-ms = <50>; // need to slow this down for some systems.
@@ -92,7 +88,6 @@
                 ;
         };
     pairLtGt: pairLtGt {
-        label = "pairLtGt";
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         wait-ms = <50>; // need to slow this down for some systems.
@@ -100,7 +95,6 @@
                 ;
         };
     pairPar: pairPar {
-        label = "pairPar";
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         wait-ms = <50>; // need to slow this down for some systems.
@@ -108,7 +102,6 @@
                 ;
         };
     pairBrc: pairBrc {
-        label = "pairBrc";
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         wait-ms = <50>; // need to slow this down for some systems.
@@ -116,7 +109,6 @@
                 ;
         };
     pairBkt: pairBkt {
-        label = "pairBkt";
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         wait-ms = <50>; // need to slow this down for some systems.
@@ -124,7 +116,6 @@
                 ;
         };
     dot_ak: dot_ak {
-        label = "dot_ak";
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         wait-ms = <50>; // need to slow this down for some systems.
@@ -132,7 +123,6 @@
                 , <&sl l_akDot>;
         };
     dotcom: dotcom {
-        label = "dotcom";
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         wait-ms = <50>; // need to slow this down for some systems.
@@ -140,7 +130,6 @@
                 ;
         };
     dotedu: dotedu {
-        label = "dotedu";
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         wait-ms = <50>; // need to slow this down for some systems.
@@ -326,7 +315,6 @@
 
 
     Th: Th {
-        label = "Th";
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
         wait-ms = <10>;
@@ -403,7 +391,6 @@
 
 
         Sch: Sch {
-            label = "Sch";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -415,7 +402,6 @@
                 ;
         };
         Tch: Tch {
-            label = "Tch";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -477,7 +463,6 @@
                 ;
         )
         typeJapan: typeJapan {
-            label = "typeJapan";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -490,7 +475,6 @@
                 ;
         };
         typeJapanese: typeJapanese {
-            label = "typeJapanese";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -507,7 +491,6 @@
 #ifdef EN_PRONOUN_COMBOS
 // Pronouns
         typePnI: pnI {
-            label = "pnI";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -517,7 +500,6 @@
                 ;
         };
         typePnIm: pnIm {
-            label = "pnIM";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -529,7 +511,6 @@
                 ;
         };
         typePnId: pnId {
-            label = "pnID";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -541,7 +522,6 @@
                 ;
         };
         typePnIll: pnIll {
-            label = "pnIL";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -553,7 +533,6 @@
                 ;
         };
         typePnIve: pnIve {
-            label = "pnIVE";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -566,7 +545,6 @@
         };
 // YOU
         typePnYour: pnYour {
-            label = "pnYour";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -578,7 +556,6 @@
                 ;
         };
         typePnYoure: pnYoure {
-            label = "pnYoure";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -590,7 +567,6 @@
                 ;
         };
         typePnYoud: pnYoud {
-            label = "pnYou'd";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -602,7 +578,6 @@
                 ;
         };
         typePnYoull: pnYoull {
-            label = "pnYou'll";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -614,7 +589,6 @@
                 ;
         };
         typePnYouve: pnYouve {
-            label = "pnYou've";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -627,7 +601,6 @@
         };
 // WE
         typePnWere: pnWere {
-            label = "pnWere";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -639,7 +612,6 @@
                 ;
         };
         typePnWed: pnWed {
-            label = "pnWe'd";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -651,7 +623,6 @@
                 ;
         };
         typePnWell: pnWell {
-            label = "pnWe'll";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
@@ -663,7 +634,6 @@
                 ;
         };
         typePnWeve: pnWeve {
-            label = "pnWe've";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <10>;
