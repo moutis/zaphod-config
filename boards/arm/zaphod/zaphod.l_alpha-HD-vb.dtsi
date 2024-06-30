@@ -37,17 +37,6 @@
                 &mm_bspc_del &lt l_nav R      &lt l_sym SPACE &lt l_nav RETURN
                         >;
                 };
-                l_CCaps {
-                        label = "l_CCaps";
-                        bindings = <
-
-&cc X l_akX   &cc W l_akW   &cc M l_akM   &cc G l_akG   &cc J l_akJ	______	   ______          ______          ______       ______
-&kp LS(S)     &kp LS(C)     &kp LS(N)     &cc T l_akT   &cc K l_akK	&kp CMMA   &cc A l_akA     &cc E l_akE     &cc I l_akI  &kp LS(H)
-&cc B l_akB   &cc P l_akP   &kp LS(L)  	  &cc D l_akD   &cc V l_akV	______	   &cc U l_akU     &cc O l_akO     &cc Y l_akY  &kp LS(F)
-
-                &mm_bspc_del &lt l_nav R      &lt l_sym SPACE &lt l_nav RETURN
-                        >;
-                };
 
                 l_akG {
                         label = "l_akG";
@@ -241,3 +230,16 @@ ______  ______  ______  ______  ______      ______  ______  ______  ______  ____
                         ______  ______      ______  ______
                         >;
                 };
+
+                l_CCaps {
+                        label = "l_CCaps";
+                        bindings = <
+
+&cc X l_akX   &cc W l_akW   &cc M l_akM   &cc G l_akG   &cc J l_akJ	&HashDllr   &DotColn        &SlshStar      &DqtLbkt       &SqtRbkt
+&kp LS(S)     &kp LS(C)     &kp LS(N)     &cc T l_akT   &cc K l_akK	&kp CMMA   &cc A l_akA     &cc E l_akE     &cc I l_akI  &kp LS(H)
+&cc B l_akB   &cc P l_akP   &kp LS(L)  	  &cc D l_akD   &cc V l_akV	&MinusPlus  &cc U l_akU     &cc O l_akO     &cc Y l_akY  &kp LS(F)
+
+                &mm_bspc_del &lt l_nav R      &lt l_sym SPACE &lt l_nav RETURN
+                        >;
+                };
+
