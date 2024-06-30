@@ -43,7 +43,7 @@
 
 &cc X l_akX   &cc W l_akW   &cc M l_akM   &cc G l_akG   &cc J l_akJ	______	______       ______       ______       ______
 &kp LS(S)     &kp LS(C)     &kp LS(N)     &cc T l_akT   &cc K l_akK	______	&cc A l_akA  &cc E l_akE  &cc I l_akI  &kp LS(H)
-&cc B l_akB   &cc p l_akP   &kp L   	  &cc D l_akD   &cc V l_akV	______	&cc U l_akU  &cc O l_akO  &cc Y l_akY  &kp LS(F)
+&cc B l_akB   &cc P l_akP   &kp L   	  &cc D l_akD   &cc V l_akV	______	&cc U l_akU  &cc O l_akO  &cc Y l_akY  &kp LS(F)
 
                 &mm_bspc_del &lt l_nav R      &lt l_sym SPACE &lt l_nav RETURN
                         >;
