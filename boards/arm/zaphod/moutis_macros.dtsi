@@ -83,7 +83,7 @@
         bindings = <&kp LA(LBKT) &kp LS(LA(LBKT)) &kp LEFT>
                 ;
         };
-    pairDquo: pairSquo {
+    pairSquo: pairSquo {
         label = "pairSquo";
         compatible = "zmk,behavior-macro";
         #binding-cells = <0>;
