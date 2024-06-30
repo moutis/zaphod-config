@@ -89,7 +89,7 @@
 #define l_sym   21
 #define l_num   22
 #define l_fun   23
-#define l_nav   21
+#define l_nav   24
 #define l_cfg   25
 
 #define my_tapping_term 170
