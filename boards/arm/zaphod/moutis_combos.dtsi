@@ -99,6 +99,7 @@ COMBO_LAYER(diacCirc, &lk_A_ring A LA(K),    RM1 RM4, l_alpha) // ˚ (Å if held
 COMBO_LAYER(diacUmlaut, &lk_U_umlaut U LA(U),  RB1 RB2, l_alpha) // ¨ (Ü if held)
 COMBO_LAYER(diacCedille, &lk_C_cedille C LA(C),  LM4 LM2, l_alpha) // ¸ (ç if held)
 
+#ifdef H_DIGRAPH_COMBOS 
 //
 // H Digraphs REQUIRE macros (defined earlier) to process
 //
@@ -110,6 +111,7 @@ COMBO_LAYER(wh,  &Wh,        LT3 LT2, l_alpha) // Wh
 COMBO_LAYER(sh,  &lk_sh H S, LM4 LM3, l_alpha) // Sh/sion
 COMBO_LAYER(gh,  &lk_gh H G, LT2 LT1, l_alpha) // Gh/ght
 COMBO_LAYER(ph,  &Ph,        LB3 LB1, l_alpha) // Ph
+#endif
 
 #ifdef EN_PRONOUN_COMBOS
 //

@@ -117,7 +117,7 @@
     release-after-ms = <my_tapping_term>;
 };
 &caps_word {
-    continue-list = <UNDER MINUS BSPC DEL LEFT RIGHT>;
+    continue-list = <UNDERSCORE MINUS BSPC DEL LEFT RIGHT>;
 };
 
 
