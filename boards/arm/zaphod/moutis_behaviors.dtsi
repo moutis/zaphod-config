@@ -268,7 +268,7 @@ behaviors {
 #ifdef COMMA_CAP
 	slc: slc {
 		
-	}
+	};
 	OSMod:OSMod {
 	        compatible = "zmk,behavior-sticky-key";
 	        #binding-cells = <1>;
