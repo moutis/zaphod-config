@@ -15,14 +15,14 @@
             	wait-ms = <0>;
             	tap-ms = <0>;
 		bindings = <&macro_tap &kp BSPC> // delete the comma
-//			, <&OSMod LSHFT>
 			, <&macro_press &kp LSHFT> //
 			, <&macro_param_1to1>
 			, <&macro_tap &kp MACRO_PLACEHOLDER> // cap the letter
 			, <&macro_release &kp LSHFT> //
 			, <&macro_param_2to1>
         		, <&sl MACRO_PLACEHOLDER> // go to adaptive layer
-                	;
+ 			, <&macro_tap &kp X> // done
+               	;
         };
 
 
