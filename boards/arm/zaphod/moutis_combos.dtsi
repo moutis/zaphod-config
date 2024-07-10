@@ -101,7 +101,7 @@ COMBO_LAYER(diacCedille, &lk_C_cedille C LA(C),  LM4 LM2, l_alpha) // ¸ (ç if 
 
 #ifdef H_DIGRAPH_COMBOS 
 //
-// H Digraphs REQUIRE macros (defined earlier) to process
+// H Digraphs REQUIRE macros/behaviors (defined earlier) to process
 //
 COMBO_LAYER(sch, &Sch,  LM4  LM3 LM2, l_alpha) // Sch
 COMBO_LAYER(tch, &Tch,  LM4  LM3 LM1, l_alpha) // Tch
