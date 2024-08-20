@@ -46,7 +46,7 @@ jobs:
         run: |
           cp build/zaphod/zephyr/zmk.uf2 zaphod.uf2
       - name: Archive
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: firmware
           path: '*.uf2'
