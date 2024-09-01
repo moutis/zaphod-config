@@ -154,6 +154,13 @@
         bindings = <&kp E &kp D &kp U>
                 ;
         };
+    dotorg: dotorg {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        wait-ms = <50>; // need to slow this down for some systems.
+        bindings = <&kp O &kp R &kp G>
+                ;
+        };
 
     ZMK_MACRO(ak_g,
             	wait-ms = <0>;
