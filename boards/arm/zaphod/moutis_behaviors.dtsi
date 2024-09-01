@@ -265,7 +265,7 @@ behaviors {
         };
 
 	
-#ifdef COMMA_CAP2
+#ifdef COMMA_CAP
 	slc: slc {
 		
 	};
@@ -281,7 +281,7 @@ behaviors {
         CmmaSemi: CmmaSemi {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-#ifndef COMMA_CAP2
+#ifndef COMMA_CAP
             bindings = <&kp CMMA>, <&typeSemi>;
 #else
             bindings = <&CmmaCap>, <&typeSemi>;
