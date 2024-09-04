@@ -27,7 +27,7 @@
 */
 
                 l_alpha {
-                        label = "l_alpha";
+                        label = "HD-Vx";
                         bindings = <
 
 &ak_v        &ak_w           &ak_m        &ak_g          &ak_j         &HashDllr   &DotColn        &SlshStar      &DqtLbkt       &SqtRbkt
