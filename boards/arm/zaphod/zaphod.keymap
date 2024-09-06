@@ -9,7 +9,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-#include "moutis_config.h"
+#include "zaphod_config.h" // key name defs for this board
+#include "moutis_config.h" // my add-on feature defs
 
 / {
 #include "moutis_behaviors.dtsi"
