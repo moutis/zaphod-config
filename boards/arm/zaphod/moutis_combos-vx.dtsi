@@ -64,10 +64,10 @@ COMBO_ANY(undo, &kp LG(Z),      LB4 LB3)
 COMBO_ANY(redo, &kp LG(LS(Z)),  LB4 LB3 LB2)
 COMBO_ANY(copy, &lk LG(X) LG(C), LB3 LB2)
 COMBO_ANY(pste, &lk LG(LS(LA(V))) LG(V), LB2 LB1)
-COMBO_LAYER(cloz, &kp LG(W),      LM3 LB3, l_alpha)
-COMBO_LAYER(new,  &kp LG(N),      LM2 LB2, l_alpha)
-COMBO_LAYER(open, &kp LG(O),      LM1 LB1, l_alpha)
-COMBO_LAYER(quit, &kp LG(Q),      LM0 LB0, l_alpha)
+COMBO_LAYER(quit, &kp LG(Q),      LT0 LM0, l_alpha)
+COMBO_LAYER(new,  &kp LG(N),      LM0 LB0, l_alpha)
+COMBO_LAYER(cloz, &kp LG(W),      RT0 RM0, l_alpha)
+COMBO_LAYER(open, &kp LG(O),      RM0 RB0, l_alpha)
 COMBO_LAYER(findsel, &m_findsel,  LM4 LB0, l_alpha)
 
 //
@@ -99,7 +99,7 @@ COMBO_LAYER(diacCirc, &lk_A_ring A LA(K),    RM1 RM4, l_alpha) // ˚ (Å if held
 COMBO_LAYER(diacUmlaut, &lk_U_umlaut U LA(U),  RB1 RB2, l_alpha) // ¨ (Ü if held)
 COMBO_LAYER(diacCedille, &lk_C_cedille C LA(C),  LM4 LM2, l_alpha) // ¸ (ç if held)
 
-#ifdef H_DIGRAPH_COMBOS 
+#ifdef H_DIGRAPH_COMBOS
 //
 // H Digraphs REQUIRE macros/behaviors (defined earlier) to process
 //
@@ -123,13 +123,13 @@ COMBO_LAYER(pnI, &typePnI,          RM3 RM4, l_alpha) // "I "
 COMBO_LAYER(pnIm, &typePnIm,        RM3 LT2, l_alpha) // "I'm "
 COMBO_LAYER(pnIll, &typePnIll,      RM3 LB2, l_alpha) // "I'll "
 COMBO_LAYER(pnId, &typePnId,        RM3 LB1, l_alpha) // "I'd "
-COMBO_LAYER(pnIve, &typePnIve,      RM3 LB0, l_alpha) // "I've "
+COMBO_LAYER(pnIve, &typePnIve,      RM3 LT4, l_alpha) // "I've "
 
 COMBO_LAYER(pnYour,  &typePnYour,   RB3 LH1, l_alpha) // "Your "
 COMBO_LAYER(pnYoure, &typePnYoure,  RB3 LB3, l_alpha) // "You're "
 COMBO_LAYER(pnYoull, &typePnYoull,  RB3 LB2, l_alpha) // "You'll "
 COMBO_LAYER(pnYoud, &typePnYoud,    RB3 LB1, l_alpha) // "You'd "
-COMBO_LAYER(pnYouve, &typePnYouve,  RB3 LB0, l_alpha) // "You've "
+COMBO_LAYER(pnYouve, &typePnYouve,  RB3 LT4, l_alpha) // "You've "
 
 COMBO_LAYER(pnWere, &typePnWere,    LT4 LH1, l_alpha) // "We're "
 COMBO_LAYER(pnWell, &typePnWell,    LT4 LT2, l_alpha) // "We'll "
