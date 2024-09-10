@@ -275,7 +275,7 @@ behaviors {
         lt_bspc_del: lt_bspc_del {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&lt l_fun BACKSPACE>, <&kp DELETE>;
+            bindings = <&lt l_fun BSPC>, <&kp DEL>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 };

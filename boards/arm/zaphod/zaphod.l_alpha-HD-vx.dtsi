@@ -120,10 +120,10 @@ ______  ______  ______  ______  ______      ______  ______  ______  ______  ____
                 l_akF {
                         label = "l_akF";
                         bindings = <
-&kp LS(V)  &kp LS(W)  &kp LS(M)  &kp LS(G)  &kp LS(J)      ______  ______  ______  ______  ______
-&kp LS(S)  &kp LS(C)  &kp LS(N)  &kp LS(T)  &kp LS(K)      &CmmaCap  &kp LS(A)  &kp LS(E)  &kp LS(I)  &kp LS(H)
-&kp LS(X)  &kp LS(P)  &kp LS(L)  &kp LS(D)  &kp LS(B)      ______  &kp LS(U)  &kp LS(O)  &kp LS(Y)  &kp LS(F)
-                                ______      &kp LS(R)      &CmmaSpc  ______
+&cc LS(V)  &cc LS(W)  &cc LS(M)  &cc LS(G)  &cc LS(J)      ______  ______  ______  ______  ______
+&cc LS(S)  &cc LS(C)  &cc LS(N)  &cc LS(T)  &cc LS(K)      &CmmaCap  &cc LS(A)  &cc LS(E)  &cc LS(I)  &cc LS(H)
+&cc LS(X)  &cc LS(P)  &cc LS(L)  &cc LS(D)  &cc LS(B)      ______  &cc LS(U)  &cc LS(O)  &cc LS(Y)  &cc LS(F)
+                                 ______     &cc LS(R)      ______  ______
                         >;
                 };
                 l_akP {
